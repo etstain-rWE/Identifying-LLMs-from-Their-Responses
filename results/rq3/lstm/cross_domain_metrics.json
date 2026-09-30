@@ -1,0 +1,33 @@
+{
+  "Claude": {
+    "precision": 0.3333333333333333,
+    "recall": 0.78,
+    "f1-score": 0.46706586826347307,
+    "support": 50.0
+  },
+  "DeepSeek": {
+    "precision": 0.5882352941176471,
+    "recall": 0.2,
+    "f1-score": 0.29850746268656714,
+    "support": 50.0
+  },
+  "GPT": {
+    "precision": 0.5625,
+    "recall": 0.18,
+    "f1-score": 0.2727272727272727,
+    "support": 50.0
+  },
+  "accuracy": 0.38666666666666666,
+  "macro avg": {
+    "precision": 0.49468954248366015,
+    "recall": 0.38666666666666666,
+    "f1-score": 0.346100201225771,
+    "support": 150.0
+  },
+  "weighted avg": {
+    "precision": 0.49468954248366015,
+    "recall": 0.38666666666666666,
+    "f1-score": 0.34610020122577095,
+    "support": 150.0
+  }
+}

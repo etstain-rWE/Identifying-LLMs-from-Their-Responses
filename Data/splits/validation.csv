@@ -1,0 +1,436 @@
+﻿"response_id","prompt_id","LLM_name","model_version","LLM_Input","LLM_output","category","task_type","difficulty"
+"R0026","P009","Claude","","Why does increasing atmospheric carbon dioxide affect Earth's energy balance? Describe the roles of incoming sunlight and outgoing infrared radiation.","Earth's temperature depends on the balance between incoming sunlight and outgoing infrared radiation. Incoming sunlight is mostly visible light, which passes through carbon dioxide easily and warms Earth's surface. The warm surface then emits infrared radiation, and carbon dioxide absorbs and re-emits part of this infrared, sending some back toward the surface. As CO2 increases, the atmosphere traps more infrared and heat escapes to space less efficiently, so Earth absorbs more energy than it loses and warms until outgoing radiation again balances incoming sunlight.","Factual","Science","Hard"
+"R0027","P009","DeepSeek","","Why does increasing atmospheric carbon dioxide affect Earth's energy balance? Describe the roles of incoming sunlight and outgoing infrared radiation.","Carbon dioxide lets incoming sunlight pass through and reach Earth's surface, but it absorbs outgoing infrared radiation emitted by the warmed surface. This traps heat in the atmosphere, reducing how much infrared energy escapes to space and warming the planet.","Factual","Science","Hard"
+"R0025","P009","GPT","","Why does increasing atmospheric carbon dioxide affect Earth's energy balance? Describe the roles of incoming sunlight and outgoing infrared radiation.","Most incoming solar energy reaches Earth as visible and other shortwave radiation, which the atmosphere absorbs only partly. Earth's surface absorbs energy and then emits it mainly as infrared radiation. Carbon dioxide absorbs specific wavelengths of outgoing infrared radiation and re-emits energy in all directions, including back toward the surface. Increasing atmospheric CO2 therefore reduces the rate at which Earth loses energy to space at a given temperature, creating an energy imbalance until the surface and atmosphere warm enough for outgoing energy to again balance incoming sunlight.","Factual","Science","Hard"
+"R0029","P010","Claude","","How can scientists estimate the age of an ancient organic object using carbon-14, and what are two limitations of this method?","Living organisms take in carbon, including a small, steady proportion of radioactive carbon-14, while they are alive. After death, intake stops and carbon-14 decays with a half-life of about 5,730 years, while stable carbon-12 stays constant. By measuring the remaining ratio of carbon-14 to carbon-12 (for example with accelerator mass spectrometry) and calibrating the result with tree-ring and other records, scientists estimate how long ago the organism died. Two limitations: the method only works for once-living material up to about 50,000 years old, because after that too little carbon-14 remains; and results can be distorted by past changes in atmospheric carbon-14 levels and by contamination with older or newer carbon, which is why calibration and careful sample cleaning are required.","Factual","Science","Hard"
+"R0030","P010","DeepSeek","","How can scientists estimate the age of an ancient organic object using carbon-14, and what are two limitations of this method?","Living things absorb carbon-14 while alive. After death, carbon-14 decays at a known rate. By measuring the remaining carbon-14 ratio, scientists estimate age. Limitations: it only works on organic remains and is reliable up to about 50,000 years; contamination can also distort results.","Factual","Science","Hard"
+"R0028","P010","GPT","","How can scientists estimate the age of an ancient organic object using carbon-14, and what are two limitations of this method?","Scientists can date once-living material by measuring how much radioactive carbon-14 remains relative to stable carbon. While an organism is alive it exchanges carbon with its environment; after death, that exchange stops and carbon-14 decays with a half-life of about 5,730 years. The measured ratio can therefore be converted into an estimated time since death. Two limitations are that radiocarbon dating is mainly useful only for formerly living materials and that it becomes increasingly uncertain for samples older than roughly 50,000 years because so little carbon-14 remains. Contamination and changes in past atmospheric carbon-14 also require careful correction.","Factual","Science","Hard"
+"R0047","P016","Claude","","How do TCP and UDP differ in their handling of data delivery?","TCP is connection-oriented and reliable: it sets up a connection with a handshake, numbers the data, retransmits lost packets, delivers data in order, and controls flow and congestion. UDP is connectionless and lightweight: it sends independent datagrams without guaranteeing delivery or order and without retransmission. TCP suits web pages, email, and file transfer, while UDP suits real-time uses such as video calls, online games, and DNS, where speed matters more than perfect delivery.","Factual","Technology","Medium"
+"R0048","P016","DeepSeek","","How do TCP and UDP differ in their handling of data delivery?","TCP is connection-oriented and reliable: it establishes a connection, acknowledges data, and retransmits lost packets. UDP is connectionless and unreliable: it sends datagrams without guarantees of delivery or order, making it faster but less reliable.","Factual","Technology","Medium"
+"R0046","P016","GPT","","How do TCP and UDP differ in their handling of data delivery?","TCP is connection-oriented and aims for reliable, ordered delivery. It detects lost data, retransmits when necessary, and controls flow and congestion. UDP is connectionless and sends independent datagrams without guaranteeing delivery, order, or duplicate protection. UDP has less overhead and is useful when low latency matters or the application can tolerate or handle loss itself.","Factual","Technology","Medium"
+"R0050","P017","Claude","","What is the difference between lossless and lossy compression? Give a suitable use case for each.","Lossless compression reduces file size without losing any information, so the original data can be restored exactly; it suits text documents, source code, or spreadsheets (e.g., ZIP or PNG). Lossy compression permanently discards some less noticeable information to achieve much smaller files; it suits photos, music, and streaming video (e.g., JPEG, MP3, MP4), where small quality losses are acceptable.","Factual","Technology","Medium"
+"R0051","P017","DeepSeek","","What is the difference between lossless and lossy compression? Give a suitable use case for each.","Lossless compression reduces file size without losing data, suitable for text or PNG images. Lossy compression discards some data to achieve smaller sizes, suitable for streaming audio or JPEG photos.","Factual","Technology","Medium"
+"R0049","P017","GPT","","What is the difference between lossless and lossy compression? Give a suitable use case for each.","Lossless compression reduces file size while allowing the original data to be reconstructed exactly. It is suitable for text, program files, or images where every bit may matter, such as PNG images. Lossy compression discards some information to achieve greater size reduction, so the original cannot be recovered perfectly. It is suitable for media such as JPEG photographs or compressed audio where small perceptual changes are acceptable.","Factual","Technology","Medium"
+"R0089","P030","Claude","","Why should historians compare multiple sources when studying the same event? Discuss perspective, missing evidence, and corroboration.","Historians compare multiple sources because each source reflects its author's perspective, purpose, and biases, so one account may present an incomplete or distorted view. Comparing sources helps reveal missing evidence, including the experiences of groups whose voices were not recorded or preserved. Corroboration, when independent sources agree, increases confidence in facts, while conflicts prompt historians to evaluate reliability. Together, this produces a more accurate and balanced interpretation of the event.","Factual","History","Hard"
+"R0090","P030","DeepSeek","","Why should historians compare multiple sources when studying the same event? Discuss perspective, missing evidence, and corroboration.","Historians compare sources to identify bias and perspective, fill gaps where evidence is missing, and corroborate claims. Multiple sources reduce reliance on a single viewpoint and lead to a more balanced interpretation.","Factual","History","Hard"
+"R0088","P030","GPT","","Why should historians compare multiple sources when studying the same event? Discuss perspective, missing evidence, and corroboration.","Historians compare multiple sources because any single source may reflect a limited viewpoint, selective memory, bias, or incomplete access to events. Different sources may reveal perspectives that another source excludes, such as those of officials, workers, or local residents. Missing evidence can also create uncertainty about what happened. Corroboration helps historians test claims by checking whether independent sources agree on important details. When sources conflict, historians examine who created them, when, for what purpose, and what evidence each could realistically know. Comparing sources therefore produces a more careful reconstruction than simply accepting one account as complete.","Factual","History","Hard"
+"R0107","P036","Claude","","How can mountain ranges create rain shadows?","When moist air is blown toward a mountain range, it is forced to rise on the windward side. As it rises, it cools, and its water vapor condenses and falls as rain or snow. After crossing the mountains, the now-dry air descends on the leeward side and warms, which lowers its relative humidity and suppresses rain. This creates a dry rain shadow area, such as the deserts east of the Sierra Nevada.","Factual","Geography","Medium"
+"R0108","P036","DeepSeek","","How can mountain ranges create rain shadows?","Moist air rises over mountains, cools, and releases precipitation on the windward side. The air becomes dry as it descends the leeward side, creating a rain shadow with arid conditions.","Factual","Geography","Medium"
+"R0106","P036","GPT","","How can mountain ranges create rain shadows?","When moist air is forced up a mountain, it expands and cools. Water vapor can condense and produce clouds and precipitation on the windward side. After crossing the ridge, the air descends, compresses, and warms, lowering its relative humidity. The leeward side can therefore be much drier, creating a rain shadow.","Factual","Geography","Medium"
+"R0134","P045","Claude","","Why does metal feel colder than wood when both are at the same room temperature?","Metal feels colder because it is a much better conductor of heat than wood. When you touch it, metal draws heat away from your warmer skin quickly, and your nerves sense this rapid heat loss as coldness. Wood is an insulator, so it removes heat slowly and feels warmer, even though both are at the same temperature.","Factual","Everyday Knowledge","Medium"
+"R0135","P045","DeepSeek","","Why does metal feel colder than wood when both are at the same room temperature?","Metal conducts heat away from your hand faster than wood, so it feels colder even though both are at the same temperature.","Factual","Everyday Knowledge","Medium"
+"R0133","P045","GPT","","Why does metal feel colder than wood when both are at the same room temperature?","Metal and wood can be at the same room temperature but feel different because metal conducts heat much better. When you touch metal, it transfers heat away from your warmer hand quickly, making your skin cool rapidly. Wood transfers heat more slowly, so it feels warmer.","Factual","Everyday Knowledge","Medium"
+"R0158","P053","Claude","","Explain what a programming loop does using an example of a repeated daily activity.","A loop repeats a set of instructions multiple times instead of writing them over and over. For example, brushing your teeth is like a loop: for each tooth, brush it. In Python:
+for tooth in teeth:
+    brush(tooth)
+The loop runs once for each tooth and stops when all have been brushed.","Explanation","Computer Science","Easy"
+"R0159","P053","DeepSeek","","Explain what a programming loop does using an example of a repeated daily activity.","A loop repeats a set of instructions. For example, brushing your teeth involves repeating the same motion for each tooth until all are cleaned.","Explanation","Computer Science","Easy"
+"R0157","P053","GPT","","Explain what a programming loop does using an example of a repeated daily activity.","A loop tells a program to repeat an action. Imagine that every morning you make the bed, brush your teeth, and eat breakfast. Instead of writing separate instructions for Monday, Tuesday, Wednesday, and so on, a loop could say, “For each day this week, perform these morning steps.” Programs use loops when the same kind of work must be repeated.","Explanation","Computer Science","Easy"
+"R0164","P055","Claude","","Explain recursion to a beginner using a small example and identify the role of the base case.","Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. For example:
+def countdown(n):
+    if n == 0:
+        print(""Liftoff!"")
+        return
+    print(n)
+    countdown(n - 1)
+Calling countdown(3) prints 3, 2, 1, Liftoff!. The base case (n == 0) is the condition where the function stops calling itself. Without it, the function would recurse forever and crash with a recursion error.","Explanation","Computer Science","Medium"
+"R0165","P055","DeepSeek","","Explain recursion to a beginner using a small example and identify the role of the base case.","Recursion is when a function calls itself to solve a smaller version of a problem. For example, counting down from 3: say 3, then count down from 2, then 1. The base case is the stopping point, such as 0, which prevents infinite calls.","Explanation","Computer Science","Medium"
+"R0163","P055","GPT","","Explain recursion to a beginner using a small example and identify the role of the base case.","Recursion happens when a function solves a problem by calling itself on a smaller version of that problem. For example, factorial can be defined as n! = n × (n−1)!, so factorial(4) can call factorial(3), which calls factorial(2), and so on. The base case stops the recursion: factorial(0) = 1. Without a reachable base case, the function would keep calling itself until the program runs out of allowed call depth.","Explanation","Computer Science","Medium"
+"R0188","P063","Claude","","Explain the difference between classification and regression using one example of each.","Classification predicts a category, while regression predicts a continuous number. For example, classifying an email as ""spam"" or ""not spam"" is classification, while predicting a house's price from its size and location is regression.","Explanation","Data Science","Easy"
+"R0189","P063","DeepSeek","","Explain the difference between classification and regression using one example of each.","Classification predicts a category, such as whether an email is spam or not. Regression predicts a number, such as the price of a house.","Explanation","Data Science","Easy"
+"R0187","P063","GPT","","Explain the difference between classification and regression using one example of each.","Classification predicts a category, such as whether a transaction is “fraud” or “not fraud.” Regression predicts a numerical quantity, such as the selling price of a house. Both are supervised learning tasks when examples include known target values.","Explanation","Data Science","Easy"
+"R0194","P065","Claude","","Explain overfitting using a student memorizing practice questions as an analogy.","Overfitting is like a student who memorizes the exact answers to practice questions instead of learning how to solve them. The student scores perfectly on the practice set but performs poorly on the real exam with new questions. Similarly, an overfit model learns noise and specific details of its training data, so it performs very well on training data but poorly on new data.","Explanation","Data Science","Medium"
+"R0195","P065","DeepSeek","","Explain overfitting using a student memorizing practice questions as an analogy.","Overfitting is like a student memorizing exact practice questions but failing new ones. The model learns noise in the training data instead of general patterns, so it performs poorly on new data.","Explanation","Data Science","Medium"
+"R0193","P065","GPT","","Explain overfitting using a student memorizing practice questions as an analogy.","Overfitting is like a student memorizing the exact answers to practice questions without understanding the underlying ideas. The student may score perfectly on those same questions but struggle when the exam asks new questions in a different form. Similarly, an overfit model learns noise and peculiar details of its training data, producing very low training error but worse performance on new data.","Explanation","Data Science","Medium"
+"R0221","P074","Claude","","Explain the difference between mass and weight in simple language.","Mass is the amount of matter in an object, and it stays the same everywhere. Weight is the force of gravity pulling on that mass, so it changes depending on where you are. For example, an astronaut has the same mass on Earth and the Moon but weighs about one-sixth as much on the Moon.","Explanation","Science Concepts","Easy"
+"R0222","P074","DeepSeek","","Explain the difference between mass and weight in simple language.","Mass is how much matter an object has. Weight is how strongly gravity pulls on that mass. Your mass stays the same on the Moon, but your weight is less.","Explanation","Science Concepts","Easy"
+"R0220","P074","GPT","","Explain the difference between mass and weight in simple language.","Mass is the amount of matter in an object and does not depend on where the object is. Weight is the force of gravity pulling on that mass. You would have the same mass on Earth and the Moon, but you would weigh less on the Moon because the Moon's gravitational field is weaker.","Explanation","Science Concepts","Easy"
+"R0260","P087","Claude","","Explain why dividing a group project into tasks can improve efficiency but also create coordination problems.","Dividing a group project into tasks improves efficiency because members can work in parallel and specialize in tasks that match their skills. However, it also creates coordination problems: members must communicate, wait for dependent tasks, keep styles and assumptions consistent, and integrate separate parts into one final product. Clear deadlines, shared documents, and regular check-ins help reduce these problems.","Explanation","Economics and Daily Concepts","Medium"
+"R0261","P087","DeepSeek","","Explain why dividing a group project into tasks can improve efficiency but also create coordination problems.","Dividing tasks lets people specialize and work faster. But it also requires communication, scheduling, and checking that pieces fit together, which can create delays or misunderstandings.","Explanation","Economics and Daily Concepts","Medium"
+"R0259","P087","GPT","","Explain why dividing a group project into tasks can improve efficiency but also create coordination problems.","Dividing a group project into tasks allows people to work in parallel and specialize in work they do well, which can shorten completion time. However, separate tasks often depend on one another. Team members must agree on formats, deadlines, assumptions, and interfaces. If communication is poor, people may duplicate work, produce incompatible pieces, or wait for an unfinished dependency. Effective division of labor therefore needs coordination.","Explanation","Economics and Daily Concepts","Medium"
+"R0269","P090","Claude","","Explain how an activity can create costs for people who are not directly involved. Use neighborhood noise as an example and discuss two possible responses.","An activity can create a negative externality when it imposes costs on people who are not part of the decision. For example, a neighbor who throws loud late-night parties enjoys the benefits, while nearby residents lose sleep, experience stress, and may have trouble working or studying. One response is regulation, such as noise rules with quiet hours and fines. Another response is private negotiation, where neighbors agree on reasonable times, advance notice, or soundproofing.","Explanation","Economics and Daily Concepts","Hard"
+"R0270","P090","DeepSeek","","Explain how an activity can create costs for people who are not directly involved. Use neighborhood noise as an example and discuss two possible responses.","A loud party creates noise pollution that bothers neighbors who are not involved. Responses include noise limits enforced by local rules or negotiation between the party host and neighbors.","Explanation","Economics and Daily Concepts","Hard"
+"R0268","P090","GPT","","Explain how an activity can create costs for people who are not directly involved. Use neighborhood noise as an example and discuss two possible responses.","Neighborhood noise can impose a cost on people who were not part of the activity producing it. For example, a late-night outdoor event may benefit its organizers and attendees but disturb nearby residents' sleep. Economists call this kind of spillover a negative externality. One response is a rule such as quiet hours or a noise limit, enforced when disturbances exceed an agreed level. Another is negotiation or pricing: organizers might move the event, improve sound barriers, limit hours, or compensate for specific impacts. The best response depends on enforcement costs, property rights, and how severe and avoidable the spillover is.","Explanation","Economics and Daily Concepts","Hard"
+"R0284","P095","Claude","","Explain encryption using a locked-box analogy, then identify one limitation of the analogy.","Encryption is like putting a message in a locked box. Only someone with the correct key can open the box and read the message, while anyone who intercepts it sees only a locked box. With public-key encryption, anyone can use an open padlock (public key) to lock the box, but only the owner of the private key can open it. One limitation is that a real box can be physically broken open, while encryption is a mathematical transformation; strong encryption is usually defeated through stolen keys, weak passwords, or insecure devices rather than by ""breaking the box.""","Explanation","Analogy and Beginner Explanation","Medium"
+"R0285","P095","DeepSeek","","Explain encryption using a locked-box analogy, then identify one limitation of the analogy.","Encryption is like putting a message in a locked box that only the right key can open. A limitation is that encryption also involves key management and mathematical security, which the box analogy does not capture.","Explanation","Analogy and Beginner Explanation","Medium"
+"R0283","P095","GPT","","Explain encryption using a locked-box analogy, then identify one limitation of the analogy.","Encryption can be compared to putting a message in a locked box. Anyone may be able to carry the box, but only someone with the appropriate key can open it and read the message. One limitation is that real encryption does not merely hide a physical object: it mathematically transforms digital data, and cryptographic systems also depend on key management, algorithms, authentication, and implementation details that the locked-box analogy does not capture.","Explanation","Analogy and Beginner Explanation","Medium"
+"R0320","P107","Claude","","Simplify (2a squared b)(3ab cubed) and state the exponent rule used.","Multiply the coefficients: 2 x 3 = 6. Multiply like bases by adding exponents: a^2 x a = a^3 and b x b^3 = b^4. The result is 6a^3b^4. The rule used is the product rule for exponents: x^m x x^n = x^(m+n).","Math","Arithmetic and Algebra","Medium"
+"R0321","P107","DeepSeek","","Simplify (2a squared b)(3ab cubed) and state the exponent rule used.","(2a²b)(3ab³) = 6a³b⁴. I used the product rule: when multiplying like bases, add the exponents.","Math","Arithmetic and Algebra","Medium"
+"R0319","P107","GPT","","Simplify (2a squared b)(3ab cubed) and state the exponent rule used.","(2a²b)(3ab³) = 6a³b⁴.
+
+Coefficients: 2 × 3 = 6. For like bases, add exponents when multiplying: a²·a¹ = a³ and b¹·b³ = b⁴. The exponent rule is a^m × a^n = a^(m+n).","Math","Arithmetic and Algebra","Medium"
+"R0329","P110","Claude","","A quadratic function passes through (0, 3), (1, 6), and (2, 11). Find its equation and verify all three points.","Let y = ax^2 + bx + c. From (0, 3), c = 3. From (1, 6), a + b + 3 = 6, so a + b = 3. From (2, 11), 4a + 2b + 3 = 11, so 2a + b = 4. Subtracting gives a = 1, then b = 2. The equation is y = x^2 + 2x + 3. Verification: x = 0 gives 3; x = 1 gives 1 + 2 + 3 = 6; x = 2 gives 4 + 4 + 3 = 11.","Math","Arithmetic and Algebra","Hard"
+"R0330","P110","DeepSeek","","A quadratic function passes through (0, 3), (1, 6), and (2, 11). Find its equation and verify all three points.","Let y = ax² + bx + c. From (0,3), c = 3. (1,6): a + b = 3. (2,11): 4a + 2b = 8, so 2a + b = 4. Subtract: a = 1, then b = 2. Equation: y = x² + 2x + 3. Check: (0,3), (1,6), (2,11) all satisfy.","Math","Arithmetic and Algebra","Hard"
+"R0328","P110","GPT","","A quadratic function passes through (0, 3), (1, 6), and (2, 11). Find its equation and verify all three points.","Let f(x) = ax² + bx + c.
+From (0,3), c = 3.
+From (1,6), a + b + 3 = 6, so a + b = 3.
+From (2,11), 4a + 2b + 3 = 11, so 2a + b = 4.
+Subtracting a + b = 3 gives a = 1, so b = 2.
+
+Therefore f(x) = x² + 2x + 3.
+Verification: f(0)=3, f(1)=1+2+3=6, and f(2)=4+4+3=11.","Math","Arithmetic and Algebra","Hard"
+"R0338","P113","Claude","","Two fair coins are flipped independently. What is the probability that both show heads?","The flips are independent, so P(both heads) = 1/2 x 1/2 = 1/4.","Math","Probability","Easy"
+"R0339","P113","DeepSeek","","Two fair coins are flipped independently. What is the probability that both show heads?","Probability = 1/2 × 1/2 = 1/4.","Math","Probability","Easy"
+"R0337","P113","GPT","","Two fair coins are flipped independently. What is the probability that both show heads?","Each coin has probability 1/2 of heads, and the flips are independent. P(both heads) = (1/2)(1/2) = 1/4.","Math","Probability","Easy"
+"R0359","P120","Claude","","A fair six-sided die is rolled independently until the first 6 appears. What is the probability that the first 6 occurs on the fourth roll, and what is the expected number of rolls?","The first 6 on the fourth roll requires three non-6 rolls followed by a 6: (5/6)^3 x (1/6) = 125/1296, about 0.0965. The number of rolls until the first 6 is geometric with p = 1/6, so the expected number of rolls is 1/p = 6.","Math","Probability","Hard"
+"R0360","P120","DeepSeek","","A fair six-sided die is rolled independently until the first 6 appears. What is the probability that the first 6 occurs on the fourth roll, and what is the expected number of rolls?","P(first 6 on 4th) = (5/6)³ × (1/6) = 125/1296. Expected number of rolls = 1/(1/6) = 6.","Math","Probability","Hard"
+"R0358","P120","GPT","","A fair six-sided die is rolled independently until the first 6 appears. What is the probability that the first 6 occurs on the fourth roll, and what is the expected number of rolls?","For the first 6 to occur on roll 4, the first three rolls must not be 6 and the fourth must be 6:
+P = (5/6)^3(1/6) = 125/1296 ≈ 0.09645.
+
+The number of rolls until the first 6 is geometric with success probability p=1/6, so E[N]=1/p=6.
+
+Answer: probability = 125/1296 ≈ 9.65%; expected number of rolls = 6.","Math","Probability","Hard"
+"R0371","P124","Claude","","A drawer contains only black socks and white socks. How many socks must you select without looking to guarantee that at least two have the same color?","You must select 3 socks. With only two colors, the first two socks could be different, but the third must match one of them.","Math","Logic","Easy"
+"R0372","P124","DeepSeek","","A drawer contains only black socks and white socks. How many socks must you select without looking to guarantee that at least two have the same color?","You must select 3 socks. With only 2 colors, the third sock guarantees a matching pair.","Math","Logic","Easy"
+"R0370","P124","GPT","","A drawer contains only black socks and white socks. How many socks must you select without looking to guarantee that at least two have the same color?","There are only two colors. In the worst case, the first two socks are one black and one white. The third sock must match one of those colors.
+
+Answer: 3 socks.","Math","Logic","Easy"
+"R0422","P141","Claude","","Find the mean and median of 2, 4, 6, 8, and 10.","Mean = (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6. The median is the middle value of the ordered list, which is 6.","Math","Quantitative Reasoning","Easy"
+"R0423","P141","DeepSeek","","Find the mean and median of 2, 4, 6, 8, and 10.","Mean = (2+4+6+8+10)/5 = 30/5 = 6. Median = 6.","Math","Quantitative Reasoning","Easy"
+"R0421","P141","GPT","","Find the mean and median of 2, 4, 6, 8, and 10.","Mean = (2 + 4 + 6 + 8 + 10)/5 = 30/5 = 6.
+The middle value is 6, so the median is 6.
+
+Answer: mean = 6; median = 6.","Math","Quantitative Reasoning","Easy"
+"R0428","P143","Claude","","Convert 2.5 hours into minutes and seconds.","2.5 hours = 2.5 x 60 = 150 minutes. 150 minutes = 150 x 60 = 9,000 seconds.","Math","Quantitative Reasoning","Easy"
+"R0429","P143","DeepSeek","","Convert 2.5 hours into minutes and seconds.","2.5 hours = 2.5 × 60 = 150 minutes = 150 × 60 = 9000 seconds.","Math","Quantitative Reasoning","Easy"
+"R0427","P143","GPT","","Convert 2.5 hours into minutes and seconds.","2.5 hours × 60 = 150 minutes.
+150 minutes × 60 = 9,000 seconds.
+
+Answer: 150 minutes, or 9,000 seconds.","Math","Quantitative Reasoning","Easy"
+"R0434","P145","Claude","","A course grade consists of homework worth 30%, a midterm worth 30%, and a final worth 40%. A student scores 80, 90, and 85, respectively. Calculate the weighted course grade.","Weighted grade = 0.30(80) + 0.30(90) + 0.40(85) = 24 + 27 + 34 = 85.","Math","Quantitative Reasoning","Medium"
+"R0435","P145","DeepSeek","","A course grade consists of homework worth 30%, a midterm worth 30%, and a final worth 40%. A student scores 80, 90, and 85, respectively. Calculate the weighted course grade.","Weighted grade = 0.30×80 + 0.30×90 + 0.40×85 = 24 + 27 + 34 = 85.","Math","Quantitative Reasoning","Medium"
+"R0433","P145","GPT","","A course grade consists of homework worth 30%, a midterm worth 30%, and a final worth 40%. A student scores 80, 90, and 85, respectively. Calculate the weighted course grade.","Weighted grade = 0.30(80) + 0.30(90) + 0.40(85)
+= 24 + 27 + 34
+= 85.
+
+Answer: 85%.","Math","Quantitative Reasoning","Medium"
+"R0458","P153","Claude","","Write a Python function that counts vowels in a string, ignoring letter case.","def count_vowels(text):
+    count = 0
+    for char in text.lower():
+        if char in ""aeiou"":
+            count += 1
+    return count
+
+Converting the string to lowercase makes the count ignore letter case.","Coding","Basic Python","Easy"
+"R0459","P153","DeepSeek","","Write a Python function that counts vowels in a string, ignoring letter case.","def count_vowels(s):\n    return sum(1 for c in s.lower() if c in 'aeiou')","Coding","Basic Python","Easy"
+"R0457","P153","GPT","","Write a Python function that counts vowels in a string, ignoring letter case.","```python
+def count_vowels(text):
+    vowels = set(""aeiou"")
+    return sum(1 for ch in text.lower() if ch in vowels)
+```","Coding","Basic Python","Easy"
+"R0467","P156","Claude","","Write a Python function that removes duplicate values from a list while preserving their first-occurrence order. Assume all values are hashable.","def remove_duplicates(items):
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
+
+The set tracks values already seen, and each value is added to the result only on its first occurrence, preserving order.","Coding","Basic Python","Medium"
+"R0468","P156","DeepSeek","","Write a Python function that removes duplicate values from a list while preserving their first-occurrence order. Assume all values are hashable.","def remove_duplicates(lst):\n    seen = set()\n    out = []\n    for x in lst:\n        if x not in seen:\n            seen.add(x)\n            out.append(x)\n    return out","Coding","Basic Python","Medium"
+"R0466","P156","GPT","","Write a Python function that removes duplicate values from a list while preserving their first-occurrence order. Assume all values are hashable.","```python
+def remove_duplicates(values):
+    seen = set()
+    result = []
+    for value in values:
+        if value not in seen:
+            seen.add(value)
+            result.append(value)
+    return result
+```
+Because every value is hashable, membership checks in `seen` are efficient, and appending only the first occurrence preserves order.","Coding","Basic Python","Medium"
+"R0533","P178","Claude","","Write a Python function that returns the first n Fibonacci numbers using iteration, with the sequence starting at 0 and 1.","def fibonacci(n):
+    result = []
+    a, b = 0, 1
+    for _ in range(n):
+        result.append(a)
+        a, b = b, a + b
+    return result
+
+For example, fibonacci(8) returns [0, 1, 1, 2, 3, 5, 8, 13].","Coding","Algorithms","Medium"
+"R0534","P178","DeepSeek","","Write a Python function that returns the first n Fibonacci numbers using iteration, with the sequence starting at 0 and 1.","def fibonacci(n):\n    a, b = 0, 1\n    result = []\n    for _ in range(n):\n        result.append(a)\n        a, b = b, a + b\n    return result","Coding","Algorithms","Medium"
+"R0532","P178","GPT","","Write a Python function that returns the first n Fibonacci numbers using iteration, with the sequence starting at 0 and 1.","```python
+def fibonacci(n):
+    result = []
+    a, b = 0, 1
+    for _ in range(n):
+        result.append(a)
+        a, b = b, a + b
+    return result
+```
+For example, `fibonacci(7)` returns `[0, 1, 1, 2, 3, 5, 8]`.","Coding","Algorithms","Medium"
+"R0554","P185","Claude","","Explain the problem with this Python function and fix it: def add_item(item, items=[]): items.append(item); return items. The list should be fresh unless a caller supplies one.","The default list is created only once when the function is defined, so every call without an items argument shares and modifies the same list. Use None as the default instead:
+def add_item(item, items=None):
+    if items is None:
+        items = []
+    items.append(item)
+    return items","Coding","Debugging","Medium"
+"R0555","P185","DeepSeek","","Explain the problem with this Python function and fix it: def add_item(item, items=[]): items.append(item); return items. The list should be fresh unless a caller supplies one.","The default list is created once and shared across calls. Fix by using None:\ndef add_item(item, items=None):\n    if items is None:\n        items = []\n    items.append(item)\n    return items","Coding","Debugging","Medium"
+"R0553","P185","GPT","","Explain the problem with this Python function and fix it: def add_item(item, items=[]): items.append(item); return items. The list should be fresh unless a caller supplies one.","The default list is created once when the function is defined, so calls that omit `items` reuse the same list. Use `None` as the default and create a fresh list inside the function:
+
+```python
+def add_item(item, items=None):
+    if items is None:
+        items = []
+    items.append(item)
+    return items
+```
+If a caller explicitly supplies a list, that list is still used and modified.","Coding","Debugging","Medium"
+"R0563","P188","Claude","","This Python loop calculates a total but gives the wrong result: total = 0; for value in values: total = value. Rewrite it as valid multiline code that sums all values.","The loop replaces total with each value instead of adding to it. Corrected code:
+total = 0
+for value in values:
+    total += value","Coding","Debugging","Medium"
+"R0564","P188","DeepSeek","","This Python loop calculates a total but gives the wrong result: total = 0; for value in values: total = value. Rewrite it as valid multiline code that sums all values.","total = 0\nfor value in values:\n    total += value","Coding","Debugging","Medium"
+"R0562","P188","GPT","","This Python loop calculates a total but gives the wrong result: total = 0; for value in values: total = value. Rewrite it as valid multiline code that sums all values.","The original loop replaces `total` with each value instead of accumulating them. The corrected code is:
+
+```python
+total = 0
+for value in values:
+    total += value
+```
+After the loop, `total` is the sum of all values.","Coding","Debugging","Medium"
+"R0593","P198","Claude","","Write Python code using scikit-learn to calculate accuracy and macro-averaged F1-score from y_true and y_pred.","from sklearn.metrics import accuracy_score, f1_score
+
+accuracy = accuracy_score(y_true, y_pred)
+macro_f1 = f1_score(y_true, y_pred, average=""macro"")
+print(""Accuracy:"", accuracy)
+print(""Macro F1:"", macro_f1)","Coding","Data Science Python","Medium"
+"R0594","P198","DeepSeek","","Write Python code using scikit-learn to calculate accuracy and macro-averaged F1-score from y_true and y_pred.","from sklearn.metrics import accuracy_score, f1_score\nacc = accuracy_score(y_true, y_pred)\nf1 = f1_score(y_true, y_pred, average='macro')","Coding","Data Science Python","Medium"
+"R0592","P198","GPT","","Write Python code using scikit-learn to calculate accuracy and macro-averaged F1-score from y_true and y_pred.","```python
+from sklearn.metrics import accuracy_score, f1_score
+
+accuracy = accuracy_score(y_true, y_pred)
+macro_f1 = f1_score(y_true, y_pred, average=""macro"")
+
+print(""Accuracy:"", accuracy)
+print(""Macro F1:"", macro_f1)
+```","Coding","Data Science Python","Medium"
+"R0599","P200","Claude","","A DataFrame contains prompt_id, LLM_name, and LLM_output. Write Python code that randomly splits unique prompt IDs into 70% training, 15% validation, and 15% test groups, then assigns every response to its prompt's group. Include a check that no prompt ID appears in multiple groups.","import numpy as np
+
+unique_ids = df[""prompt_id""].drop_duplicates().to_numpy()
+rng = np.random.default_rng(42)
+shuffled = rng.permutation(unique_ids)
+
+n = len(shuffled)
+n_train = int(round(0.70 * n))
+n_val = int(round(0.15 * n))
+
+train_ids = set(shuffled[:n_train])
+val_ids = set(shuffled[n_train:n_train + n_val])
+test_ids = set(shuffled[n_train + n_val:])
+
+def assign_split(pid):
+    if pid in train_ids:
+        return ""train""
+    if pid in val_ids:
+        return ""validation""
+    return ""test""
+
+df[""split""] = df[""prompt_id""].map(assign_split)
+
+assert (df.groupby(""prompt_id"")[""split""].nunique() == 1).all()
+assert train_ids.isdisjoint(val_ids)
+assert train_ids.isdisjoint(test_ids)
+assert val_ids.isdisjoint(test_ids)
+print(""Check passed: no prompt ID appears in multiple groups."")
+
+The split is done on unique prompt IDs, so all responses to the same prompt stay in the same group and no prompt leaks across groups.","Coding","Data Science Python","Hard"
+"R0600","P200","DeepSeek","","A DataFrame contains prompt_id, LLM_name, and LLM_output. Write Python code that randomly splits unique prompt IDs into 70% training, 15% validation, and 15% test groups, then assigns every response to its prompt's group. Include a check that no prompt ID appears in multiple groups.","import pandas as pd\nfrom sklearn.model_selection import train_test_split\n\nids = df['prompt_id'].unique()\ntrain_ids, temp_ids = train_test_split(ids, test_size=0.30, random_state=42)\nval_ids, test_ids = train_test_split(temp_ids, test_size=0.50, random_state=42)\n\ndef split_for(pid):\n    if pid in train_ids:\n        return 'train'\n    if pid in val_ids:\n        return 'validation'\n    return 'test'\n\ndf['split'] = df['prompt_id'].apply(split_for)\n\nassert len(set(train_ids) & set(val_ids)) == 0\nassert len(set(train_ids) & set(test_ids)) == 0\nassert len(set(val_ids) & set(test_ids)) == 0","Coding","Data Science Python","Hard"
+"R0598","P200","GPT","","A DataFrame contains prompt_id, LLM_name, and LLM_output. Write Python code that randomly splits unique prompt IDs into 70% training, 15% validation, and 15% test groups, then assigns every response to its prompt's group. Include a check that no prompt ID appears in multiple groups.","```python
+import numpy as np
+
+rng = np.random.default_rng(42)
+prompt_ids = df[""prompt_id""].drop_duplicates().to_numpy()
+rng.shuffle(prompt_ids)
+
+n = len(prompt_ids)
+n_train = int(0.70 * n)
+n_val = int(0.15 * n)
+
+train_ids = set(prompt_ids[:n_train])
+val_ids = set(prompt_ids[n_train:n_train + n_val])
+test_ids = set(prompt_ids[n_train + n_val:])
+
+assert train_ids.isdisjoint(val_ids)
+assert train_ids.isdisjoint(test_ids)
+assert val_ids.isdisjoint(test_ids)
+assert train_ids | val_ids | test_ids == set(prompt_ids)
+
+def assign_split(pid):
+    if pid in train_ids:
+        return ""train""
+    if pid in val_ids:
+        return ""validation""
+    return ""test""
+
+df = df.copy()
+df[""split""] = df[""prompt_id""].map(assign_split)
+
+# Check that each prompt_id appears in exactly one split.
+check = df.groupby(""prompt_id"")[""split""].nunique()
+assert (check == 1).all()
+```
+This splits unique prompt IDs first, so every model response associated with the same prompt remains in the same group.","Coding","Data Science Python","Hard"
+"R0614","P205","Claude","","Write a story of about 180 words about a delivery arriving twenty years late. Include a clear beginning, conflict, and ending.","The package arrived on a rainy Tuesday, its cardboard soft with age and its stamps twenty years out of date. The label read ""To Daniel Reyes,"" in handwriting Daniel recognized instantly: his father's. His father had died fifteen years earlier, and they had not spoken for five years before that. Daniel set the box on the kitchen table and stared at it for an hour. Opening it felt like reopening an argument he had never finished. What if it was an accusation? What if it was an apology he no longer knew how to accept? His hands, he noticed, were shaking the way they had the night he left. Finally, he cut the tape. Inside was a battered baseball glove, the one Daniel had left behind when he stormed out at nineteen, and a folded note. ""Found this in the garage,"" it said. ""The door is open whenever you want to play catch."" Daniel read it three times. Then he put on the glove, stiff with age and still too small, and stood by the window watching the rain until it stopped.","Writing","Creative Writing","Medium"
+"R0615","P205","DeepSeek","","Write a story of about 180 words about a delivery arriving twenty years late. Include a clear beginning, conflict, and ending.","In 2004, Elias ordered a signed first edition for his father's birthday. The package never came. His father passed away the next spring. Twenty years later, a battered box appeared on Elias's porch. The return address was a bookstore that had closed a decade ago. Inside was the book, still wrapped, with a note: 'Delayed by a warehouse fire. Our deepest apologies.' Elias sat down, hands trembling. He had waited so long that the gift no longer had a recipient. For days, he left it on the table, unable to open it. Finally, he did. On the title page was the author's signature and a line his father used to say: 'Stories find us when we need them.' Elias smiled, tears falling. He placed the book on his own shelf, not as a lost gift, but as a late message.","Writing","Creative Writing","Medium"
+"R0613","P205","GPT","","Write a story of about 180 words about a delivery arriving twenty years late. Include a clear beginning, conflict, and ending.","The package arrived on a Tuesday, wrapped in brown paper softened by age. Mira nearly sent it back because the label named her father, who had died five years earlier. Then she saw the postmark: June 14, 2006.
+
+Inside was a cassette tape and a note from her father’s older brother, Elias, who had disappeared from the family after an argument no one would explain. The note said he was sorry and asked to come home. Mira’s father had spent years insisting Elias never tried to reconcile.
+
+The tape complicated everything. On it, Elias described their quarrel, admitted his own mistakes, and gave an address. Mira felt angry at a postal accident that had preserved twenty years of silence. She searched the address and found a current phone number.
+
+A man answered on the fourth ring.
+
+“Elias?” she asked.
+
+“Yes.”
+
+Mira looked at the faded package. “My name is Mira. I think I finally received something you sent my father.”
+
+For a long moment, neither spoke. Then Elias whispered, “I thought he chose not to answer.”
+
+“He never knew,” Mira said. “But I do.”","Writing","Creative Writing","Medium"
+"R0626","P209","Claude","","Write a story of about 220 words in which the opening sentence has a different meaning after the ending. Avoid explaining the twist directly.","Every morning, I set the table for two. The blue mug goes on the left, with one sugar already stirred in, and the newspaper sits folded at the sports page. I make eggs the way he likes them, slightly runny, and toast cut diagonally, because straight lines were never good enough for him. The neighbors wave when I walk to the mailbox. Mrs. Chen asks how we are, and I say, ""Fine, the same as always."" She smiles in a careful way, the way people smile at a house with too many flowers on the porch. In the afternoon, I read aloud from the novel we started in March. I do the voices, even the villain's, which always made him laugh. Sometimes I pause at a good line and wait, the way you wait for thunder after lightning. In the evening, I wash both plates, though only one is dirty. I pour the cold coffee from the blue mug into the sink and rinse it carefully. Then I place it back on the shelf, handle facing out, ready for tomorrow. On the calendar by the door, I cross off another day. There are forty-one crosses since the hospital called in March. I haven't changed the voicemail message yet. I still like hearing him say we'll call you back.","Writing","Creative Writing","Hard"
+"R0627","P209","DeepSeek","","Write a story of about 220 words in which the opening sentence has a different meaning after the ending. Avoid explaining the twist directly.","The last thing I sold was my watch. It was a cheap thing, scratched and slow, but it had been my father's. I needed the money for a bus ticket out of town. I told myself I would come back when things got better. The bus was cold. I sat by the window and watched the town shrink. At the first stop, I bought a coffee and reached for my wallet. That's when I felt it: the watch, still ticking in my pocket. I froze. I had sold it. I had watched the man put it in his drawer. I pulled it out. The hands were moving backward. I got off the bus. I walked all night. When I reached my father's house, the lights were on. He was sitting at the kitchen table, crying. 'I thought you left,' he said. I held up the watch. 'It wouldn't let me.'","Writing","Creative Writing","Hard"
+"R0625","P209","GPT","","Write a story of about 220 words in which the opening sentence has a different meaning after the ending. Avoid explaining the twist directly.","Everyone in Bellweather knew the clock tower was seven minutes slow.
+
+The town had stopped trying to fix it. Watchmakers replaced gears, electricians rewired motors, and once the mayor hired a specialist from three counties away. Every repair lasted until midnight. By morning, the clock had quietly surrendered seven minutes again.
+
+So people adjusted. Bakers opened when the tower said 5:53. School began at 8:23. Trains were announced by station clocks, never the bell.
+
+Only Mr. Vale, who lived across from the square, insisted the tower was correct.
+
+“Everything else is early,” he told children who teased him.
+
+On his ninety-second birthday, the town held a dinner in the hall beneath the clock. Mr. Vale arrived carrying a sealed envelope. He asked the mayor to open it after the final bell.
+
+At 11:53 by everyone's phones, the tower struck midnight.
+
+Inside the envelope was a railway timetable dated forty-six years earlier and a newspaper clipping about a night train that had derailed at 12:01.
+
+At the bottom, in Mr. Vale's handwriting, were six words: “She left the square at midnight.”
+
+The mayor looked up. Mr. Vale's chair was empty.
+
+Outside, the clock showed twelve exactly.","Writing","Creative Writing","Hard"
+"R0635","P212","Claude","","Write a professional email asking a project teammate to meet on Thursday afternoon.","Subject: Meeting Request for Thursday Afternoon
+
+Hi [Teammate's Name],
+
+I hope your week is going well. Would you be available to meet on Thursday afternoon to discuss our project progress and next steps? I am free between 1:00 and 5:00 PM, so please let me know what time works best for you. We can meet in person or online, whichever is more convenient.
+
+Thank you, and I look forward to working with you.
+
+Best regards,
+[Your Name]","Writing","Professional Writing","Easy"
+"R0636","P212","DeepSeek","","Write a professional email asking a project teammate to meet on Thursday afternoon.","Subject: Meeting on Thursday Afternoon\n\nHi [Name],\n\nWould you be available to meet on Thursday afternoon to discuss our project? I am free after 2 PM. Let me know what time works for you.\n\nThanks,\n[Your Name]","Writing","Professional Writing","Easy"
+"R0634","P212","GPT","","Write a professional email asking a project teammate to meet on Thursday afternoon.","Subject: Meeting Thursday Afternoon
+
+Hi [Teammate's Name],
+
+Could we meet on Thursday afternoon to review our project progress and coordinate the next steps? I am happy to work around your availability within the afternoon. Please let me know what time works best for you.
+
+Best,
+[Your Name]","Writing","Professional Writing","Easy"
+"R0653","P218","Claude","","Write a short meeting agenda for a student team that must review progress, resolve task ownership, and prepare a presentation.","Team Meeting Agenda
+Date: [Date] | Time: [Time] | Location: [Room/Link]
+
+1. Welcome and purpose of the meeting (5 minutes)
+2. Progress review (15 minutes)
+   - Each member briefly reports completed work and current challenges
+   - Check progress against the project timeline
+3. Task ownership (15 minutes)
+   - Identify unassigned or unclear tasks
+   - Assign an owner and deadline for each task
+4. Presentation preparation (20 minutes)
+   - Agree on the presentation outline and slide order
+   - Assign speaking sections and slide design responsibilities
+   - Schedule a rehearsal
+5. Summary and next steps (5 minutes)
+   - Review action items, owners, and deadlines
+   - Confirm the next meeting date","Writing","Professional Writing","Medium"
+"R0654","P218","DeepSeek","","Write a short meeting agenda for a student team that must review progress, resolve task ownership, and prepare a presentation.","Meeting Agenda\n1. Review progress since last meeting.\n2. Identify tasks without clear owners.\n3. Assign owners and deadlines.\n4. Plan presentation structure and divide slides.\n5. Set next meeting time.","Writing","Professional Writing","Medium"
+"R0652","P218","GPT","","Write a short meeting agenda for a student team that must review progress, resolve task ownership, and prepare a presentation.","Student Team Meeting Agenda
+
+1. Progress review
+   - Brief update from each team member
+   - Compare completed work with current milestones
+2. Task ownership
+   - Identify unassigned or overlapping tasks
+   - Confirm one owner and deadline for each remaining task
+3. Presentation preparation
+   - Agree on key message and slide structure
+   - Assign slide sections and speaking roles
+   - Set a rehearsal date
+4. Final action items
+   - Confirm owners, deadlines, and next meeting","Writing","Professional Writing","Medium"
+"R0683","P228","Claude","","Write an argument of about 150 words for including practical projects in an introductory data science course. Address a concern about workload.","Introductory data science courses should include practical projects. Working with real datasets teaches skills that lectures alone cannot, such as cleaning messy data, choosing appropriate methods, and interpreting results in context. Projects help students connect abstract concepts like statistics and programming to meaningful questions, which improves understanding and motivation. They also give students something concrete to show future employers or graduate programs. Projects also build confidence, because students see that they can answer real questions independently.
+
+Some worry that projects will make the course's workload too heavy for beginners. This concern can be addressed through careful design. Projects can be small, structured, and divided into milestones, with starter code, clear rubrics, and datasets that are already partly cleaned. Some homework assignments could be replaced by project steps rather than added on top of them. With these supports, practical projects become a manageable and valuable part of learning, not an extra burden.","Writing","Persuasive Writing","Medium"
+"R0684","P228","DeepSeek","","Write an argument of about 150 words for including practical projects in an introductory data science course. Address a concern about workload.","Introductory data science courses should include practical projects because they turn theory into skill. Students learn to clean data, build models, and communicate results. Some worry that projects add too much workload. However, projects can be scoped to be manageable, replacing some repetitive homework. Working on a real dataset makes concepts memorable and prepares students for internships. The benefits of hands-on experience outweigh the extra effort, especially when projects are structured with clear milestones and support.","Writing","Persuasive Writing","Medium"
+"R0682","P228","GPT","","Write an argument of about 150 words for including practical projects in an introductory data science course. Address a concern about workload.","Introductory data science courses should include practical projects because students learn more effectively when they apply concepts to real datasets and decisions. A project forces students to move beyond isolated formulas: they must inspect data, handle imperfections, choose methods, interpret results, and communicate limitations. These are central data-science skills. One concern is workload, especially for beginners who are also learning programming and statistics. The solution is not to remove projects but to scope them carefully. Instructors can use small datasets, provide milestones, reuse tools already taught in class, and grade reasoning more heavily than polish. A well-designed project can replace several disconnected exercises rather than simply adding more work. Practical projects therefore connect theory to realistic practice while giving students a concrete product that demonstrates what they have learned.","Writing","Persuasive Writing","Medium"
+"R0686","P229","Claude","","Write an argument of about 200 words recommending open-source software for a small student organization. Address maintenance, training, and situations where paid software may be preferable.","Our student organization should adopt open-source software for its everyday work. Tools such as LibreOffice for documents, GIMP for images, and Nextcloud or similar platforms for file sharing are free, which lets us spend our limited budget on events instead of licenses. Open-source software also avoids lock-in: our files and processes will not depend on a single company's pricing decisions, and members can install the same tools on their own devices at no cost.
+
+Maintenance is a reasonable concern. However, most popular open-source programs are updated regularly by large communities, and we can choose widely used, well-supported options rather than obscure projects. Assigning one officer to handle updates each semester would keep the workload small.
+
+Training is another concern, since members may be more familiar with commercial programs. Many open-source tools have similar interfaces, and we could provide a short guide and a single workshop at the start of each semester.
+
+Paid software may still be preferable in some situations, such as when a university partner requires a specific format, when advanced professional features are essential, or when the university already provides a license at no cost. In those cases, we should use it. Otherwise, open-source software offers a practical, affordable, and sustainable choice.","Writing","Persuasive Writing","Hard"
+"R0687","P229","DeepSeek","","Write an argument of about 200 words recommending open-source software for a small student organization. Address maintenance, training, and situations where paid software may be preferable.","A small student organization should consider open-source software because it is affordable, flexible, and transparent. Open-source tools can be customized and often have strong communities for support. Maintenance can be a concern, but many popular projects release regular updates and have extensive documentation. Training is manageable because online tutorials and forums are widely available. However, paid software may be preferable when the organization needs guaranteed support, specialized features, or compliance certifications. For general tasks like document editing, project management, and design, open-source options can reduce costs and teach valuable technical skills. The organization should evaluate each tool based on its needs and capacity.","Writing","Persuasive Writing","Hard"
+"R0685","P229","GPT","","Write an argument of about 200 words recommending open-source software for a small student organization. Address maintenance, training, and situations where paid software may be preferable.","A small student organization should consider open-source software because it can provide capable tools without recurring license fees. This is especially valuable when budgets are limited or membership changes frequently. Open-source tools can also avoid dependence on one vendor and may allow customization when the group has technical expertise.
+
+The organization should still plan for maintenance. Someone must handle updates, backups, security patches, and documentation, and community-supported software may not include guaranteed help. Training also matters: a free tool creates little value if members find it difficult to use. The group should choose software with clear documentation and assign at least one member to prepare a short onboarding guide.
+
+Paid software may be preferable when the organization needs dependable vendor support, specialized features, strong accessibility guarantees, institutional integration, or when staff time is more expensive than licensing. The best approach is therefore to compare total cost and requirements rather than price alone. For common collaboration or administration needs, a mature open-source option can be a strong default if the group can support it responsibly.","Writing","Persuasive Writing","Hard"
+"R0689","P230","Claude","","Write an argument of about 200 words proposing flexible participation options for a campus club. Balance accessibility with the need to maintain dependable attendance.","Our campus club should offer flexible participation options so that more students can take part. Many students balance classes, jobs, family responsibilities, and long commutes, and a strict rule requiring attendance at every in-person meeting excludes them even when they are enthusiastic. Offering some meetings online, recording key discussions, and allowing members to contribute through smaller tasks would make the club more accessible and diverse.
+
+However, flexibility must not undermine reliability. Events, projects, and competitions depend on members who show up when they say they will. To balance these needs, the club could create two levels of membership. General members could participate flexibly, attending when possible and joining online or asynchronous activities. Core members, who take on specific responsibilities, would commit to attending a set number of meetings and key events each semester.
+
+The club could also use a simple sign-up system for events, so organizers know in advance who will attend, and review participation at the end of each semester. This approach welcomes students with different schedules while ensuring that essential work is completed by people who have agreed to be dependable. Flexibility and commitment can work together, making the club both more inclusive and more effective.","Writing","Persuasive Writing","Hard"
+"R0690","P230","DeepSeek","","Write an argument of about 200 words proposing flexible participation options for a campus club. Balance accessibility with the need to maintain dependable attendance.","A campus club should offer flexible participation options to include students with different schedules and responsibilities. Some students can attend in person, while others may need remote or asynchronous involvement. Flexibility increases accessibility and can attract more members. However, the club also needs dependable attendance for events and planning. A balanced approach would define core roles that require regular commitment and flexible roles for occasional volunteers. Hybrid meetings, recorded sessions, and task-based participation can help. Clear expectations and a minimum commitment for voting or leadership would maintain stability. This way, the club remains inclusive without losing its ability to function effectively.","Writing","Persuasive Writing","Hard"
+"R0688","P230","GPT","","Write an argument of about 200 words proposing flexible participation options for a campus club. Balance accessibility with the need to maintain dependable attendance.","A campus club should offer flexible participation options so students with work, caregiving, commuting, health, or course conflicts can still contribute. Possible options include alternating meeting times, remote attendance for selected sessions, asynchronous tasks, and a distinction between core and optional events. Flexibility can broaden participation without forcing every member into the same schedule.
+
+At the same time, a club still needs dependable attendance to run events and complete shared work. Flexibility should therefore come with clear commitments. For each project, members can choose roles with defined deadlines, confirm attendance for events in advance, and notify the team early when plans change. Leadership roles may reasonably require a higher minimum level of participation because others depend on them.
+
+The goal is not to make attendance meaningless. It is to separate “must be present” activities from work that can be done another way. A transparent participation policy can preserve accountability while making the club accessible to more students.","Writing","Persuasive Writing","Hard"
+"R0749","P250","Claude","","Rewrite this message in two versions, one for a close teammate and one for a project sponsor. Preserve the same facts: 'The export failed twice. We have a backup from Tuesday. Restoring it will take about three hours, and Wednesday's changes may need to be entered again.'","Version for a close teammate: Hey, bad news: the export failed twice. The good news is we have a backup from Tuesday. Restoring it will take about three hours, and we might have to re-enter Wednesday's changes. Let's sort it out together.
+
+Version for a project sponsor: I would like to inform you that the data export failed on two attempts. We have a backup from Tuesday and can restore it, which will take approximately three hours. Please note that changes made on Wednesday may need to be re-entered after the restoration. We will keep you updated on our progress.","Writing","Tone Rewriting","Hard"
+"R0750","P250","DeepSeek","","Rewrite this message in two versions, one for a close teammate and one for a project sponsor. Preserve the same facts: 'The export failed twice. We have a backup from Tuesday. Restoring it will take about three hours, and Wednesday's changes may need to be entered again.'","Teammate: The export failed twice. We have Tuesday's backup. Restoring it will take about three hours, and we may need to re-enter Wednesday's changes.\n\nSponsor: The export failed twice. We have a backup from Tuesday. Restoring it will take approximately three hours, and Wednesday's changes may need to be re-entered. I will update you when the restore is complete.","Writing","Tone Rewriting","Hard"
+"R0748","P250","GPT","","Rewrite this message in two versions, one for a close teammate and one for a project sponsor. Preserve the same facts: 'The export failed twice. We have a backup from Tuesday. Restoring it will take about three hours, and Wednesday's changes may need to be entered again.'","Close teammate:
+The export failed twice. We do have Tuesday’s backup, so we can restore that in about three hours. The downside is that we may need to re-enter Wednesday’s changes afterward. Let’s decide whether restoring now is the best route.
+
+Project sponsor:
+The export has failed twice. We have a recoverable backup from Tuesday, and restoring it is expected to take approximately three hours. Because the backup predates Wednesday’s work, some changes made on Wednesday may need to be entered again after restoration. We can proceed with the restore once you confirm that approach.","Writing","Tone Rewriting","Hard"
+"R0752","P251","Claude","","Summarize this passage in one sentence: 'A campus library added twenty adjustable desks to its second floor. Students can use them while sitting or standing. The desks are available during normal library hours and do not require reservations.'","The campus library added twenty adjustable sit-stand desks to its second floor, available without reservations during normal library hours.","Summarization","Summarize","Easy"
+"R0753","P251","DeepSeek","","Summarize this passage in one sentence: 'A campus library added twenty adjustable desks to its second floor. Students can use them while sitting or standing. The desks are available during normal library hours and do not require reservations.'","The campus library added twenty adjustable sit-or-stand desks on its second floor, available during normal hours without reservations.","Summarization","Summarize","Easy"
+"R0751","P251","GPT","","Summarize this passage in one sentence: 'A campus library added twenty adjustable desks to its second floor. Students can use them while sitting or standing. The desks are available during normal library hours and do not require reservations.'","The campus library added twenty reservation-free adjustable sit-or-stand desks on its second floor for students to use during normal library hours.","Summarization","Summarize","Easy"
+"R0755","P252","Claude","","Summarize this passage in one sentence: 'A neighborhood garden opened a shared tool cabinet. Members may borrow shovels, watering cans, and hand tools. They must return each item clean before the garden closes that evening.'","A neighborhood garden opened a shared tool cabinet where members can borrow tools, provided they return them clean before the garden closes that evening.","Summarization","Summarize","Easy"
+"R0756","P252","DeepSeek","","Summarize this passage in one sentence: 'A neighborhood garden opened a shared tool cabinet. Members may borrow shovels, watering cans, and hand tools. They must return each item clean before the garden closes that evening.'","A neighborhood garden opened a shared tool cabinet where members can borrow tools but must return them clean by closing time.","Summarization","Summarize","Easy"
+"R0754","P252","GPT","","Summarize this passage in one sentence: 'A neighborhood garden opened a shared tool cabinet. Members may borrow shovels, watering cans, and hand tools. They must return each item clean before the garden closes that evening.'","The neighborhood garden now offers members a shared cabinet containing shovels, watering cans, and hand tools, which must be returned clean before closing the same day.","Summarization","Summarize","Easy"
+"R0857","P286","Claude","","Rewrite this passage in no more than 35 words while preserving the condition and consequence: 'If a borrowed laptop is returned after the agreed deadline and the borrower has not arranged an extension in advance, the borrower will temporarily lose the ability to reserve another laptop.'","Borrowers who return a laptop late without arranging an extension in advance will temporarily lose the ability to reserve another laptop.","Summarization","Concise Rewriting","Medium"
+"R0858","P286","DeepSeek","","Rewrite this passage in no more than 35 words while preserving the condition and consequence: 'If a borrowed laptop is returned after the agreed deadline and the borrower has not arranged an extension in advance, the borrower will temporarily lose the ability to reserve another laptop.'","If a borrowed laptop is returned late without a pre-arranged extension, the borrower temporarily loses the ability to reserve another laptop.","Summarization","Concise Rewriting","Medium"
+"R0856","P286","GPT","","Rewrite this passage in no more than 35 words while preserving the condition and consequence: 'If a borrowed laptop is returned after the agreed deadline and the borrower has not arranged an extension in advance, the borrower will temporarily lose the ability to reserve another laptop.'","If a laptop is returned late without an extension arranged in advance, the borrower will temporarily lose the ability to reserve another laptop.","Summarization","Concise Rewriting","Medium"
+"R0863","P288","Claude","","Rewrite this passage in one clear sentence: 'The team tested the program on a small sample. This was done before running it on the full dataset. The purpose was to discover errors early and avoid spending time on a failed full run.'","The team tested the program on a small sample before running it on the full dataset to catch errors early and avoid wasting time on a failed full run.","Summarization","Concise Rewriting","Medium"
+"R0864","P288","DeepSeek","","Rewrite this passage in one clear sentence: 'The team tested the program on a small sample. This was done before running it on the full dataset. The purpose was to discover errors early and avoid spending time on a failed full run.'","The team tested the program on a small sample before the full dataset to catch errors early and avoid a failed full run.","Summarization","Concise Rewriting","Medium"
+"R0862","P288","GPT","","Rewrite this passage in one clear sentence: 'The team tested the program on a small sample. This was done before running it on the full dataset. The purpose was to discover errors early and avoid spending time on a failed full run.'","The team tested the program on a small sample before the full dataset to catch errors early and avoid wasting time on a failed full run.","Summarization","Concise Rewriting","Medium"
+"R0866","P289","Claude","","Rewrite this passage in no more than 45 words without losing its qualifications: 'The pilot study suggests that the reminder messages may improve attendance among students who volunteer to receive them. However, because participation was optional and the study lasted only two weeks, the findings should not be assumed to apply to all students or to longer periods.'","The pilot study suggests reminder messages may improve attendance among students who volunteer to receive them. Because participation was optional and the study lasted only two weeks, the findings should not be generalized to all students or longer periods.","Summarization","Concise Rewriting","Hard"
+"R0867","P289","DeepSeek","","Rewrite this passage in no more than 45 words without losing its qualifications: 'The pilot study suggests that the reminder messages may improve attendance among students who volunteer to receive them. However, because participation was optional and the study lasted only two weeks, the findings should not be assumed to apply to all students or to longer periods.'","A two-week pilot suggests reminder messages may improve attendance among volunteering students, but optional participation means findings should not be assumed to apply to all students or longer periods.","Summarization","Concise Rewriting","Hard"
+"R0865","P289","GPT","","Rewrite this passage in no more than 45 words without losing its qualifications: 'The pilot study suggests that the reminder messages may improve attendance among students who volunteer to receive them. However, because participation was optional and the study lasted only two weeks, the findings should not be assumed to apply to all students or to longer periods.'","The pilot suggests reminder messages may improve attendance among students who opt in, but participation was voluntary and the study lasted only two weeks, so the findings may not generalize to all students or longer periods.","Summarization","Concise Rewriting","Hard"
+"R0872","P291","Claude","","Turn this passage into three bullet points: 'The workshop introduces spreadsheet formulas. Participants will practice sorting a small dataset. The final activity involves creating a simple chart.'","- The workshop introduces spreadsheet formulas.
+- Participants will practice sorting a small dataset.
+- The final activity involves creating a simple chart.","Summarization","Format Transformation","Easy"
+"R0873","P291","DeepSeek","","Turn this passage into three bullet points: 'The workshop introduces spreadsheet formulas. Participants will practice sorting a small dataset. The final activity involves creating a simple chart.'","- Introduces spreadsheet formulas\n- Practice sorting a small dataset\n- Final activity: creating a simple chart","Summarization","Format Transformation","Easy"
+"R0871","P291","GPT","","Turn this passage into three bullet points: 'The workshop introduces spreadsheet formulas. Participants will practice sorting a small dataset. The final activity involves creating a simple chart.'","- The workshop introduces spreadsheet formulas.
+- Participants will practice sorting a small dataset.
+- The final activity is creating a simple chart.","Summarization","Format Transformation","Easy"
+"R0884","P295","Claude","","Convert this passage into a table with columns Option, Benefit, and Limitation: 'Option A is a free desktop program that works offline but requires manual updates. Option B is a paid web application that supports live collaboration but needs an internet connection.'","| Option | Benefit | Limitation |
+|---|---|---|
+| Option A (free desktop program) | Free and works offline | Requires manual updates |
+| Option B (paid web application) | Supports live collaboration | Needs an internet connection |","Summarization","Format Transformation","Medium"
+"R0885","P295","DeepSeek","","Convert this passage into a table with columns Option, Benefit, and Limitation: 'Option A is a free desktop program that works offline but requires manual updates. Option B is a paid web application that supports live collaboration but needs an internet connection.'","Option,Benefit,Limitation\nOption A: free desktop program,Works offline,Requires manual updates\nOption B: paid web application,Supports live collaboration,Needs internet connection","Summarization","Format Transformation","Medium"
+"R0883","P295","GPT","","Convert this passage into a table with columns Option, Benefit, and Limitation: 'Option A is a free desktop program that works offline but requires manual updates. Option B is a paid web application that supports live collaboration but needs an internet connection.'","| Option | Benefit | Limitation |
+|---|---|---|
+| Option A | Free and works offline | Requires manual updates |
+| Option B | Supports live collaboration | Paid and requires an internet connection |","Summarization","Format Transformation","Medium"

@@ -1,0 +1,5 @@
+﻿split,prompts,responses,truncated_responses,unknown_token_rate
+train,105,315,15,0.0
+validation,22,66,5,0.17333984375
+test,23,69,0,0.14663182346109174
+cross_domain,50,150,60,0.36556507547939615

@@ -1,0 +1,341 @@
+﻿"response_id","prompt_id","LLM_name","model_version","LLM_Input","LLM_output","category","task_type","difficulty"
+"R0041","P014","Claude","","What is a computer network?","A computer network is a group of two or more computers or devices connected by wired or wireless links so they can communicate and share resources such as files, printers, and internet access. Examples include a home Wi-Fi network (LAN) and the internet (the largest WAN).","Factual","Technology","Easy"
+"R0042","P014","DeepSeek","","What is a computer network?","A computer network is a collection of connected devices that can communicate and share resources such as files, printers, and internet access.","Factual","Technology","Easy"
+"R0040","P014","GPT","","What is a computer network?","A computer network is a group of connected devices that can exchange data and share resources. Devices may communicate through wired or wireless links using agreed protocols, such as those in the TCP/IP suite.","Factual","Technology","Easy"
+"R0062","P021","Claude","","What was the primary purpose of the ancient Egyptian pyramids?","The primary purpose of the ancient Egyptian pyramids was to serve as monumental tombs for pharaohs. They protected the king's body and burial goods and were believed to help his journey into the afterlife.","Factual","History","Easy"
+"R0063","P021","DeepSeek","","What was the primary purpose of the ancient Egyptian pyramids?","The primary purpose of the ancient Egyptian pyramids was to serve as tombs for pharaohs and protect their bodies and possessions for the afterlife.","Factual","History","Easy"
+"R0061","P021","GPT","","What was the primary purpose of the ancient Egyptian pyramids?","The primary purpose of the major ancient Egyptian pyramids was to serve as monumental royal tombs and parts of larger funerary complexes. They were connected to beliefs about the pharaoh's afterlife and continued divine role.","Factual","History","Easy"
+"R0077","P026","Claude","","What were three major factors that contributed to the Industrial Revolution in Britain?","Three major factors were: (1) abundant coal and iron resources, which provided fuel and materials for machines and steam engines; (2) agricultural improvements and population growth, which freed workers for factories and created demand for goods; and (3) available capital, overseas trade, and a stable political and legal system that encouraged investment and invention.","Factual","History","Medium"
+"R0078","P026","DeepSeek","","What were three major factors that contributed to the Industrial Revolution in Britain?","Three major factors were abundant coal and iron resources, capital from trade and colonies, and a large labor force displaced from rural areas.","Factual","History","Medium"
+"R0076","P026","GPT","","What were three major factors that contributed to the Industrial Revolution in Britain?","Three major factors behind the Industrial Revolution in Britain were: abundant coal and iron resources, which supplied energy and raw materials; agricultural and demographic changes that increased food production and created a growing labor force and consumer market; and strong commercial, financial, and transport networks that supplied capital and connected producers with markets. Technological innovations and institutions that encouraged invention also played important roles.","Factual","History","Medium"
+"R0095","P032","Claude","","Which ocean is the largest, and where is it located?","The Pacific Ocean is the largest ocean, covering about one-third of Earth's surface. It lies between Asia and Australia to the west and North and South America to the east, stretching from the Arctic in the north to the Southern Ocean in the south.","Factual","Geography","Easy"
+"R0096","P032","DeepSeek","","Which ocean is the largest, and where is it located?","The Pacific Ocean is the largest ocean. It lies between Asia and Australia to the west and the Americas to the east.","Factual","Geography","Easy"
+"R0094","P032","GPT","","Which ocean is the largest, and where is it located?","The Pacific Ocean is the largest ocean. It lies between Asia and Australia on the west and North and South America on the east, extending from the Arctic region toward Antarctica.","Factual","Geography","Easy"
+"R0110","P037","Claude","","What causes earthquakes near tectonic plate boundaries?","Tectonic plates move slowly, but at plate boundaries friction causes their edges to lock together along faults. Stress builds up in the rocks as the plates keep moving. When the stress exceeds the strength of the rocks or friction, the rocks suddenly slip, releasing stored energy as seismic waves, which cause an earthquake.","Factual","Geography","Medium"
+"R0111","P037","DeepSeek","","What causes earthquakes near tectonic plate boundaries?","Earthquakes occur when stress builds up as tectonic plates move, causing rocks to suddenly break and release energy as seismic waves.","Factual","Geography","Medium"
+"R0109","P037","GPT","","What causes earthquakes near tectonic plate boundaries?","Earthquakes near plate boundaries occur because tectonic plates move relative to one another but can become locked by friction. Stress builds in the surrounding rock until it exceeds the strength of the fault. The rocks then slip suddenly, releasing stored elastic energy as seismic waves.","Factual","Geography","Medium"
+"R0125","P042","Claude","","What is the purpose of insulation in a house?","Insulation slows the transfer of heat between the inside and outside of a house. It keeps heat in during cold weather and keeps heat out during hot weather, improving comfort and reducing energy use and heating and cooling costs.","Factual","Everyday Knowledge","Easy"
+"R0126","P042","DeepSeek","","What is the purpose of insulation in a house?","Insulation reduces heat transfer between inside and outside, helping keep a house warm in winter and cool in summer and lowering energy use.","Factual","Everyday Knowledge","Easy"
+"R0124","P042","GPT","","What is the purpose of insulation in a house?","House insulation slows heat transfer between the indoor and outdoor environments. In winter it reduces heat loss; in summer it reduces heat gain. This helps maintain a comfortable temperature and lowers the amount of energy needed for heating and cooling.","Factual","Everyday Knowledge","Easy"
+"R0137","P046","Claude","","How does a refrigerator transfer heat from its interior to the surrounding room?","A refrigerator circulates a refrigerant through a closed loop. Inside the fridge, the liquid refrigerant evaporates in the evaporator coils and absorbs heat from the interior. A compressor then compresses the gas, raising its pressure and temperature. In the condenser coils outside, the hot gas releases heat into the room and condenses into a liquid. Finally, it passes through an expansion valve, where its pressure and temperature drop, and the cycle repeats.","Factual","Everyday Knowledge","Medium"
+"R0138","P046","DeepSeek","","How does a refrigerator transfer heat from its interior to the surrounding room?","A refrigerator uses a refrigerant that absorbs heat inside, is compressed to raise its temperature, and releases heat to the room through coils on the outside.","Factual","Everyday Knowledge","Medium"
+"R0136","P046","GPT","","How does a refrigerator transfer heat from its interior to the surrounding room?","A refrigerator does not create cold; it moves heat. A refrigerant absorbs heat from the refrigerator interior as it evaporates at low pressure. A compressor then raises the refrigerant's pressure and temperature. In coils outside the cooled compartment, the refrigerant releases heat to the room and condenses. An expansion device lowers its pressure, and the cycle repeats. Because the compressor also uses electrical energy, the room receives more heat from the refrigerator than was removed from its interior.","Factual","Everyday Knowledge","Medium"
+"R0149","P050","Claude","","How does a vacuum flask reduce heat transfer through conduction, convection, and radiation?","A vacuum flask has double walls with a vacuum between them. The vacuum prevents conduction and convection because there are almost no particles to transfer heat or form currents. The walls are silvered or shiny, which reflects infrared radiation and reduces heat transfer by radiation. An insulating stopper reduces conduction and convection through the opening, and the walls touch only at the narrow neck to limit conduction.","Factual","Everyday Knowledge","Hard"
+"R0150","P050","DeepSeek","","How does a vacuum flask reduce heat transfer through conduction, convection, and radiation?","A vacuum flask has a vacuum between double walls, which stops conduction and convection. Silvered surfaces reflect radiation, reducing radiative heat loss.","Factual","Everyday Knowledge","Hard"
+"R0148","P050","GPT","","How does a vacuum flask reduce heat transfer through conduction, convection, and radiation?","A vacuum flask reduces all three major forms of heat transfer. Its double walls are separated by a vacuum, which greatly limits conduction and convection because very little matter is present between the walls. A narrow stopper and low-conductivity materials reduce conduction through the remaining solid connections. Shiny or reflective wall surfaces reduce thermal radiation by reflecting infrared energy and emitting less of it. The stopper also limits air circulation at the opening, reducing convection and evaporation.","Factual","Everyday Knowledge","Hard"
+"R0167","P056","Claude","","Explain how binary search works and why its input must be sorted.","Binary search finds a target in a sorted list by repeatedly checking the middle element. If the middle equals the target, it stops; if the target is smaller, it searches the left half; if larger, the right half. Each step halves the search space, so it takes O(log n) time. The input must be sorted because the algorithm relies on knowing that all values to the left of the middle are smaller and all values to the right are larger; otherwise it may discard the half containing the target.","Explanation","Computer Science","Medium"
+"R0168","P056","DeepSeek","","Explain how binary search works and why its input must be sorted.","Binary search checks the middle of a sorted list. If the target is smaller, it searches the left half; if larger, the right half. The list must be sorted so the algorithm can safely discard half each time.","Explanation","Computer Science","Medium"
+"R0166","P056","GPT","","Explain how binary search works and why its input must be sorted.","Binary search looks for a target by repeatedly cutting the search range in half. It checks the middle element; if the target is smaller, it continues in the left half, and if larger, in the right half. This gives O(log n) comparisons. The input must be sorted because the algorithm relies on the middle value to determine which entire half cannot contain the target.","Explanation","Computer Science","Medium"
+"R0173","P058","Claude","","Explain how a database index can speed up searches and why maintaining indexes has a cost.","A database index is a separate sorted data structure, often a B-tree, that stores column values with pointers to the matching rows. Like a book index, it lets the database jump directly to matching rows instead of scanning the entire table, reducing search time from O(n) to about O(log n). However, indexes take extra storage, and every insert, update, or delete must also update the indexes, which slows writes and adds maintenance overhead.","Explanation","Computer Science","Medium"
+"R0174","P058","DeepSeek","","Explain how a database index can speed up searches and why maintaining indexes has a cost.","An index is like a book's index: it helps the database find rows without scanning the whole table. Maintaining indexes costs time and storage because they must be updated whenever data changes.","Explanation","Computer Science","Medium"
+"R0172","P058","GPT","","Explain how a database index can speed up searches and why maintaining indexes has a cost.","A database index is like the index at the back of a book: it stores an organized structure that helps the database locate matching rows without scanning every row. An index on a customer ID, for example, can make lookups much faster. The cost is that the index consumes storage and must be updated when rows are inserted, deleted, or relevant values change. Too many indexes can therefore slow writes and increase maintenance work.","Explanation","Computer Science","Medium"
+"R0206","P069","Claude","","Explain data leakage using an example in which preprocessing is performed before splitting the dataset. Describe a better workflow.","Data leakage occurs when information from the test set or future data influences model training, making performance look better than it really is. For example, if you standardize or impute the entire dataset before splitting, the means and standard deviations used include test data, so the training process has indirectly seen the test set. A better workflow is to split the data first, fit preprocessing steps only on the training set, apply those fitted transformations to the validation and test sets, and use a pipeline so preprocessing is refit correctly inside cross-validation.","Explanation","Data Science","Hard"
+"R0207","P069","DeepSeek","","Explain data leakage using an example in which preprocessing is performed before splitting the dataset. Describe a better workflow.","Data leakage occurs when information from the test set influences training. For example, scaling with the full dataset before splitting leaks test statistics. A better workflow splits first, then fits preprocessing only on training data and applies it to test data.","Explanation","Data Science","Hard"
+"R0205","P069","GPT","","Explain data leakage using an example in which preprocessing is performed before splitting the dataset. Describe a better workflow.","Data leakage occurs when information from the validation or test data influences training. For example, if you calculate the mean and standard deviation using the entire dataset, scale every row, and only then split into training and test sets, the training transformation contains information from the test set. A better workflow is to split first, fit preprocessing steps using only the training data, and apply those fitted transformations to validation or test data. Pipelines are useful because they keep preprocessing and model fitting together and can repeat the correct procedure inside cross-validation.","Explanation","Data Science","Hard"
+"R0224","P075","Claude","","Explain why the sky usually appears blue during the day and can appear red near sunset.","Sunlight contains all colors. Air molecules scatter shorter wavelengths, such as blue, much more than longer wavelengths like red (Rayleigh scattering), so during the day scattered blue light reaches our eyes from all directions and the sky looks blue. Near sunset, sunlight travels through much more atmosphere, so most blue light is scattered away before reaching us, leaving mainly red and orange light.","Explanation","Science Concepts","Medium"
+"R0225","P075","DeepSeek","","Explain why the sky usually appears blue during the day and can appear red near sunset.","Air scatters blue light more than red light, so the sky looks blue when the Sun is high. Near sunset, sunlight passes through more atmosphere, scattering blue away and letting red and orange reach our eyes.","Explanation","Science Concepts","Medium"
+"R0223","P075","GPT","","Explain why the sky usually appears blue during the day and can appear red near sunset.","Sunlight contains many colors. In Earth's atmosphere, small molecules scatter shorter visible wavelengths, especially blue, more strongly than longer red wavelengths, so blue light reaches our eyes from many directions and the sky usually looks blue. Near sunset, sunlight travels through a much longer path in the atmosphere. Much of the blue light is scattered out of the direct beam, leaving a larger proportion of red and orange light to reach the observer.","Explanation","Science Concepts","Medium"
+"R0254","P085","Claude","","Explain inflation and how it can affect someone whose income stays the same.","Inflation is the general rise in prices over time, which reduces the purchasing power of money. If someone's income stays the same while prices rise by 5% a year, the same paycheck buys less food, housing, and other goods. Their real income falls, so they may need to cut spending, save less, or use savings to maintain their standard of living.","Explanation","Economics and Daily Concepts","Medium"
+"R0255","P085","DeepSeek","","Explain inflation and how it can affect someone whose income stays the same.","Inflation is a general rise in prices over time. If income stays the same, the person can buy fewer goods and services because each dollar buys less.","Explanation","Economics and Daily Concepts","Medium"
+"R0253","P085","GPT","","Explain inflation and how it can affect someone whose income stays the same.","Inflation is a general increase in the prices of goods and services over time, which reduces the purchasing power of money. If someone's income stays at $3,000 per month while prices rise, the same income buys fewer groceries, services, and other items. The person's nominal income is unchanged, but their real purchasing power falls.","Explanation","Economics and Daily Concepts","Medium"
+"R0257","P086","Claude","","Explain compound interest using a small savings account as an example.","Compound interest is interest earned on both the original deposit and previously earned interest. For example, $1,000 in a savings account earning 5% per year becomes $1,050 after one year. In the second year, interest is 5% of $1,050, or $52.50, making $1,102.50. After five years, it grows to about $1,276.28, more than the $1,250 simple interest would give.","Explanation","Economics and Daily Concepts","Medium"
+"R0258","P086","DeepSeek","","Explain compound interest using a small savings account as an example.","Compound interest pays interest on both the original deposit and previously earned interest. If you deposit $100 at 5% interest, you earn $5 the first year, then 5% on $105 the next year.","Explanation","Economics and Daily Concepts","Medium"
+"R0256","P086","GPT","","Explain compound interest using a small savings account as an example.","Compound interest means interest is earned not only on the original principal but also on previously earned interest. Suppose you deposit $100 at 5% annual interest. After one year you have $105. In the second year, 5% is applied to $105, adding $5.25 and producing $110.25. Over long periods, this “interest on interest” can make savings grow faster than simple interest.","Explanation","Economics and Daily Concepts","Medium"
+"R0272","P091","Claude","","Explain an API using a restaurant analogy.","An API is like a waiter in a restaurant. The customer (an application) does not go into the kitchen (the server or system). Instead, the customer reads the menu (API documentation) and gives an order to the waiter (API). The waiter takes the request to the kitchen and brings back the food (the response). The customer gets the result without needing to know how the kitchen works.","Explanation","Analogy and Beginner Explanation","Easy"
+"R0273","P091","DeepSeek","","Explain an API using a restaurant analogy.","An API is like a waiter in a restaurant. You tell the waiter what you want, the kitchen prepares it, and the waiter brings it back. You do not need to know how the kitchen works.","Explanation","Analogy and Beginner Explanation","Easy"
+"R0271","P091","GPT","","Explain an API using a restaurant analogy.","An API is like the ordering system in a restaurant. You do not walk into the kitchen and manipulate its equipment directly; instead, you choose from a menu and give a waiter a valid request. The waiter carries the request to the kitchen and returns the result. Similarly, an API defines the requests a program is allowed to make to another system and the format of the responses it receives.","Explanation","Analogy and Beginner Explanation","Easy"
+"R0302","P101","Claude","","Solve for x: 3x + 7 = 25. Show your calculation.","3x + 7 = 25. Subtract 7 from both sides: 3x = 18. Divide both sides by 3: x = 6. Check: 3(6) + 7 = 25. So x = 6.","Math","Arithmetic and Algebra","Easy"
+"R0303","P101","DeepSeek","","Solve for x: 3x + 7 = 25. Show your calculation.","3x + 7 = 25. Subtract 7: 3x = 18. Divide by 3: x = 6.","Math","Arithmetic and Algebra","Easy"
+"R0301","P101","GPT","","Solve for x: 3x + 7 = 25. Show your calculation.","3x + 7 = 25
+3x = 25 - 7 = 18
+x = 18/3 = 6
+
+Answer: x = 6.","Math","Arithmetic and Algebra","Easy"
+"R0332","P111","Claude","","A bag contains 4 red balls and 6 blue balls. If one ball is selected uniformly at random, what is the probability it is red?","There are 4 red balls out of 10 total balls, so P(red) = 4/10 = 2/5 = 0.4.","Math","Probability","Easy"
+"R0333","P111","DeepSeek","","A bag contains 4 red balls and 6 blue balls. If one ball is selected uniformly at random, what is the probability it is red?","Total balls = 10. Probability red = 4/10 = 2/5.","Math","Probability","Easy"
+"R0331","P111","GPT","","A bag contains 4 red balls and 6 blue balls. If one ball is selected uniformly at random, what is the probability it is red?","There are 4 + 6 = 10 balls total. The probability of selecting a red ball is 4/10 = 2/5 = 0.4.","Math","Probability","Easy"
+"R0335","P112","Claude","","A fair six-sided die is rolled once. What is the probability of obtaining a number greater than 4?","The numbers greater than 4 are 5 and 6, so there are 2 favorable outcomes out of 6. P = 2/6 = 1/3.","Math","Probability","Easy"
+"R0336","P112","DeepSeek","","A fair six-sided die is rolled once. What is the probability of obtaining a number greater than 4?","Numbers greater than 4 are 5 and 6. Probability = 2/6 = 1/3.","Math","Probability","Easy"
+"R0334","P112","GPT","","A fair six-sided die is rolled once. What is the probability of obtaining a number greater than 4?","Numbers greater than 4 are 5 and 6, so there are 2 favorable outcomes out of 6 equally likely outcomes. Probability = 2/6 = 1/3.","Math","Probability","Easy"
+"R0350","P117","Claude","","A bag contains 5 green balls and 3 yellow balls. Two balls are selected without replacement. What is the probability both are green?","P(first green) = 5/8. After one green is removed, P(second green) = 4/7. So P(both green) = 5/8 x 4/7 = 20/56 = 5/14, about 0.357.","Math","Probability","Medium"
+"R0351","P117","DeepSeek","","A bag contains 5 green balls and 3 yellow balls. Two balls are selected without replacement. What is the probability both are green?","P = (5/8) × (4/7) = 20/56 = 5/14.","Math","Probability","Medium"
+"R0349","P117","GPT","","A bag contains 5 green balls and 3 yellow balls. Two balls are selected without replacement. What is the probability both are green?","Without replacement, P(first green) = 5/8 and P(second green | first green) = 4/7.
+
+P(both green) = (5/8)(4/7) = 20/56 = 5/14.","Math","Probability","Medium"
+"R0389","P130","Claude","","A set contains five integers. Prove that at least two of them have a difference divisible by 4.","Every integer has one of four possible remainders when divided by 4: 0, 1, 2, or 3. With five integers and only four possible remainders, by the pigeonhole principle, at least two integers a and b have the same remainder r. Then a = 4q1 + r and b = 4q2 + r, so a - b = 4(q1 - q2), which is divisible by 4.","Math","Logic","Hard"
+"R0390","P130","DeepSeek","","A set contains five integers. Prove that at least two of them have a difference divisible by 4.","There are four possible remainders modulo 4: 0, 1, 2, 3. With five integers, by the pigeonhole principle, two have the same remainder. Their difference is divisible by 4.","Math","Logic","Hard"
+"R0388","P130","GPT","","A set contains five integers. Prove that at least two of them have a difference divisible by 4.","Consider the five integers modulo 4. There are only four possible remainders: 0, 1, 2, and 3. By the pigeonhole principle, at least two of the five integers must have the same remainder modulo 4. Let those integers be a and b. Then a ≡ b (mod 4), so a - b ≡ 0 (mod 4). Therefore their difference is divisible by 4.","Math","Logic","Hard"
+"R0398","P133","Claude","","A recipe uses 2 cups of flour for 8 servings. How much flour is needed for 20 servings at the same ratio?","The recipe uses 2/8 = 0.25 cup of flour per serving. For 20 servings, 0.25 x 20 = 5 cups of flour are needed.","Math","Word Problems","Easy"
+"R0399","P133","DeepSeek","","A recipe uses 2 cups of flour for 8 servings. How much flour is needed for 20 servings at the same ratio?","2/8 = x/20, so x = 5 cups.","Math","Word Problems","Easy"
+"R0397","P133","GPT","","A recipe uses 2 cups of flour for 8 servings. How much flour is needed for 20 servings at the same ratio?","The ratio is 2 cups for 8 servings, or 2/8 = 1/4 cup per serving. For 20 servings: 20 × 1/4 = 5 cups.
+
+Answer: 5 cups.","Math","Word Problems","Easy"
+"R0440","P147","Claude","","A quantity increases by 20% and then decreases by 20%. What is its net percentage change relative to the original quantity?","After a 20% increase and a 20% decrease, the quantity is multiplied by 1.20 x 0.80 = 0.96. The net change is a 4% decrease.","Math","Quantitative Reasoning","Medium"
+"R0441","P147","DeepSeek","","A quantity increases by 20% and then decreases by 20%. What is its net percentage change relative to the original quantity?","1.20 × 0.80 = 0.96, so the net change is a 4% decrease.","Math","Quantitative Reasoning","Medium"
+"R0439","P147","GPT","","A quantity increases by 20% and then decreases by 20%. What is its net percentage change relative to the original quantity?","Start with 100. After a 20% increase: 100 × 1.20 = 120. Then decrease by 20%: 120 × 0.80 = 96.
+
+The final value is 4% below the original, so the net change is -4%.","Math","Quantitative Reasoning","Medium"
+"R0455","P152","Claude","","Write a Python function that returns True if an integer is even and False otherwise.","def is_even(n):
+    return n % 2 == 0
+
+An integer is even when the remainder after division by 2 is 0.","Coding","Basic Python","Easy"
+"R0456","P152","DeepSeek","","Write a Python function that returns True if an integer is even and False otherwise.","def is_even(n):\n    return n % 2 == 0","Coding","Basic Python","Easy"
+"R0454","P152","GPT","","Write a Python function that returns True if an integer is even and False otherwise.","```python
+def is_even(n):
+    return n % 2 == 0
+```
+The remainder after division by 2 is zero exactly when the integer is even.","Coding","Basic Python","Easy"
+"R0470","P157","Claude","","Write a Python function that counts word frequencies in a sentence, ignoring letter case and treating punctuation as word separators.","import re
+from collections import Counter
+
+def word_frequencies(sentence):
+    words = re.split(r""[^\w]+"", sentence.lower())
+    return dict(Counter(word for word in words if word))
+
+The sentence is converted to lowercase, split at any punctuation or whitespace, and the nonempty words are counted.","Coding","Basic Python","Medium"
+"R0471","P157","DeepSeek","","Write a Python function that counts word frequencies in a sentence, ignoring letter case and treating punctuation as word separators.","import re\ndef word_freq(s):\n    words = re.findall(r'[a-z0-9]+', s.lower())\n    freq = {}\n    for w in words:\n        freq[w] = freq.get(w, 0) + 1\n    return freq","Coding","Basic Python","Medium"
+"R0469","P157","GPT","","Write a Python function that counts word frequencies in a sentence, ignoring letter case and treating punctuation as word separators.","```python
+import re
+from collections import Counter
+
+def word_frequencies(sentence):
+    words = re.findall(r""[A-Za-z0-9]+(?:'[A-Za-z0-9]+)?"", sentence.lower())
+    return dict(Counter(words))
+```
+Punctuation acts as a separator, and converting to lowercase makes counting case-insensitive.","Coding","Basic Python","Medium"
+"R0473","P158","Claude","","Write a Python function that accepts a list of numeric strings and returns their mean. Skip invalid strings and raise ValueError if no valid numbers remain.","def mean_of_numeric_strings(strings):
+    total = 0.0
+    count = 0
+    for s in strings:
+        try:
+            value = float(s)
+        except (ValueError, TypeError):
+            continue
+        total += value
+        count += 1
+    if count == 0:
+        raise ValueError(""No valid numbers found."")
+    return total / count
+
+Invalid strings are skipped, and ValueError is raised if no valid numbers remain.","Coding","Basic Python","Medium"
+"R0474","P158","DeepSeek","","Write a Python function that accepts a list of numeric strings and returns their mean. Skip invalid strings and raise ValueError if no valid numbers remain.","def mean_numeric(strings):\n    nums = []\n    for s in strings:\n        try:\n            nums.append(float(s))\n        except ValueError:\n            pass\n    if not nums:\n        raise ValueError('No valid numbers')\n    return sum(nums) / len(nums)","Coding","Basic Python","Medium"
+"R0472","P158","GPT","","Write a Python function that accepts a list of numeric strings and returns their mean. Skip invalid strings and raise ValueError if no valid numbers remain.","```python
+def mean_numeric_strings(values):
+    numbers = []
+    for value in values:
+        try:
+            numbers.append(float(value))
+        except (ValueError, TypeError):
+            continue
+    if not numbers:
+        raise ValueError(""No valid numeric strings"")
+    return sum(numbers) / len(numbers)
+```","Coding","Basic Python","Medium"
+"R0476","P159","Claude","","Write a Python function that flattens arbitrarily nested lists into one list while preserving order. Treat values that are not lists as individual elements.","def flatten(nested):
+    result = []
+    for item in nested:
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
+
+Lists are flattened recursively, while non-list values are added as individual elements, preserving order. For example, flatten([1, [2, [3, 4]], 5]) returns [1, 2, 3, 4, 5].","Coding","Basic Python","Hard"
+"R0477","P159","DeepSeek","","Write a Python function that flattens arbitrarily nested lists into one list while preserving order. Treat values that are not lists as individual elements.","def flatten(lst):\n    out = []\n    for x in lst:\n        if isinstance(x, list):\n            out.extend(flatten(x))\n        else:\n            out.append(x)\n    return out","Coding","Basic Python","Hard"
+"R0475","P159","GPT","","Write a Python function that flattens arbitrarily nested lists into one list while preserving order. Treat values that are not lists as individual elements.","```python
+def flatten(value):
+    result = []
+
+    def visit(item):
+        if isinstance(item, list):
+            for child in item:
+                visit(child)
+        else:
+            result.append(item)
+
+    visit(value)
+    return result
+```
+This recursively visits nested lists and appends non-list values in their original left-to-right order.","Coding","Basic Python","Hard"
+"R0494","P165","Claude","","Write a Python function that groups a list of words by their first letter. Ignore empty strings and treat uppercase and lowercase first letters as equivalent.","def group_by_first_letter(words):
+    groups = {}
+    for word in words:
+        if not word:
+            continue
+        key = word[0].lower()
+        groups.setdefault(key, []).append(word)
+    return groups
+
+Empty strings are skipped, and the lowercase first letter is used as the key so uppercase and lowercase are grouped together.","Coding","Data Structures","Medium"
+"R0495","P165","DeepSeek","","Write a Python function that groups a list of words by their first letter. Ignore empty strings and treat uppercase and lowercase first letters as equivalent.","def group_by_first(words):\n    groups = {}\n    for w in words:\n        if not w:\n            continue\n        key = w[0].lower()\n        groups.setdefault(key, []).append(w)\n    return groups","Coding","Data Structures","Medium"
+"R0493","P165","GPT","","Write a Python function that groups a list of words by their first letter. Ignore empty strings and treat uppercase and lowercase first letters as equivalent.","```python
+from collections import defaultdict
+
+def group_by_first_letter(words):
+    groups = defaultdict(list)
+    for word in words:
+        if word:
+            groups[word[0].lower()].append(word)
+    return dict(groups)
+```
+Empty strings are skipped, and lowercase keys make uppercase and lowercase first letters equivalent.","Coding","Data Structures","Medium"
+"R0497","P166","Claude","","Implement a queue using collections.deque and demonstrate enqueue and dequeue operations.","from collections import deque
+
+queue = deque()
+queue.append(""A"")
+queue.append(""B"")
+queue.append(""C"")
+first = queue.popleft()
+print(first)        # A
+print(list(queue))  # ['B', 'C']
+
+append() enqueues items at the back, and popleft() dequeues from the front in first-in, first-out order.","Coding","Data Structures","Medium"
+"R0498","P166","DeepSeek","","Implement a queue using collections.deque and demonstrate enqueue and dequeue operations.","from collections import deque\nq = deque()\nq.append(1)   # enqueue\nq.append(2)\nfirst = q.popleft()  # dequeue\nprint(first)  # 1","Coding","Data Structures","Medium"
+"R0496","P166","GPT","","Implement a queue using collections.deque and demonstrate enqueue and dequeue operations.","```python
+from collections import deque
+
+queue = deque()
+queue.append(""first"")   # enqueue
+queue.append(""second"")  # enqueue
+queue.append(""third"")   # enqueue
+
+item = queue.popleft()   # dequeue
+print(item)              # first
+print(queue)             # deque(['second', 'third'])
+```","Coding","Data Structures","Medium"
+"R0503","P168","Claude","","Given a list of dictionaries with keys 'name' and 'score', write Python code to sort by descending score and then ascending name.","sorted_data = sorted(data, key=lambda d: (-d[""score""], d[""name""]))
+
+The key sorts by negative score for descending order, and then by name in ascending order when scores are tied.","Coding","Data Structures","Medium"
+"R0504","P168","DeepSeek","","Given a list of dictionaries with keys 'name' and 'score', write Python code to sort by descending score and then ascending name.","sorted_list = sorted(data, key=lambda x: (-x['score'], x['name']))","Coding","Data Structures","Medium"
+"R0502","P168","GPT","","Given a list of dictionaries with keys 'name' and 'score', write Python code to sort by descending score and then ascending name.","```python
+records = [
+    {""name"": ""Bob"", ""score"": 90},
+    {""name"": ""Alice"", ""score"": 90},
+    {""name"": ""Cara"", ""score"": 82},
+]
+
+records_sorted = sorted(records, key=lambda d: (-d[""score""], d[""name""]))
+```
+Negating the score produces descending score order, while the name remains in ascending order for ties.","Coding","Data Structures","Medium"
+"R0572","P191","Claude","","Write pandas code that loads data.csv and prints the first five rows.","import pandas as pd
+
+df = pd.read_csv(""data.csv"")
+print(df.head())","Coding","Data Science Python","Easy"
+"R0573","P191","DeepSeek","","Write pandas code that loads data.csv and prints the first five rows.","import pandas as pd\ndf = pd.read_csv('data.csv')\nprint(df.head())","Coding","Data Science Python","Easy"
+"R0571","P191","GPT","","Write pandas code that loads data.csv and prints the first five rows.","```python
+import pandas as pd
+
+df = pd.read_csv(""data.csv"")
+print(df.head())
+```","Coding","Data Science Python","Easy"
+"R0620","P207","Claude","","Write a story of about 180 words in which a character solves a problem through cooperation rather than competition.","Every spring, the town's two bakeries competed to supply bread for the harvest festival, and every spring the rivalry grew sharper. This year, a flood damaged both kitchens a week before the event. Rosa's oven was ruined, and Tom's storeroom was full of soaked flour. Each quietly assumed the festival would go without bread for the first time in fifty years. On Monday, Tom showed up at Rosa's door, hat in hand. ""My oven works,"" he said. ""Your flour is dry. Neither of us can do it alone."" Rosa hesitated. Accepting felt like losing. For years she had told herself that her bread was better and that Tom's customers were only loyal out of habit. But she thought of the children who waited all year for the braided honey loaves. For five nights they worked side by side, arguing about salt and laughing at each other's kneading. They combined Rosa's honey recipe with Tom's crusty rye. On festival morning, the tables were full, and the new bread sold out first. Neither of them mentioned the rivalry. They sign their bread together now.","Writing","Creative Writing","Medium"
+"R0621","P207","DeepSeek","","Write a story of about 180 words in which a character solves a problem through cooperation rather than competition.","The village well had run dry. Each farmer had a small pump, but they competed for the last muddy puddles. Mara watched them argue and knew no one would win. She called a meeting. 'If we all pump at once, the well collapses. If we share, we can dig deeper together.' At first, they laughed. But Mara brought her tools and started digging alone. One by one, they joined. They took turns, passed buckets, and reinforced the walls. By evening, water seeped in, clear and cold. The farmers cheered. Mara smiled. 'We were never short of water,' she said. 'We were short of each other.' That night, they shared a meal beside the well, and no one pumped alone again.","Writing","Creative Writing","Medium"
+"R0619","P207","GPT","","Write a story of about 180 words in which a character solves a problem through cooperation rather than competition.","The school's bridge-building contest seemed designed to make rivals of everyone. Each team received the same pile of sticks, string, and glue, and the bridge holding the most weight would win.
+
+Halfway through, Maya's team discovered their design twisted badly under load. Across the room, Theo's team had a stronger frame but could not stop the center joint from splitting. Both groups guarded their ideas at first. Then a teacher announced that the final test would happen in one hour.
+
+Maya looked at Theo's cracked joint. “We solved that problem.”
+
+Theo glanced at her warped frame. “And we solved yours.”
+
+They hesitated, then pushed their tables together.
+
+Maya demonstrated a triangular brace. Theo showed how crossing the sticks reduced twisting. Together they built two improved bridges and tested them repeatedly, sharing glue and measurements.
+
+At judging time, the bridges tied for first.
+
+The teacher smiled. “We only have one trophy.”
+
+Theo shrugged. “Keep it.”
+
+Maya nodded. “Can we have the test weights instead? We want to build a longer one.”","Writing","Creative Writing","Medium"
+"R0638","P213","Claude","","Write a brief thank-you email to a classmate who helped you understand a difficult assignment.","Subject: Thank You for Your Help
+
+Hi [Classmate's Name],
+
+Thank you so much for helping me understand the assignment. Your explanation made the difficult parts much clearer, and I feel far more confident now. I really appreciate you taking the time to help. Please let me know if I can ever return the favor.
+
+Best,
+[Your Name]","Writing","Professional Writing","Easy"
+"R0639","P213","DeepSeek","","Write a brief thank-you email to a classmate who helped you understand a difficult assignment.","Subject: Thank You\n\nHi [Name],\n\nThank you for helping me understand the assignment. Your explanation made a big difference, and I feel much more confident now. I really appreciate your time.\n\nBest,\n[Your Name]","Writing","Professional Writing","Easy"
+"R0637","P213","GPT","","Write a brief thank-you email to a classmate who helped you understand a difficult assignment.","Subject: Thank You
+
+Hi [Classmate's Name],
+
+Thank you for taking the time to help me understand the assignment. Your explanation made the difficult parts much clearer, and I really appreciate your help.
+
+Best,
+[Your Name]","Writing","Professional Writing","Easy"
+"R0647","P216","Claude","","Write a project status update explaining that data collection is complete, analysis is underway, and one visualization is delayed by missing information.","Subject: Project Status Update
+
+Hi team,
+
+Here is a quick update on our project's progress:
+
+- Data collection: Complete. All planned data has been collected and stored in the shared folder.
+- Analysis: Underway. We are currently cleaning the data and running the main analyses, and we expect initial results by [date].
+- Visualizations: Most are on track. However, one visualization is delayed because some required information is still missing. We have contacted [source/person] and will finish the chart as soon as we receive the data.
+
+Overall, the project remains on schedule, and we do not expect the delayed visualization to affect the final deadline. Please let me know if you have any questions.
+
+Best regards,
+[Your Name]","Writing","Professional Writing","Medium"
+"R0648","P216","DeepSeek","","Write a project status update explaining that data collection is complete, analysis is underway, and one visualization is delayed by missing information.","Project Status Update\n\nData collection is complete. Analysis is currently underway, and initial results are being reviewed. One visualization is delayed because some required information has not yet been received. We are following up with the source and will provide an updated timeline once the missing data arrives. All other tasks remain on schedule.","Writing","Professional Writing","Medium"
+"R0646","P216","GPT","","Write a project status update explaining that data collection is complete, analysis is underway, and one visualization is delayed by missing information.","Project Status Update
+
+Data collection is now complete, and the team has moved into the analysis phase. We are currently cleaning the final records, running the planned analyses, and reviewing the initial results. Most project components remain on schedule. One visualization is delayed because a required piece of information has not yet been received. We can prepare the chart structure now, but we cannot finalize the values until that information is available. In the meantime, the team is continuing work on the other analyses and visualizations so the delay does not block the rest of the project.","Writing","Professional Writing","Medium"
+"R0665","P222","Claude","","Write a paragraph encouraging students to use reusable water bottles.","Students should use reusable water bottles because they are better for the environment, their wallets, and their health. Single-use plastic bottles create large amounts of waste, and many are never recycled, ending up in landfills or oceans. A reusable bottle can replace hundreds of disposable bottles each year. It also saves money, since refilling from a fountain is much cheaper than buying bottled drinks. Finally, carrying a bottle makes it easier to stay hydrated during long days of classes and studying. By making this simple change, students can reduce waste and build a healthy habit at the same time.","Writing","Persuasive Writing","Easy"
+"R0666","P222","DeepSeek","","Write a paragraph encouraging students to use reusable water bottles.","Students should use reusable water bottles to reduce plastic waste. Single-use bottles often end up in landfills or oceans, harming wildlife. A reusable bottle saves money over time and is easy to carry. Small daily choices add up, and using a reusable bottle is a simple way to protect the environment.","Writing","Persuasive Writing","Easy"
+"R0664","P222","GPT","","Write a paragraph encouraging students to use reusable water bottles.","Students should use reusable water bottles because one bottle can replace many disposable containers over time. Carrying a refillable bottle can reduce waste, make it easier to drink water throughout the day, and often cost less than repeatedly buying bottled drinks. Most campuses provide fountains or refill stations, so the habit is simple once a bottle becomes part of a daily routine. Reusable bottles still need regular cleaning, but with basic care they can be used for months or years. Choosing one is a small individual action, yet when many students do the same, the reduction in disposable packaging can become substantial.","Writing","Persuasive Writing","Easy"
+"R0704","P235","Claude","","Describe an abandoned train station in about 150 words using sound, texture, and light.","The abandoned train station breathes in long, hollow echoes. Wind moans through broken windows high in the vaulted ceiling, and somewhere a loose sheet of metal clanks in slow, uneven rhythm.
+
+Light enters in dusty shafts, pale gold columns that land on the cracked marble floor and reveal drifting motes like slow snow. Where the light does not reach, the corners sink into blue shadow. The departure board hangs frozen, its flaps faded and peeling, announcing trains that left decades ago.
+
+Everything is rough to the touch. The wooden benches are splintered and gritty with grime, their iron armrests flaking rust onto the fingertips. Moss softens the edges of the platform, damp and spongy underfoot, while weeds push stubbornly between the rails. The ticket counter's brass bars, once polished by thousands of hands, are dull and cold. Yet the station still feels as though it is waiting for one final whistle.","Writing","Descriptive Writing","Medium"
+"R0705","P235","DeepSeek","","Describe an abandoned train station in about 150 words using sound, texture, and light.","The station is a skeleton of rust and glass. Sunlight falls through broken skylights, casting dusty columns on the platform. Weeds push through cracked tiles, their dry stems rattling in the wind. A torn timetable flaps against a wall, its paper soft and yellowed. Somewhere, water drips into a metal bucket, a slow, steady note. The benches are splintered, their paint flaking like old skin. A train whistle echoes in memory, but no train comes. The air tastes of iron and dust. At dusk, shadows stretch long and thin, and the station seems to breathe, waiting for passengers who will never arrive.","Writing","Descriptive Writing","Medium"
+"R0703","P235","GPT","","Describe an abandoned train station in about 150 words using sound, texture, and light.","The station roof sagged over the platform, its iron ribs black with rust. Wind pushed through broken panes and made a loose timetable flap against the wall: tap, pause, tap. Underfoot, grit scraped across cracked tiles, and weeds had forced pale stems through the joints. The ticket window was opaque with dust except for one streak where rain had run down the glass. Beyond the tracks, evening light slipped through a gap in the clouds and caught the rails, turning them briefly to copper. A bent sign creaked above the empty waiting room. Inside, a wooden bench felt rough and splintered beneath the hand, its varnish long peeled away. Somewhere down the line, metal struck metal with a distant hollow ring, though no train appeared. As the light faded, the station seemed to hold every departure at once and none of the arrivals.","Writing","Descriptive Writing","Medium"
+"R0737","P246","Claude","","Rewrite this message as a constructive comment to a teammate: 'Your slides are confusing and there is way too much text.'","Thanks for putting the slides together. I think they could be even stronger if we made them a bit easier to follow. Could we reduce the amount of text on each slide, maybe keeping just the key points and moving details into the speaker notes? I'm happy to help revise them if that would be useful.","Writing","Tone Rewriting","Medium"
+"R0738","P246","DeepSeek","","Rewrite this message as a constructive comment to a teammate: 'Your slides are confusing and there is way too much text.'","Your slides have a lot of good information, but they could be clearer with less text and more visual structure. I'd be happy to help brainstorm ways to simplify them.","Writing","Tone Rewriting","Medium"
+"R0736","P246","GPT","","Rewrite this message as a constructive comment to a teammate: 'Your slides are confusing and there is way too much text.'","The slides contain the necessary information, but some sections are difficult to follow because there is a lot of text on each slide. Could we simplify the wording, highlight the main points, and move supporting detail into notes or fewer key visuals?","Writing","Tone Rewriting","Medium"
+"R0740","P247","Claude","","Rewrite this message as a calm customer-service response: 'We already told you the order would be late. Stop asking.'","Thank you for reaching out, and I understand your concern about the delay. As we mentioned earlier, your order is running late. We are keeping track of its progress and will notify you as soon as there is any update. We appreciate your patience.","Writing","Tone Rewriting","Medium"
+"R0741","P247","DeepSeek","","Rewrite this message as a calm customer-service response: 'We already told you the order would be late. Stop asking.'","I understand your concern about the order. As we mentioned, it is delayed. We will notify you as soon as there is an update. Thank you for your patience.","Writing","Tone Rewriting","Medium"
+"R0739","P247","GPT","","Rewrite this message as a calm customer-service response: 'We already told you the order would be late. Stop asking.'","I understand why you’re checking on the order, and I’m sorry the delay is frustrating. The order is still expected later than originally planned. I can review the latest delivery status with you or discuss any available alternatives if the revised timing no longer works.","Writing","Tone Rewriting","Medium"
+"R0764","P255","Claude","","Summarize this passage in two sentences while preserving the main limitation: 'A university tested a bicycle-sharing program at two residence halls for four weeks. Students completed 420 trips, and most trips lasted less than fifteen minutes. Participants reported that the bicycles made short journeys easier. However, the trial involved only volunteers and took place during dry weather, so the results may not represent demand across the entire campus.'","During a four-week trial at two residence halls, students made 420 bicycle-sharing trips, mostly under fifteen minutes, and reported that the bikes made short journeys easier. However, because the trial used only volunteers and took place in dry weather, the results may not reflect demand across the whole campus.","Summarization","Summarize","Medium"
+"R0765","P255","DeepSeek","","Summarize this passage in two sentences while preserving the main limitation: 'A university tested a bicycle-sharing program at two residence halls for four weeks. Students completed 420 trips, and most trips lasted less than fifteen minutes. Participants reported that the bicycles made short journeys easier. However, the trial involved only volunteers and took place during dry weather, so the results may not represent demand across the entire campus.'","A four-week bicycle-sharing trial at two residence halls produced 420 mostly short trips, and participants found the bikes helpful for short journeys. However, because the trial used only volunteers during dry weather, the results may not reflect campus-wide demand.","Summarization","Summarize","Medium"
+"R0763","P255","GPT","","Summarize this passage in two sentences while preserving the main limitation: 'A university tested a bicycle-sharing program at two residence halls for four weeks. Students completed 420 trips, and most trips lasted less than fifteen minutes. Participants reported that the bicycles made short journeys easier. However, the trial involved only volunteers and took place during dry weather, so the results may not represent demand across the entire campus.'","A four-week bicycle-sharing trial at two residence halls recorded 420 trips, most under fifteen minutes, and volunteers said the bicycles made short journeys easier. Because only volunteers participated and the trial occurred during dry weather, the results may not represent campus-wide demand.","Summarization","Summarize","Medium"
+"R0773","P258","Claude","","Summarize this passage in about 45 words: 'An online course offered recorded lectures alongside weekly live discussions. Students appreciated being able to review difficult sections of the recordings. Some students nevertheless postponed watching until shortly before assignments were due. The instructor introduced short preparation quizzes before each discussion to encourage a more regular study schedule.'","Students valued the online course's recorded lectures because they could review difficult sections, but some postponed watching them until just before assignments were due. To encourage a more regular study schedule, the instructor introduced short preparation quizzes before each weekly live discussion.","Summarization","Summarize","Medium"
+"R0774","P258","DeepSeek","","Summarize this passage in about 45 words: 'An online course offered recorded lectures alongside weekly live discussions. Students appreciated being able to review difficult sections of the recordings. Some students nevertheless postponed watching until shortly before assignments were due. The instructor introduced short preparation quizzes before each discussion to encourage a more regular study schedule.'","An online course offered recorded lectures and live discussions. Students liked reviewing recordings but often delayed watching them. The instructor added pre-discussion quizzes to encourage more regular study.","Summarization","Summarize","Medium"
+"R0772","P258","GPT","","Summarize this passage in about 45 words: 'An online course offered recorded lectures alongside weekly live discussions. Students appreciated being able to review difficult sections of the recordings. Some students nevertheless postponed watching until shortly before assignments were due. The instructor introduced short preparation quizzes before each discussion to encourage a more regular study schedule.'","An online course combined recorded lectures with weekly live discussions, and students valued being able to replay difficult material. Because some postponed the recordings until assignments were due, the instructor added short preparation quizzes before discussions to encourage steadier study habits.","Summarization","Summarize","Medium"
+"R0794","P265","Claude","","Explain this passage to someone with no statistics background: 'The sample mean varies from one sample to another. A confidence interval uses this sampling variability to describe the uncertainty associated with estimating the population mean.'","When we take a small group from a larger population and calculate its average, the result changes a little depending on which people happen to be chosen. Because of this, one sample's average is only an estimate of the true average for the whole population. A confidence interval gives a range of values that is likely to contain the true average, showing how uncertain our estimate is.","Summarization","Simplification","Medium"
+"R0795","P265","DeepSeek","","Explain this passage to someone with no statistics background: 'The sample mean varies from one sample to another. A confidence interval uses this sampling variability to describe the uncertainty associated with estimating the population mean.'","When you take different samples, the average you get will change a bit. A confidence interval uses that natural variation to show how uncertain our estimate of the true overall average is.","Summarization","Simplification","Medium"
+"R0793","P265","GPT","","Explain this passage to someone with no statistics background: 'The sample mean varies from one sample to another. A confidence interval uses this sampling variability to describe the uncertainty associated with estimating the population mean.'","Imagine repeatedly choosing different groups of people from the same large population and calculating the average height of each group. The averages will not be exactly the same because each sample contains different people. A confidence interval uses that natural sample-to-sample variation to give a range of plausible values for the population average. It does not say the estimate is perfectly certain; it describes how much uncertainty comes from estimating the population using a sample.","Summarization","Simplification","Medium"
+"R0797","P266","Claude","","Rewrite this passage for a first-year student while preserving its meaning: 'A model may fit its training observations closely yet perform poorly on unseen observations. This can occur when it learns accidental patterns rather than relationships that generalize.'","A model can match the data it was trained on very well but still make poor predictions on new data. This happens when it learns random quirks or coincidences in the training data instead of real patterns that apply more generally.","Summarization","Simplification","Medium"
+"R0798","P266","DeepSeek","","Rewrite this passage for a first-year student while preserving its meaning: 'A model may fit its training observations closely yet perform poorly on unseen observations. This can occur when it learns accidental patterns rather than relationships that generalize.'","A model can do well on the data it was trained on but fail on new data. This happens when it learns random quirks instead of real patterns that apply more broadly.","Summarization","Simplification","Medium"
+"R0796","P266","GPT","","Rewrite this passage for a first-year student while preserving its meaning: 'A model may fit its training observations closely yet perform poorly on unseen observations. This can occur when it learns accidental patterns rather than relationships that generalize.'","A model can perform very well on the data it was trained on but still do poorly on new data. This happens when the model learns random quirks or details that happen to appear in the training set instead of learning patterns that also hold for unseen examples.","Summarization","Simplification","Medium"
+"R0815","P272","Claude","","Extract the three required materials from this passage: 'Participants in the drawing session should bring a pencil, an eraser, and a sketchbook. The instructor will provide sample images.'","The three required materials are a pencil, an eraser, and a sketchbook.","Summarization","Information Extraction","Easy"
+"R0816","P272","DeepSeek","","Extract the three required materials from this passage: 'Participants in the drawing session should bring a pencil, an eraser, and a sketchbook. The instructor will provide sample images.'","Required materials: pencil, eraser, sketchbook.","Summarization","Information Extraction","Easy"
+"R0814","P272","GPT","","Extract the three required materials from this passage: 'Participants in the drawing session should bring a pencil, an eraser, and a sketchbook. The instructor will provide sample images.'","Required materials:
+- Pencil
+- Eraser
+- Sketchbook","Summarization","Information Extraction","Easy"
+"R0836","P279","Claude","","Extract each action item with its owner, deadline, and dependency. Mark missing information as unspecified: 'Leah will check the survey questions by Tuesday. Once Leah finishes, Omar will upload the revised survey. Priya will recruit participants by Friday, but recruitment must wait until the survey is available. Someone also needs to prepare a consent statement.'","1. Check the survey questions. Owner: Leah. Deadline: Tuesday. Dependency: none.
+2. Upload the revised survey. Owner: Omar. Deadline: unspecified. Dependency: Leah finishing the survey check.
+3. Recruit participants. Owner: Priya. Deadline: Friday. Dependency: the revised survey must be available (uploaded by Omar).
+4. Prepare a consent statement. Owner: unspecified. Deadline: unspecified. Dependency: unspecified.","Summarization","Information Extraction","Hard"
+"R0837","P279","DeepSeek","","Extract each action item with its owner, deadline, and dependency. Mark missing information as unspecified: 'Leah will check the survey questions by Tuesday. Once Leah finishes, Omar will upload the revised survey. Priya will recruit participants by Friday, but recruitment must wait until the survey is available. Someone also needs to prepare a consent statement.'","Leah: check survey questions, by Tuesday, no dependency. Omar: upload revised survey, deadline unspecified, depends on Leah finishing. Priya: recruit participants, by Friday, depends on survey being available. Prepare consent statement: owner unspecified, deadline unspecified, no dependency.","Summarization","Information Extraction","Hard"
+"R0835","P279","GPT","","Extract each action item with its owner, deadline, and dependency. Mark missing information as unspecified: 'Leah will check the survey questions by Tuesday. Once Leah finishes, Omar will upload the revised survey. Priya will recruit participants by Friday, but recruitment must wait until the survey is available. Someone also needs to prepare a consent statement.'","- Action: Check the survey questions | Owner: Leah | Deadline: Tuesday | Dependency: None stated.
+- Action: Upload the revised survey | Owner: Omar | Deadline: Unspecified | Dependency: Leah must finish checking the survey questions first.
+- Action: Recruit participants | Owner: Priya | Deadline: Friday | Dependency: The survey must be available first.
+- Action: Prepare a consent statement | Owner: Unspecified | Deadline: Unspecified | Dependency: Unspecified.","Summarization","Information Extraction","Hard"
+"R0851","P284","Claude","","Rewrite this passage more concisely: 'Due to the fact that the room is small in size, the number of participants who can attend is limited to twelve people.'","Because the room is small, attendance is limited to twelve people.","Summarization","Concise Rewriting","Easy"
+"R0852","P284","DeepSeek","","Rewrite this passage more concisely: 'Due to the fact that the room is small in size, the number of participants who can attend is limited to twelve people.'","Because the room is small, attendance is limited to twelve.","Summarization","Concise Rewriting","Easy"
+"R0850","P284","GPT","","Rewrite this passage more concisely: 'Due to the fact that the room is small in size, the number of participants who can attend is limited to twelve people.'","Because the room is small, attendance is limited to twelve people.","Summarization","Concise Rewriting","Easy"
+"R0899","P300","Claude","","Convert this passage into a table with columns Claim, Evidence, and Limitation. Do not invent information: 'The team believes its new interface is easier to use because eight of ten test participants completed the main task without assistance. It also believes the interface is faster because the median completion time was lower than in an earlier trial. However, the two trials involved different participants. The team has not yet tested the interface with screen-reader users.'","| Claim | Evidence | Limitation |
+|---|---|---|
+| The new interface is easier to use | Eight of ten test participants completed the main task without assistance | The interface has not yet been tested with screen-reader users |
+| The new interface is faster | The median completion time was lower than in an earlier trial | The two trials involved different participants |","Summarization","Format Transformation","Hard"
+"R0900","P300","DeepSeek","","Convert this passage into a table with columns Claim, Evidence, and Limitation. Do not invent information: 'The team believes its new interface is easier to use because eight of ten test participants completed the main task without assistance. It also believes the interface is faster because the median completion time was lower than in an earlier trial. However, the two trials involved different participants. The team has not yet tested the interface with screen-reader users.'","Claim,Evidence,Limitation\nNew interface is easier to use,Eight of ten test participants completed the main task without assistance,Not tested with screen-reader users\nNew interface is faster,Median completion time was lower than in an earlier trial,The two trials involved different participants","Summarization","Format Transformation","Hard"
+"R0898","P300","GPT","","Convert this passage into a table with columns Claim, Evidence, and Limitation. Do not invent information: 'The team believes its new interface is easier to use because eight of ten test participants completed the main task without assistance. It also believes the interface is faster because the median completion time was lower than in an earlier trial. However, the two trials involved different participants. The team has not yet tested the interface with screen-reader users.'","| Claim | Evidence | Limitation |
+|---|---|---|
+| The new interface is easier to use. | 8 of 10 test participants completed the main task without assistance. | The passage gives only this small test result and does not establish broader usability. The interface has not yet been tested with screen-reader users. |
+| The new interface is faster. | Median completion time was lower than in an earlier trial. | The two trials involved different participants, so the time difference may not be attributable to the interface alone. |","Summarization","Format Transformation","Hard"

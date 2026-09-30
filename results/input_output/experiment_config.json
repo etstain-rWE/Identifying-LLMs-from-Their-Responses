@@ -1,0 +1,27 @@
+{
+  "input_mode": "input_output",
+  "seed": 42,
+  "batch_size": 32,
+  "maximum_epochs": 30,
+  "patience": 5,
+  "learning_rate": 0.001,
+  "checkpoint_selection": "minimum validation loss",
+  "preprocessing": {
+    "input_mode": "input_output",
+    "vocab_size": 5390,
+    "max_length": 214,
+    "input_limit": 53,
+    "output_limit": 160,
+    "label_mapping": {
+      "Claude": 0,
+      "DeepSeek": 1,
+      "GPT": 2
+    },
+    "padding_id": 0,
+    "unknown_id": 1,
+    "separator_id": 2,
+    "token_pattern": "\\n|[A-Za-z0-9_]+|[^\\s]",
+    "length_selection": "training 95th percentile with caps"
+  },
+  "torch_version": "2.14.1+cpu"
+}

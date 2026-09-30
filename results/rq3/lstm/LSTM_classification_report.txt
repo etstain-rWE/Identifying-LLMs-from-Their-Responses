@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+      Claude       0.50      0.57      0.53        23
+    DeepSeek       0.57      0.57      0.57        23
+         GPT       0.70      0.61      0.65        23
+
+    accuracy                           0.58        69
+   macro avg       0.59      0.58      0.58        69
+weighted avg       0.59      0.58      0.58        69

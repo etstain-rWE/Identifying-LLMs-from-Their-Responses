@@ -1,0 +1,301 @@
+prompt_id,category,task_type,difficulty,prompt_text
+P001,Factual,Science,Easy,"What is photosynthesis, and what do plants need for it?"
+P002,Factual,Science,Easy,What are the three common states of matter? Give one example of each.
+P003,Factual,Science,Easy,What is the main function of red blood cells?
+P004,Factual,Science,Easy,What causes day and night on Earth?
+P005,Factual,Science,Medium,Why does ice float on liquid water?
+P006,Factual,Science,Medium,"What causes ocean tides, and how do the Moon and Sun contribute?"
+P007,Factual,Science,Medium,"How do arteries, veins, and capillaries differ in structure and function?"
+P008,Factual,Science,Medium,What is the difference between a chemical change and a physical change? Give two examples of each.
+P009,Factual,Science,Hard,Why does increasing atmospheric carbon dioxide affect Earth's energy balance? Describe the roles of incoming sunlight and outgoing infrared radiation.
+P010,Factual,Science,Hard,"How can scientists estimate the age of an ancient organic object using carbon-14, and what are two limitations of this method?"
+P011,Factual,Technology,Easy,What is the main purpose of an operating system?
+P012,Factual,Technology,Easy,What is the difference between RAM and permanent storage?
+P013,Factual,Technology,Easy,What does a web browser do?
+P014,Factual,Technology,Easy,What is a computer network?
+P015,Factual,Technology,Medium,"What is the purpose of DNS, and what happens when a browser looks up a domain name?"
+P016,Factual,Technology,Medium,How do TCP and UDP differ in their handling of data delivery?
+P017,Factual,Technology,Medium,What is the difference between lossless and lossy compression? Give a suitable use case for each.
+P018,Factual,Technology,Medium,"How does a relational database organize information using tables, primary keys, and foreign keys?"
+P019,Factual,Technology,Hard,"How do symmetric and asymmetric encryption differ, and why do secure communication systems often use both?"
+P020,Factual,Technology,Hard,What happens between typing an HTTPS website address into a browser and receiving the page? Describe the major networking stages.
+P021,Factual,History,Easy,What was the primary purpose of the ancient Egyptian pyramids?
+P022,Factual,History,Easy,What was the Silk Road?
+P023,Factual,History,Easy,Why was the printing press important for the spread of written information?
+P024,Factual,History,Easy,What was the Renaissance?
+P025,Factual,History,Medium,How did the development of agriculture change the way early human communities lived?
+P026,Factual,History,Medium,What were three major factors that contributed to the Industrial Revolution in Britain?
+P027,Factual,History,Medium,How did steam engines change transportation and manufacturing during the Industrial Revolution?
+P028,Factual,History,Medium,What is the difference between primary and secondary historical sources? Give an example of each.
+P029,Factual,History,Hard,"How did movable-type printing influence education, religion, and scientific communication in early modern Europe?"
+P030,Factual,History,Hard,"Why should historians compare multiple sources when studying the same event? Discuss perspective, missing evidence, and corroboration."
+P031,Factual,Geography,Easy,What is the difference between weather and climate?
+P032,Factual,Geography,Easy,"Which ocean is the largest, and where is it located?"
+P033,Factual,Geography,Easy,What is the difference between latitude and longitude?
+P034,Factual,Geography,Easy,What is a river delta?
+P035,Factual,Geography,Medium,Why do places near the equator generally receive more direct sunlight than places near the poles?
+P036,Factual,Geography,Medium,How can mountain ranges create rain shadows?
+P037,Factual,Geography,Medium,What causes earthquakes near tectonic plate boundaries?
+P038,Factual,Geography,Medium,How do ocean currents influence the climate of coastal regions?
+P039,Factual,Geography,Hard,"How do divergent, convergent, and transform plate boundaries differ? Describe the landforms or hazards associated with each."
+P040,Factual,Geography,Hard,"Why can two cities at similar latitudes have very different climates? Discuss elevation, distance from the ocean, and ocean currents."
+P041,Factual,Everyday Knowledge,Easy,Why is it useful to wash hands with soap rather than water alone?
+P042,Factual,Everyday Knowledge,Easy,What is the purpose of insulation in a house?
+P043,Factual,Everyday Knowledge,Easy,Why does a bicycle need brakes on its wheels?
+P044,Factual,Everyday Knowledge,Easy,What does the expiration date on a food package generally communicate?
+P045,Factual,Everyday Knowledge,Medium,Why does metal feel colder than wood when both are at the same room temperature?
+P046,Factual,Everyday Knowledge,Medium,How does a refrigerator transfer heat from its interior to the surrounding room?
+P047,Factual,Everyday Knowledge,Medium,Why do water droplets form on the outside of a cold drinking glass?
+P048,Factual,Everyday Knowledge,Medium,Why does bread usually become firmer as it goes stale?
+P049,Factual,Everyday Knowledge,Hard,"Why can a microwave oven heat food unevenly? Discuss electromagnetic waves, food properties, and the purpose of a rotating plate."
+P050,Factual,Everyday Knowledge,Hard,"How does a vacuum flask reduce heat transfer through conduction, convection, and radiation?"
+P051,Explanation,Computer Science,Easy,Explain what a variable is to someone who has never written a computer program.
+P052,Explanation,Computer Science,Easy,Explain the difference between a list and a dictionary using a simple everyday example.
+P053,Explanation,Computer Science,Easy,Explain what a programming loop does using an example of a repeated daily activity.
+P054,Explanation,Computer Science,Easy,Explain what a function is and why programmers use functions.
+P055,Explanation,Computer Science,Medium,Explain recursion to a beginner using a small example and identify the role of the base case.
+P056,Explanation,Computer Science,Medium,Explain how binary search works and why its input must be sorted.
+P057,Explanation,Computer Science,Medium,Explain the difference between a process and a thread using an example of a desktop application.
+P058,Explanation,Computer Science,Medium,Explain how a database index can speed up searches and why maintaining indexes has a cost.
+P059,Explanation,Computer Science,Hard,Explain a race condition using two threads updating the same counter. Describe how a lock can prevent the problem.
+P060,Explanation,Computer Science,Hard,Explain the difference between time complexity and actual running time. Use two algorithms to show why hardware and input size both matter.
+P061,Explanation,Data Science,Easy,Explain the difference between supervised and unsupervised learning for a first-year college student.
+P062,Explanation,Data Science,Easy,Explain what a training dataset and a test dataset are.
+P063,Explanation,Data Science,Easy,Explain the difference between classification and regression using one example of each.
+P064,Explanation,Data Science,Easy,Explain what a missing value is and why it can cause problems in data analysis.
+P065,Explanation,Data Science,Medium,Explain overfitting using a student memorizing practice questions as an analogy.
+P066,Explanation,Data Science,Medium,Explain why correlation does not necessarily imply causation using an original everyday example.
+P067,Explanation,Data Science,Medium,Explain precision and recall using a system that identifies unwanted email.
+P068,Explanation,Data Science,Medium,Explain why some machine learning models benefit from feature scaling.
+P069,Explanation,Data Science,Hard,Explain data leakage using an example in which preprocessing is performed before splitting the dataset. Describe a better workflow.
+P070,Explanation,Data Science,Hard,Explain the bias-variance tradeoff and how training error and validation error can help identify underfitting and overfitting.
+P071,Explanation,Science Concepts,Easy,Explain gravity to a ten-year-old using a familiar example.
+P072,Explanation,Science Concepts,Easy,Explain evaporation using a puddle that disappears after a sunny day.
+P073,Explanation,Science Concepts,Easy,Explain what an ecosystem is using a small pond as an example.
+P074,Explanation,Science Concepts,Easy,Explain the difference between mass and weight in simple language.
+P075,Explanation,Science Concepts,Medium,Explain why the sky usually appears blue during the day and can appear red near sunset.
+P076,Explanation,Science Concepts,Medium,Explain natural selection using a hypothetical population of insects with different colors.
+P077,Explanation,Science Concepts,Medium,"Explain how vaccines prepare the immune system to recognize a pathogen, using language suitable for a general audience."
+P078,Explanation,Science Concepts,Medium,Explain how sound travels through air and why sound cannot travel through a vacuum.
+P079,Explanation,Science Concepts,Hard,"Explain why scientific evidence can support a theory without proving it permanently. Discuss testing, uncertainty, and revision."
+P080,Explanation,Science Concepts,Hard,Explain the difference between an object's temperature and its thermal energy. Use two containers of water to illustrate the distinction.
+P081,Explanation,Economics and Daily Concepts,Easy,Explain opportunity cost using a student's choice between studying and working a paid shift.
+P082,Explanation,Economics and Daily Concepts,Easy,Explain what a household budget is and why it can be useful.
+P083,Explanation,Economics and Daily Concepts,Easy,Explain supply and demand using the sale of umbrellas on a rainy day.
+P084,Explanation,Economics and Daily Concepts,Easy,Explain the difference between a need and a want using everyday purchases.
+P085,Explanation,Economics and Daily Concepts,Medium,Explain inflation and how it can affect someone whose income stays the same.
+P086,Explanation,Economics and Daily Concepts,Medium,Explain compound interest using a small savings account as an example.
+P087,Explanation,Economics and Daily Concepts,Medium,Explain why dividing a group project into tasks can improve efficiency but also create coordination problems.
+P088,Explanation,Economics and Daily Concepts,Medium,Explain sunk cost using a movie ticket purchase and describe how it can influence a decision.
+P089,Explanation,Economics and Daily Concepts,Hard,Explain how incentives can produce unintended behavior using a hypothetical school reward system. Suggest a way to improve the system.
+P090,Explanation,Economics and Daily Concepts,Hard,Explain how an activity can create costs for people who are not directly involved. Use neighborhood noise as an example and discuss two possible responses.
+P091,Explanation,Analogy and Beginner Explanation,Easy,Explain an API using a restaurant analogy.
+P092,Explanation,Analogy and Beginner Explanation,Easy,Explain computer storage using a filing cabinet analogy.
+P093,Explanation,Analogy and Beginner Explanation,Easy,Explain a queue in computing using a line of people waiting at a store.
+P094,Explanation,Analogy and Beginner Explanation,Easy,Explain an algorithm using a cooking recipe analogy.
+P095,Explanation,Analogy and Beginner Explanation,Medium,"Explain encryption using a locked-box analogy, then identify one limitation of the analogy."
+P096,Explanation,Analogy and Beginner Explanation,Medium,Explain version control using a group of students editing a shared essay.
+P097,Explanation,Analogy and Beginner Explanation,Medium,Explain caching using a student keeping frequently used books on a desk.
+P098,Explanation,Analogy and Beginner Explanation,Medium,"Explain a neural network using an analogy suitable for a beginner, then clarify one way the analogy is incomplete."
+P099,Explanation,Analogy and Beginner Explanation,Hard,Explain the difference between authentication and authorization using a university building analogy. Include a case where a person has one but lacks the other.
+P100,Explanation,Analogy and Beginner Explanation,Hard,"Explain distributed computing using a team preparing a large event. Discuss task division, communication overhead, and what happens when one worker fails."
+P101,Math,Arithmetic and Algebra,Easy,Solve for x: 3x + 7 = 25. Show your calculation.
+P102,Math,Arithmetic and Algebra,Easy,"Calculate 18 + 6 multiplied by 4, using the standard order of operations."
+P103,Math,Arithmetic and Algebra,Easy,Simplify the fraction 42/56 and explain the common factor you used.
+P104,Math,Arithmetic and Algebra,Easy,A rectangle has length 12 cm and width 7 cm. Find its area and perimeter.
+P105,Math,Arithmetic and Algebra,Medium,Solve the system of equations 2x + y = 7 and x - y = 2.
+P106,Math,Arithmetic and Algebra,Medium,Solve x squared minus 5x plus 6 equals zero by factoring.
+P107,Math,Arithmetic and Algebra,Medium,Simplify (2a squared b)(3ab cubed) and state the exponent rule used.
+P108,Math,Arithmetic and Algebra,Medium,"An arithmetic sequence begins 7, 11, 15, 19. Find the twentieth term and the sum of the first twenty terms."
+P109,Math,Arithmetic and Algebra,Hard,Solve the inequality (x - 2)/(x + 1) > 0. State the excluded value and express the solution using intervals.
+P110,Math,Arithmetic and Algebra,Hard,"A quadratic function passes through (0, 3), (1, 6), and (2, 11). Find its equation and verify all three points."
+P111,Math,Probability,Easy,"A bag contains 4 red balls and 6 blue balls. If one ball is selected uniformly at random, what is the probability it is red?"
+P112,Math,Probability,Easy,A fair six-sided die is rolled once. What is the probability of obtaining a number greater than 4?
+P113,Math,Probability,Easy,Two fair coins are flipped independently. What is the probability that both show heads?
+P114,Math,Probability,Easy,A card is selected uniformly at random from a standard 52-card deck. What is the probability that it is a heart?
+P115,Math,Probability,Medium,A fair coin is flipped five times independently. What is the probability of getting exactly three heads?
+P116,Math,Probability,Medium,Two fair six-sided dice are rolled independently. What is the probability that their sum is 7?
+P117,Math,Probability,Medium,A bag contains 5 green balls and 3 yellow balls. Two balls are selected without replacement. What is the probability both are green?
+P118,Math,Probability,Medium,"A discrete random variable X takes values 0, 1, and 2 with probabilities 0.2, 0.5, and 0.3. Find its expected value and variance."
+P119,Math,Probability,Hard,"A factory uses Machine A for 60% of its products and Machine B for 40%. Their defect rates are 2% and 5%, respectively. Given that a randomly selected product is defective, what is the probability it came from Machine B?"
+P120,Math,Probability,Hard,"A fair six-sided die is rolled independently until the first 6 appears. What is the probability that the first 6 occurs on the fourth roll, and what is the expected number of rolls?"
+P121,Math,Logic,Easy,All squares are rectangles. A shape is a square. What can you conclude about the shape?
+P122,Math,Logic,Easy,"If a lamp turns on whenever its switch is up, and its switch is up, what follows under this rule?"
+P123,Math,Logic,Easy,"Find the next two numbers in the sequence 3, 6, 12, 24, assuming each term is twice the previous term."
+P124,Math,Logic,Easy,A drawer contains only black socks and white socks. How many socks must you select without looking to guarantee that at least two have the same color?
+P125,Math,Logic,Medium,"All roses are flowers, and some flowers fade quickly. Does it necessarily follow that some roses fade quickly? Justify your answer."
+P126,Math,Logic,Medium,"Consider the statement: If a number is divisible by 4, then it is even. Write its converse and determine whether the converse is true."
+P127,Math,Logic,Medium,Exactly one of three boxes contains a prize. Box A says 'The prize is in Box B.' Box B says 'The prize is not in Box B.' Box C says 'The prize is not in Box A.' Exactly one statement is true. Which box contains the prize?
+P128,Math,Logic,Medium,"A, B, and C each give one presentation. A must present before C, and B cannot present first. List all possible presentation orders."
+P129,Math,Logic,Hard,Prove that the square of any odd integer is odd.
+P130,Math,Logic,Hard,A set contains five integers. Prove that at least two of them have a difference divisible by 4.
+P131,Math,Word Problems,Easy,A store discounts a $75 item by 20%. What is its price before tax?
+P132,Math,Word Problems,Easy,A car travels 180 miles in 3 hours at a constant speed. What is its average speed?
+P133,Math,Word Problems,Easy,A recipe uses 2 cups of flour for 8 servings. How much flour is needed for 20 servings at the same ratio?
+P134,Math,Word Problems,Easy,A student buys three notebooks costing $4 each and one pen costing $2. What is the total cost before tax?
+P135,Math,Word Problems,Medium,"One pipe fills a tank in 6 hours and another fills it in 3 hours. If both operate together at constant rates, how long does it take to fill the empty tank?"
+P136,Math,Word Problems,Medium,A train leaves a station at 9:00 AM traveling at 60 miles per hour. Another train leaves the same station on the same route at 10:00 AM traveling at 90 miles per hour. At what time does the second train catch the first?
+P137,Math,Word Problems,Medium,An item costs $120 before a 15% discount. An 8% sales tax is then applied to the discounted price. What is the final price?
+P138,Math,Word Problems,Medium,A rectangular garden has a perimeter of 50 meters. Its length is 5 meters greater than its width. Find its dimensions.
+P139,Math,Word Problems,Hard,You have 10 liters of a 20% salt solution. How many liters of a 50% salt solution must be added to obtain a 30% solution? Assume volumes add directly.
+P140,Math,Word Problems,Hard,"A boat travels 24 kilometers downstream in 2 hours and the same distance upstream in 3 hours. Find the boat's speed in still water and the current's speed, assuming both are constant."
+P141,Math,Quantitative Reasoning,Easy,"Find the mean and median of 2, 4, 6, 8, and 10."
+P142,Math,Quantitative Reasoning,Easy,A population increases from 1000 to 1210. What is the percentage increase?
+P143,Math,Quantitative Reasoning,Easy,Convert 2.5 hours into minutes and seconds.
+P144,Math,Quantitative Reasoning,Easy,"A class has 18 students who prefer tea and 12 who prefer coffee, with each student choosing exactly one. What percentage prefers tea?"
+P145,Math,Quantitative Reasoning,Medium,"A course grade consists of homework worth 30%, a midterm worth 30%, and a final worth 40%. A student scores 80, 90, and 85, respectively. Calculate the weighted course grade."
+P146,Math,Quantitative Reasoning,Medium,A class contains 12 students. How many distinct pairs of students can be formed?
+P147,Math,Quantitative Reasoning,Medium,A quantity increases by 20% and then decreases by 20%. What is its net percentage change relative to the original quantity?
+P148,Math,Quantitative Reasoning,Medium,"City A has 20000 residents and uses 300000 liters of water daily. City B has 50000 residents and uses 600000 liters daily. Which city uses more water per resident, and by how much?"
+P149,Math,Quantitative Reasoning,Hard,"A classifier evaluates 200 items. There are 50 actual positives; it correctly identifies 40 of them and incorrectly labels 30 negatives as positive. Compute accuracy, precision, recall, and F1-score."
+P150,Math,Quantitative Reasoning,Hard,A company sells a product for $25 each. Its fixed cost is $1200 and its variable cost is $10 per item. Find the break-even quantity and the minimum whole-number quantity needed to earn at least $500 profit.
+P151,Coding,Basic Python,Easy,Write a Python function that returns the largest number in a nonempty list without using max.
+P152,Coding,Basic Python,Easy,Write a Python function that returns True if an integer is even and False otherwise.
+P153,Coding,Basic Python,Easy,"Write a Python function that counts vowels in a string, ignoring letter case."
+P154,Coding,Basic Python,Easy,"Write Python code that prints the odd integers from 5 through 15, inclusive."
+P155,Coding,Basic Python,Medium,"Write a Python function that determines whether a string is a palindrome, ignoring spaces, punctuation, and letter case."
+P156,Coding,Basic Python,Medium,Write a Python function that removes duplicate values from a list while preserving their first-occurrence order. Assume all values are hashable.
+P157,Coding,Basic Python,Medium,"Write a Python function that counts word frequencies in a sentence, ignoring letter case and treating punctuation as word separators."
+P158,Coding,Basic Python,Medium,Write a Python function that accepts a list of numeric strings and returns their mean. Skip invalid strings and raise ValueError if no valid numbers remain.
+P159,Coding,Basic Python,Hard,Write a Python function that flattens arbitrarily nested lists into one list while preserving order. Treat values that are not lists as individual elements.
+P160,Coding,Basic Python,Hard,Write a Python function that returns the second-largest distinct number in a list in one pass. Raise ValueError if fewer than two distinct numbers exist.
+P161,Coding,Data Structures,Easy,Show how to create a Python dictionary mapping three student names to scores and retrieve one student's score.
+P162,Coding,Data Structures,Easy,Write a Python function that returns the common distinct elements of two lists using sets.
+P163,Coding,Data Structures,Easy,Demonstrate how to use a Python list as a stack by pushing three values and popping one.
+P164,Coding,Data Structures,Easy,Write a Python function that maps each string in a list to its length using a dictionary comprehension.
+P165,Coding,Data Structures,Medium,Write a Python function that groups a list of words by their first letter. Ignore empty strings and treat uppercase and lowercase first letters as equivalent.
+P166,Coding,Data Structures,Medium,Implement a queue using collections.deque and demonstrate enqueue and dequeue operations.
+P167,Coding,Data Structures,Medium,Write a Python function that checks whether a string containing only parentheses has balanced parentheses.
+P168,Coding,Data Structures,Medium,"Given a list of dictionaries with keys 'name' and 'score', write Python code to sort by descending score and then ascending name."
+P169,Coding,Data Structures,Hard,Write a Python function that groups words that are anagrams of one another. Treat letter case as irrelevant and explain the grouping key.
+P170,Coding,Data Structures,Hard,Implement an LRU cache in Python using collections.OrderedDict. Include get and put methods and handle a positive fixed capacity.
+P171,Coding,Algorithms,Easy,Write a Python function that performs a linear search and returns the first matching index or -1.
+P172,Coding,Algorithms,Easy,Write an iterative Python function that computes the factorial of a nonnegative integer.
+P173,Coding,Algorithms,Easy,Write a Python function that returns the sum of the integers from 1 to n for a nonnegative integer n.
+P174,Coding,Algorithms,Easy,Write a Python function that reverses a string without using slicing.
+P175,Coding,Algorithms,Medium,Implement iterative binary search in Python for a sorted list of integers. Return a matching index or -1.
+P176,Coding,Algorithms,Medium,Write a Python function that merges two sorted lists into one sorted list without calling sorted.
+P177,Coding,Algorithms,Medium,Write a Python function that determines whether a nonnegative integer is prime. Explain how you limit the number of divisibility checks.
+P178,Coding,Algorithms,Medium,"Write a Python function that returns the first n Fibonacci numbers using iteration, with the sequence starting at 0 and 1."
+P179,Coding,Algorithms,Hard,Write a Python function that finds the length of the longest substring containing no repeated characters. Explain the sliding-window approach and its time complexity.
+P180,Coding,Algorithms,Hard,Implement breadth-first search in Python to find a shortest path between two vertices in an unweighted graph represented by an adjacency dictionary. Return None when no path exists.
+P181,Coding,Debugging,Easy,Identify and fix the syntax error in this Python code: for i in range(5) print(i). Rewrite it as valid multiline code.
+P182,Coding,Debugging,Easy,"Explain and fix this Python code: numbers = [1, 2, 3]; print(numbers[3]). The intended output is the final list element."
+P183,Coding,Debugging,Easy,Explain why this Python expression fails and correct it to calculate a number: '5' + 2.
+P184,Coding,Debugging,Easy,A Python function assigns result = x * 2 but has no return statement. Explain why calling it gives None and provide a corrected function.
+P185,Coding,Debugging,Medium,"Explain the problem with this Python function and fix it: def add_item(item, items=[]): items.append(item); return items. The list should be fresh unless a caller supplies one."
+P186,Coding,Debugging,Medium,A programmer loops over a list and removes each negative value from that same list during iteration. Explain why some values may be skipped and show a reliable correction.
+P187,Coding,Debugging,Medium,Explain why grid = [[0] * 3] * 3 causes multiple rows to change when grid[0][0] is updated. Show how to create independent rows.
+P188,Coding,Debugging,Medium,This Python loop calculates a total but gives the wrong result: total = 0; for value in values: total = value. Rewrite it as valid multiline code that sums all values.
+P189,Coding,Debugging,Hard,"A programmer creates functions using funcs = [lambda: i for i in range(3)] and then calls each function. Explain the results and modify the code so the functions return 0, 1, and 2 respectively."
+P190,Coding,Debugging,Hard,"A recursive factorial function uses only n == 1 as its base case. Explain what happens for n = 0 and negative inputs, then provide a corrected implementation with input validation."
+P191,Coding,Data Science Python,Easy,Write pandas code that loads data.csv and prints the first five rows.
+P192,Coding,Data Science Python,Easy,Write pandas code that removes rows containing any missing value from a DataFrame named df.
+P193,Coding,Data Science Python,Easy,Write pandas code that calculates the mean of a numeric column named 'age' in df.
+P194,Coding,Data Science Python,Easy,Write pandas code that prints the number of occurrences of each value in the 'category' column of df.
+P195,Coding,Data Science Python,Medium,Write pandas code that converts the 'date' column of df into datetime values and replaces invalid dates with missing values.
+P196,Coding,Data Science Python,Medium,Write scikit-learn code that splits feature matrix X and label vector y into an 80% training set and a 20% test set using stratification and random_state=42.
+P197,Coding,Data Science Python,Medium,Write pandas code that groups df by 'department' and calculates the mean and median of the 'salary' column for each department.
+P198,Coding,Data Science Python,Medium,Write Python code using scikit-learn to calculate accuracy and macro-averaged F1-score from y_true and y_pred.
+P199,Coding,Data Science Python,Hard,"Write scikit-learn code that builds a pipeline with median imputation, standard scaling, and logistic regression for numeric features. Fit it on X_train and y_train, then evaluate it on X_test and y_test."
+P200,Coding,Data Science Python,Hard,"A DataFrame contains prompt_id, LLM_name, and LLM_output. Write Python code that randomly splits unique prompt IDs into 70% training, 15% validation, and 15% test groups, then assigns every response to its prompt's group. Include a check that no prompt ID appears in multiple groups."
+P201,Writing,Creative Writing,Easy,Write a short story of about 120 words about a robot learning to cook.
+P202,Writing,Creative Writing,Easy,Write a short story of about 120 words that begins with an unexpected phone call.
+P203,Writing,Creative Writing,Easy,Write a scene of about 100 words in which a student finds a mysterious key inside a library book.
+P204,Writing,Creative Writing,Easy,Write a short dialogue between two friends who discover that they brought identical gifts to a birthday party.
+P205,Writing,Creative Writing,Medium,"Write a story of about 180 words about a delivery arriving twenty years late. Include a clear beginning, conflict, and ending."
+P206,Writing,Creative Writing,Medium,Write a scene of about 150 words from the perspective of an umbrella forgotten on a train.
+P207,Writing,Creative Writing,Medium,Write a story of about 180 words in which a character solves a problem through cooperation rather than competition.
+P208,Writing,Creative Writing,Medium,Write a dialogue of about 150 words between a nervous student and a future version of that student.
+P209,Writing,Creative Writing,Hard,Write a story of about 220 words in which the opening sentence has a different meaning after the ending. Avoid explaining the twist directly.
+P210,Writing,Creative Writing,Hard,Write a scene of about 200 words involving two characters who disagree about leaving their hometown. Convey their feelings through actions and dialogue rather than directly naming emotions.
+P211,Writing,Professional Writing,Easy,Write a polite email asking a professor to clarify which chapters are included in an upcoming exam.
+P212,Writing,Professional Writing,Easy,Write a professional email asking a project teammate to meet on Thursday afternoon.
+P213,Writing,Professional Writing,Easy,Write a brief thank-you email to a classmate who helped you understand a difficult assignment.
+P214,Writing,Professional Writing,Easy,Write a short announcement reminding students that a campus club meeting begins at 6 PM in Room 204.
+P215,Writing,Professional Writing,Medium,Write an email requesting a two-day assignment extension because of an unexpected computer failure. Acknowledge the instructor's discretion and propose a submission date.
+P216,Writing,Professional Writing,Medium,"Write a project status update explaining that data collection is complete, analysis is underway, and one visualization is delayed by missing information."
+P217,Writing,Professional Writing,Medium,Write a polite email to a customer explaining that a package is delayed by three days and offering two practical next steps.
+P218,Writing,Professional Writing,Medium,"Write a short meeting agenda for a student team that must review progress, resolve task ownership, and prepare a presentation."
+P219,Writing,Professional Writing,Hard,Write an email to a project sponsor explaining that a requested feature cannot be completed by Friday. Present two alternatives with clear tradeoffs and ask for a decision.
+P220,Writing,Professional Writing,Hard,"Write a memo of about 200 words recommending a shared file-naming convention for a student research team. Include the problem, a proposed convention, an example, and an implementation plan."
+P221,Writing,Persuasive Writing,Easy,Write a paragraph arguing that students should learn basic programming.
+P222,Writing,Persuasive Writing,Easy,Write a paragraph encouraging students to use reusable water bottles.
+P223,Writing,Persuasive Writing,Easy,Write a paragraph explaining why students should take regular breaks during long study sessions.
+P224,Writing,Persuasive Writing,Easy,Write a short argument encouraging a campus club to welcome beginners.
+P225,Writing,Persuasive Writing,Medium,Write an argument of about 150 words supporting a quiet study area in a shared student residence. Address one likely objection.
+P226,Writing,Persuasive Writing,Medium,Write an argument of about 150 words recommending that a student team test its software with users before the final submission.
+P227,Writing,Persuasive Writing,Medium,Write a paragraph persuading students to back up important coursework regularly. Include one concrete example.
+P228,Writing,Persuasive Writing,Medium,Write an argument of about 150 words for including practical projects in an introductory data science course. Address a concern about workload.
+P229,Writing,Persuasive Writing,Hard,"Write an argument of about 200 words recommending open-source software for a small student organization. Address maintenance, training, and situations where paid software may be preferable."
+P230,Writing,Persuasive Writing,Hard,Write an argument of about 200 words proposing flexible participation options for a campus club. Balance accessibility with the need to maintain dependable attendance.
+P231,Writing,Descriptive Writing,Easy,Describe a rainy city street at night in about 100 words.
+P232,Writing,Descriptive Writing,Easy,Describe a quiet library on a winter afternoon in about 100 words.
+P233,Writing,Descriptive Writing,Easy,Describe a small neighborhood bakery just after it opens in about 100 words.
+P234,Writing,Descriptive Writing,Easy,Describe a university campus on the first morning of a new semester in about 100 words.
+P235,Writing,Descriptive Writing,Medium,"Describe an abandoned train station in about 150 words using sound, texture, and light."
+P236,Writing,Descriptive Writing,Medium,Describe the same kitchen first from the perspective of a child and then from the perspective of a professional chef. Use about 75 words for each.
+P237,Writing,Descriptive Writing,Medium,"Describe a busy market in about 150 words without using the words 'busy', 'crowded', or 'loud'."
+P238,Writing,Descriptive Writing,Medium,Describe a classroom immediately before and immediately after an exam. Use details to show the change in atmosphere.
+P239,Writing,Descriptive Writing,Hard,"Describe an approaching storm in about 180 words without directly naming fear, danger, or tension. Build the mood through sensory details."
+P240,Writing,Descriptive Writing,Hard,Describe an ordinary desk in about 180 words so that its objects suggest the owner's personality and recent activities. Do not explicitly describe the owner.
+P241,Writing,Tone Rewriting,Easy,Rewrite this sentence in a professional tone: 'I can't come today because something came up.'
+P242,Writing,Tone Rewriting,Easy,Rewrite this sentence in a friendly tone: 'Your request cannot be processed at this time.'
+P243,Writing,Tone Rewriting,Easy,Rewrite this message to sound more polite: 'Send me the file now.'
+P244,Writing,Tone Rewriting,Easy,Rewrite this sentence in plain language: 'Please utilize the designated entrance to access the facility.'
+P245,Writing,Tone Rewriting,Medium,Rewrite this message so it is firm but respectful: 'You keep missing deadlines and it is messing up our whole project.'
+P246,Writing,Tone Rewriting,Medium,Rewrite this message as a constructive comment to a teammate: 'Your slides are confusing and there is way too much text.'
+P247,Writing,Tone Rewriting,Medium,Rewrite this message as a calm customer-service response: 'We already told you the order would be late. Stop asking.'
+P248,Writing,Tone Rewriting,Medium,Rewrite this message in a confident professional tone without exaggerating: 'I sort of know Python and I think I might be able to help with the data.'
+P249,Writing,Tone Rewriting,Hard,"Rewrite this message so it accepts responsibility, explains the next step, and avoids making an unsupported promise: 'The report is wrong because someone gave me bad numbers. I will definitely fix everything immediately.'"
+P250,Writing,Tone Rewriting,Hard,"Rewrite this message in two versions, one for a close teammate and one for a project sponsor. Preserve the same facts: 'The export failed twice. We have a backup from Tuesday. Restoring it will take about three hours, and Wednesday's changes may need to be entered again.'"
+P251,Summarization,Summarize,Easy,Summarize this passage in one sentence: 'A campus library added twenty adjustable desks to its second floor. Students can use them while sitting or standing. The desks are available during normal library hours and do not require reservations.'
+P252,Summarization,Summarize,Easy,"Summarize this passage in one sentence: 'A neighborhood garden opened a shared tool cabinet. Members may borrow shovels, watering cans, and hand tools. They must return each item clean before the garden closes that evening.'"
+P253,Summarization,Summarize,Easy,Summarize this passage in two sentences: 'A student club organized a weekend clothing exchange. Participants brought clean clothes they no longer needed and selected items donated by others. Unclaimed clothes were delivered to a local donation center after the event.'
+P254,Summarization,Summarize,Easy,Summarize this passage in one sentence: 'A small cafe replaced disposable cups with reusable cups for customers eating inside. Takeaway customers can still request disposable cups. Staff members explain the new option when taking orders.'
+P255,Summarization,Summarize,Medium,"Summarize this passage in two sentences while preserving the main limitation: 'A university tested a bicycle-sharing program at two residence halls for four weeks. Students completed 420 trips, and most trips lasted less than fifteen minutes. Participants reported that the bicycles made short journeys easier. However, the trial involved only volunteers and took place during dry weather, so the results may not represent demand across the entire campus.'"
+P256,Summarization,Summarize,Medium,"Summarize this passage in no more than 50 words: 'A research team compared two methods for organizing digital notes. One group used folders, while another used searchable tags. Both groups completed the same retrieval tasks. The tag group found cross-topic notes faster, but the folder group needed less initial training. The team concluded that the better choice depends on whether users prioritize quick setup or flexible searching.'"
+P257,Summarization,Summarize,Medium,"Summarize this passage in two sentences, distinguishing the problem from the response: 'A community center noticed that many visitors arrived without knowing which room hosted their activity. Staff members added a large schedule near the entrance and placed matching labels on room doors. Volunteers also helped visitors during the busiest hour. The center plans to ask visitors whether the changes make navigation easier.'"
+P258,Summarization,Summarize,Medium,Summarize this passage in about 45 words: 'An online course offered recorded lectures alongside weekly live discussions. Students appreciated being able to review difficult sections of the recordings. Some students nevertheless postponed watching until shortly before assignments were due. The instructor introduced short preparation quizzes before each discussion to encourage a more regular study schedule.'
+P259,Summarization,Summarize,Hard,Summarize this passage in three sentences without treating association as causation: 'A survey of 180 students found that students who reported using weekly study plans also reported higher average grades. The survey did not randomly assign students to planning methods. Students who used plans also tended to attend more classes and study for more hours. The researchers suggested that planning may be useful but noted that motivation and study time could partly explain the observed relationship.'
+P260,Summarization,Summarize,Hard,Summarize this passage in no more than 60 words while retaining the tradeoff and recommendation: 'A student team considered moving its project files to a shared cloud folder. The move would simplify collaboration and reduce duplicate versions. It would also require careful permissions and a reliable internet connection. Some files contained information that should remain restricted. The team recommended using the shared folder for general materials while keeping restricted files in a separate location with limited access.'
+P261,Summarization,Simplification,Easy,Rewrite this passage for a middle-school student: 'The application requires authentication before permitting access to the user's account. Authentication confirms that the person attempting to sign in is the account holder.'
+P262,Summarization,Simplification,Easy,Rewrite this passage in plain language: 'The device enters a low-power state after a period of inactivity. This reduces energy consumption while preserving the ability to resume operation quickly.'
+P263,Summarization,Simplification,Easy,"Rewrite this passage for a beginner: 'A dataset consists of observations and variables. An observation represents one recorded case, while a variable describes a characteristic measured for each case.'"
+P264,Summarization,Simplification,Easy,Rewrite this passage in plain language: 'The reservation will be canceled if payment is not received within the specified interval. A confirmation message will be issued after successful payment.'
+P265,Summarization,Simplification,Medium,Explain this passage to someone with no statistics background: 'The sample mean varies from one sample to another. A confidence interval uses this sampling variability to describe the uncertainty associated with estimating the population mean.'
+P266,Summarization,Simplification,Medium,Rewrite this passage for a first-year student while preserving its meaning: 'A model may fit its training observations closely yet perform poorly on unseen observations. This can occur when it learns accidental patterns rather than relationships that generalize.'
+P267,Summarization,Simplification,Medium,Rewrite this passage in plain language and include a brief example: 'A database transaction groups operations into a unit that either completes successfully or is rolled back. This helps prevent partially completed changes from leaving data inconsistent.'
+P268,Summarization,Simplification,Medium,"Rewrite this passage for a nontechnical audience: 'The system stores a temporary copy of frequently requested information. This cache can reduce retrieval time, but outdated entries must be refreshed when the original information changes.'"
+P269,Summarization,Simplification,Hard,"Rewrite this passage for a general audience without implying that the result proves an effect: 'The estimated difference between the groups was positive, but the confidence interval included zero. The available data therefore remain compatible with both a small improvement and no difference.'"
+P270,Summarization,Simplification,Hard,"Explain this passage to a beginner using an original example: 'When evaluating a classifier, information used to construct features must be available at prediction time. Including variables recorded only after the outcome creates leakage and can make measured performance misleading.'"
+P271,Summarization,Information Extraction,Easy,"Extract the event name, date, time, and location from this passage: 'The Campus Coding Workshop will take place on October 8 at 3 PM in Room 112 of the Science Building.'"
+P272,Summarization,Information Extraction,Easy,"Extract the three required materials from this passage: 'Participants in the drawing session should bring a pencil, an eraser, and a sketchbook. The instructor will provide sample images.'"
+P273,Summarization,Information Extraction,Easy,"Extract the opening hours and closure day from this passage: 'The community reading room is open from 10 AM to 6 PM, Tuesday through Sunday. It is closed every Monday.'"
+P274,Summarization,Information Extraction,Easy,Extract each person's assigned task from this passage: 'Maya will clean the dataset. Daniel will create the charts. Noor will prepare the presentation slides.'
+P275,Summarization,Information Extraction,Medium,"Extract all deadlines and their associated tasks from this passage: 'Teams must submit a topic proposal by October 3. A working prototype is due October 7. The final report must be uploaded by October 11. Presentations will occur the following week, but an exact date has not been announced.'"
+P276,Summarization,Information Extraction,Medium,"Extract the problem, its stated cause, and the proposed solution from this passage: 'Several students could not open the shared spreadsheet because the access settings allowed only the original owner. The team leader will update the permissions and ask each member to confirm access before tomorrow's meeting.'"
+P277,Summarization,Information Extraction,Medium,"Extract the numerical findings and their units from this passage: 'During a five-day trial, the library recorded 240 desk reservations. The average reservation lasted 90 minutes. Staff received 12 complaints, including 7 about noise and 5 about unavailable power outlets.'"
+P278,Summarization,Information Extraction,Medium,"Extract confirmed facts separately from unresolved points: 'The software update will be released on Friday and will include an improved search tool. The team is still deciding whether the export feature will be included. A training session has been proposed, but its date is not confirmed.'"
+P279,Summarization,Information Extraction,Hard,"Extract each action item with its owner, deadline, and dependency. Mark missing information as unspecified: 'Leah will check the survey questions by Tuesday. Once Leah finishes, Omar will upload the revised survey. Priya will recruit participants by Friday, but recruitment must wait until the survey is available. Someone also needs to prepare a consent statement.'"
+P280,Summarization,Information Extraction,Hard,"Extract the observed result, the proposed explanation, and the evidence still needed: 'After the help page was redesigned, support messages fell from 80 to 55 per week. The manager suggested that clearer instructions caused the reduction. However, the same period included fewer new users and a holiday closure. The team plans to compare support rates per active user before drawing a conclusion.'"
+P281,Summarization,Concise Rewriting,Easy,"Rewrite this passage more concisely without changing its meaning: 'At this point in time, we are currently waiting for the arrival of the final file before we can begin starting the analysis.'"
+P282,Summarization,Concise Rewriting,Easy,Rewrite this passage more concisely: 'The meeting that was originally planned to take place on Friday has now been moved and rescheduled to happen on Monday instead.'
+P283,Summarization,Concise Rewriting,Easy,Rewrite this passage more concisely: 'Please make sure that you remember to save a copy of your work before you proceed to close the program.'
+P284,Summarization,Concise Rewriting,Easy,"Rewrite this passage more concisely: 'Due to the fact that the room is small in size, the number of participants who can attend is limited to twelve people.'"
+P285,Summarization,Concise Rewriting,Medium,"Rewrite this passage in no more than 30 words while preserving every task: 'Before submitting the assignment, students should check that their code runs successfully, include the required dataset description, attach the results chart, and make sure their name appears on the report.'"
+P286,Summarization,Concise Rewriting,Medium,"Rewrite this passage in no more than 35 words while preserving the condition and consequence: 'If a borrowed laptop is returned after the agreed deadline and the borrower has not arranged an extension in advance, the borrower will temporarily lose the ability to reserve another laptop.'"
+P287,Summarization,Concise Rewriting,Medium,"Rewrite this passage more concisely while retaining both the benefit and limitation: 'The new scheduling tool makes it easier for team members to identify times when everyone is available. However, it only works well when each member keeps their calendar information accurate and up to date.'"
+P288,Summarization,Concise Rewriting,Medium,Rewrite this passage in one clear sentence: 'The team tested the program on a small sample. This was done before running it on the full dataset. The purpose was to discover errors early and avoid spending time on a failed full run.'
+P289,Summarization,Concise Rewriting,Hard,"Rewrite this passage in no more than 45 words without losing its qualifications: 'The pilot study suggests that the reminder messages may improve attendance among students who volunteer to receive them. However, because participation was optional and the study lasted only two weeks, the findings should not be assumed to apply to all students or to longer periods.'"
+P290,Summarization,Concise Rewriting,Hard,"Rewrite this passage in no more than 50 words while preserving the sequence, exception, and responsibility: 'Members should upload their draft before the review meeting. The editor will then combine the drafts and identify inconsistent sections. If a member cannot upload on time, that member must notify the editor in advance and provide a revised delivery time. The combined document will be shared after the meeting.'"
+P291,Summarization,Format Transformation,Easy,Turn this passage into three bullet points: 'The workshop introduces spreadsheet formulas. Participants will practice sorting a small dataset. The final activity involves creating a simple chart.'
+P292,Summarization,Format Transformation,Easy,"Turn this passage into a numbered checklist: 'First, open the project folder. Next, locate the data file. Finally, confirm that the file name matches the one listed in the instructions.'"
+P293,Summarization,Format Transformation,Easy,"Convert this passage into a two-column table with columns Item and Quantity: 'The supply box contains six notebooks, four markers, and two rolls of tape.'"
+P294,Summarization,Format Transformation,Easy,Turn this passage into a short announcement: 'The campus photography club will meet Saturday at 2 PM near the main library. Members should bring a camera or a phone. Beginners are welcome.'
+P295,Summarization,Format Transformation,Medium,"Convert this passage into a table with columns Option, Benefit, and Limitation: 'Option A is a free desktop program that works offline but requires manual updates. Option B is a paid web application that supports live collaboration but needs an internet connection.'"
+P296,Summarization,Format Transformation,Medium,"Turn this passage into step-by-step instructions, preserving the order: 'To submit the form, users sign in, select the relevant course, attach a PDF, and review the information. They then press Submit and save the confirmation number.'"
+P297,Summarization,Format Transformation,Medium,Convert this passage into a short FAQ with three questions and answers: 'Students may borrow one microphone for up to three days. Reservations are made through the equipment desk. A student ID is required when collecting the microphone.'
+P298,Summarization,Format Transformation,Medium,"Convert this passage into structured JSON with keys event, location, start_time, materials, and contact: 'The Data Visualization Lab meets in Room 305 at 4 PM. Bring a laptop and a charger. Questions can be sent to lab@example.com.'"
+P299,Summarization,Format Transformation,Hard,"Convert this passage into a decision guide with clear conditional steps: 'If the dataset contains missing numeric values, first determine whether the missingness has a known explanation. If values can be recovered from an authorized source, recover them. Otherwise, choose an appropriate treatment and document it. Rows should not be deleted automatically, especially when deletion would remove a large or systematically different group.'"
+P300,Summarization,Format Transformation,Hard,"Convert this passage into a table with columns Claim, Evidence, and Limitation. Do not invent information: 'The team believes its new interface is easier to use because eight of ten test participants completed the main task without assistance. It also believes the interface is faster because the median completion time was lower than in an earlier trial. However, the two trials involved different participants. The team has not yet tested the interface with screen-reader users.'"

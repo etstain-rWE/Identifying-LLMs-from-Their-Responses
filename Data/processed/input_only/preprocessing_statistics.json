@@ -1,0 +1,20 @@
+{
+  "train": {
+    "samples": 630,
+    "input_truncated": 30,
+    "output_truncated": 0,
+    "unknown_token_rate": 0.0
+  },
+  "validation": {
+    "samples": 135,
+    "input_truncated": 9,
+    "output_truncated": 0,
+    "unknown_token_rate": 0.18077239112571897
+  },
+  "test": {
+    "samples": 135,
+    "input_truncated": 12,
+    "output_truncated": 0,
+    "unknown_token_rate": 0.21138996138996138
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "input_mode": "output_only",
+  "vocab_size": 2234,
+  "max_length": 130,
+  "label_mapping": {
+    "Claude": 0,
+    "DeepSeek": 1,
+    "GPT": 2
+  },
+  "source_categories": [
+    "Coding",
+    "Factual",
+    "Math"
+  ],
+  "target_category": "Writing",
+  "padding_id": 0,
+  "unknown_id": 1,
+  "token_pattern": "\\n|[A-Za-z0-9_]+|[^\\s]",
+  "length_selection": "source training 95th percentile, cap 512",
+  "normalization": "actual CRLF/CR to LF; literal escapes retained"
+}

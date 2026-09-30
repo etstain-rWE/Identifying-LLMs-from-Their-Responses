@@ -1,0 +1,14 @@
+{
+  "input_mode": "output_only",
+  "vocab_size": 5153,
+  "max_length": 160,
+  "label_mapping": {
+    "Claude": 0,
+    "DeepSeek": 1,
+    "GPT": 2
+  },
+  "padding_id": 0,
+  "unknown_id": 1,
+  "token_pattern": "\\n|[A-Za-z0-9_]+|[^\\s]",
+  "length_selection": "training 95th percentile, capped at 512"
+}

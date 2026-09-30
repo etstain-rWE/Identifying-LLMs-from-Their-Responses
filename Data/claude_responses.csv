@@ -1,0 +1,897 @@
+"prompt_id","category","task_type","difficulty","LLM_Input","LLM_output"
+"P001","Factual","Science","Easy","What is photosynthesis, and what do plants need for it?","Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water into glucose and oxygen (6CO2 + 6H2O + light → C6H12O6 + 6O2). It takes place mainly in the chloroplasts of leaf cells. Plants need sunlight, water, carbon dioxide, and chlorophyll to carry it out."
+"P002","Factual","Science","Easy","What are the three common states of matter? Give one example of each.","The three common states of matter are solid, liquid, and gas. A solid has a fixed shape and volume, for example ice. A liquid has a fixed volume but takes the shape of its container, for example liquid water. A gas has no fixed shape or volume and fills its container, for example steam (water vapor)."
+"P003","Factual","Science","Easy","What is the main function of red blood cells?","The main function of red blood cells is to carry oxygen from the lungs to the body's tissues, using the iron-containing protein hemoglobin. They also help transport some carbon dioxide from the tissues back to the lungs to be exhaled."
+"P004","Factual","Science","Easy","What causes day and night on Earth?","Day and night are caused by Earth rotating on its axis about once every 24 hours. The side of Earth facing the Sun has day, while the side facing away from the Sun has night. As Earth turns, each place moves from light into darkness and back again."
+"P005","Factual","Science","Medium","Why does ice float on liquid water?","Ice floats because it is less dense than liquid water. When water freezes, hydrogen bonds lock the molecules into an open hexagonal crystal lattice that holds them farther apart than in liquid water. As a result, ice is about 9% less dense (about 0.92 g/cm3 versus 1.00 g/cm3), so it floats."
+"P006","Factual","Science","Medium","What causes ocean tides, and how do the Moon and Sun contribute?","Ocean tides are caused mainly by the Moon's gravity. Because the Moon pulls more strongly on the near side of Earth than on the far side, the oceans form two bulges, one facing the Moon and one on the opposite side; Earth's rotation through these bulges gives most coasts two high and two low tides a day. The Sun's tidal effect is a little under half the Moon's. When the Sun and Moon line up (new and full moon), their effects add to produce large spring tides; when they are at right angles (quarter moons), they partly cancel, producing smaller neap tides."
+"P007","Factual","Science","Medium","How do arteries, veins, and capillaries differ in structure and function?","Arteries carry blood away from the heart under high pressure, so they have thick, muscular, elastic walls and a relatively narrow lumen. Veins carry blood back to the heart under low pressure, so they have thinner walls, a wider lumen, and valves to prevent backflow. Capillaries are tiny vessels with walls only one cell thick that connect arteries and veins; their thin walls and large surface area allow oxygen, nutrients, carbon dioxide, and wastes to be exchanged between the blood and tissues."
+"P008","Factual","Science","Medium","What is the difference between a chemical change and a physical change? Give two examples of each.","A physical change alters the form, shape, size, or state of a substance without creating a new substance, and it is often reversible. Examples: melting ice and cutting paper. A chemical change produces one or more new substances with different properties, often signaled by gas, color change, heat, or light. Examples: burning wood and iron rusting."
+"P009","Factual","Science","Hard","Why does increasing atmospheric carbon dioxide affect Earth's energy balance? Describe the roles of incoming sunlight and outgoing infrared radiation.","Earth's temperature depends on the balance between incoming sunlight and outgoing infrared radiation. Incoming sunlight is mostly visible light, which passes through carbon dioxide easily and warms Earth's surface. The warm surface then emits infrared radiation, and carbon dioxide absorbs and re-emits part of this infrared, sending some back toward the surface. As CO2 increases, the atmosphere traps more infrared and heat escapes to space less efficiently, so Earth absorbs more energy than it loses and warms until outgoing radiation again balances incoming sunlight."
+"P010","Factual","Science","Hard","How can scientists estimate the age of an ancient organic object using carbon-14, and what are two limitations of this method?","Living organisms take in carbon, including a small, steady proportion of radioactive carbon-14, while they are alive. After death, intake stops and carbon-14 decays with a half-life of about 5,730 years, while stable carbon-12 stays constant. By measuring the remaining ratio of carbon-14 to carbon-12 (for example with accelerator mass spectrometry) and calibrating the result with tree-ring and other records, scientists estimate how long ago the organism died. Two limitations: the method only works for once-living material up to about 50,000 years old, because after that too little carbon-14 remains; and results can be distorted by past changes in atmospheric carbon-14 levels and by contamination with older or newer carbon, which is why calibration and careful sample cleaning are required."
+"P011","Factual","Technology","Easy","What is the main purpose of an operating system?","The main purpose of an operating system is to manage a computer's hardware and software resources and provide a platform for applications to run. It handles tasks such as running and scheduling programs, managing memory and files, controlling devices, providing a user interface, and enforcing security."
+"P012","Factual","Technology","Easy","What is the difference between RAM and permanent storage?","RAM is fast, temporary working memory that holds the programs and data currently in use, and its contents are lost when the power is turned off. Permanent storage, such as an SSD or hard drive, is slower but keeps files, programs, and the operating system even when the computer is off, and it usually has much larger capacity."
+"P013","Factual","Technology","Easy","What does a web browser do?","A web browser is a program that lets users access and view websites. It requests web pages from servers using protocols such as HTTP or HTTPS, then interprets the HTML, CSS, and JavaScript it receives and displays them as an interactive page. It also provides features such as tabs, bookmarks, history, and security protections."
+"P014","Factual","Technology","Easy","What is a computer network?","A computer network is a group of two or more computers or devices connected by wired or wireless links so they can communicate and share resources such as files, printers, and internet access. Examples include a home Wi-Fi network (LAN) and the internet (the largest WAN)."
+"P015","Factual","Technology","Medium","What is the purpose of DNS, and what happens when a browser looks up a domain name?","DNS (Domain Name System) translates human-readable domain names, such as www.example.com, into the numeric IP addresses computers use to find each other. When a browser looks up a name, it first checks its own and the operating system's cache. If the answer is not cached, a recursive resolver queries a root server, then the top-level domain server (such as .com), and then the domain's authoritative name server, which returns the IP address. The answer is cached for future use, and the browser connects to that IP address."
+"P016","Factual","Technology","Medium","How do TCP and UDP differ in their handling of data delivery?","TCP is connection-oriented and reliable: it sets up a connection with a handshake, numbers the data, retransmits lost packets, delivers data in order, and controls flow and congestion. UDP is connectionless and lightweight: it sends independent datagrams without guaranteeing delivery or order and without retransmission. TCP suits web pages, email, and file transfer, while UDP suits real-time uses such as video calls, online games, and DNS, where speed matters more than perfect delivery."
+"P017","Factual","Technology","Medium","What is the difference between lossless and lossy compression? Give a suitable use case for each.","Lossless compression reduces file size without losing any information, so the original data can be restored exactly; it suits text documents, source code, or spreadsheets (e.g., ZIP or PNG). Lossy compression permanently discards some less noticeable information to achieve much smaller files; it suits photos, music, and streaming video (e.g., JPEG, MP3, MP4), where small quality losses are acceptable."
+"P018","Factual","Technology","Medium","How does a relational database organize information using tables, primary keys, and foreign keys?","A relational database stores data in tables, where each row is a record and each column is an attribute. A primary key is a column or set of columns that uniquely identifies each row in a table, such as student_id. A foreign key is a column in one table that refers to the primary key of another table, linking related records, such as an Enrollments table containing student_id and course_id. These keys enforce integrity, reduce duplicated data, and allow tables to be combined with joins."
+"P019","Factual","Technology","Hard","How do symmetric and asymmetric encryption differ, and why do secure communication systems often use both?","Symmetric encryption uses one shared secret key to encrypt and decrypt; it is fast but requires both parties to share the key securely in advance. Asymmetric encryption uses a public key and a matching private key; it solves key distribution and enables digital signatures, but it is much slower. Secure systems such as TLS use both: asymmetric cryptography authenticates the server and securely establishes a shared session key, and fast symmetric encryption then protects the actual data for the rest of the session."
+"P020","Factual","Technology","Hard","What happens between typing an HTTPS website address into a browser and receiving the page? Describe the major networking stages.","First, the browser parses the URL and resolves the domain name to an IP address using DNS. It then opens a TCP connection to the server on port 443 with a three-way handshake (or uses QUIC for HTTP/3). Next, a TLS handshake verifies the server's certificate and establishes encryption keys. The browser sends an encrypted HTTP request, the server processes it and returns an HTTP response with a status code, headers, and HTML. Finally, the browser parses the HTML, fetches additional resources such as CSS, JavaScript, and images, and renders the page."
+"P021","Factual","History","Easy","What was the primary purpose of the ancient Egyptian pyramids?","The primary purpose of the ancient Egyptian pyramids was to serve as monumental tombs for pharaohs. They protected the king's body and burial goods and were believed to help his journey into the afterlife."
+"P022","Factual","History","Easy","What was the Silk Road?","The Silk Road was a network of trade routes linking China and East Asia with Central Asia, the Middle East, Africa, and Europe from about the 2nd century BCE to the 15th century CE. Merchants traded silk, spices, tea, porcelain, and other goods along it, and it also spread religions, ideas, technologies, and diseases."
+"P023","Factual","History","Easy","Why was the printing press important for the spread of written information?","The printing press, developed in Europe by Johannes Gutenberg around 1440, made it possible to produce books and pamphlets quickly, cheaply, and in large, identical copies. This made written information more accessible, helped standardize texts, raised literacy, and allowed ideas to spread rapidly, contributing to movements such as the Reformation and the Scientific Revolution."
+"P024","Factual","History","Easy","What was the Renaissance?","The Renaissance was a period of cultural, artistic, and intellectual revival in Europe, beginning in Italy in the 14th century and lasting into the 17th century. It was marked by renewed interest in classical Greek and Roman learning, humanism, realistic art, and scientific inquiry, with figures such as Leonardo da Vinci and Michelangelo."
+"P025","Factual","History","Medium","How did the development of agriculture change the way early human communities lived?","Agriculture allowed early humans to shift from nomadic hunting and gathering to settled life in permanent villages. Food surpluses supported larger populations and allowed some people to specialize in crafts, trade, religion, or leadership. This led to social hierarchies, property ownership, trade, and new technologies such as irrigation, pottery, and eventually writing, but it also brought more disease and dependence on a few crops."
+"P026","Factual","History","Medium","What were three major factors that contributed to the Industrial Revolution in Britain?","Three major factors were: (1) abundant coal and iron resources, which provided fuel and materials for machines and steam engines; (2) agricultural improvements and population growth, which freed workers for factories and created demand for goods; and (3) available capital, overseas trade, and a stable political and legal system that encouraged investment and invention."
+"P027","Factual","History","Medium","How did steam engines change transportation and manufacturing during the Industrial Revolution?","Steam engines, especially after James Watt's improvements, provided reliable power that did not depend on rivers or weather. In manufacturing, factories could be built anywhere and run many machines at once, enabling mass production, especially in textiles, and powering pumps in mines. In transportation, steam locomotives and steamships moved goods and people much faster and more cheaply, connecting markets and speeding industrial growth."
+"P028","Factual","History","Medium","What is the difference between primary and secondary historical sources? Give an example of each.","A primary source is created at the time of an event or by someone who directly experienced it, such as a soldier's diary written during World War I. A secondary source is created later by someone who did not experience the event and analyzes or interprets primary sources, such as a historian's book about the causes of World War I."
+"P029","Factual","History","Hard","How did movable-type printing influence education, religion, and scientific communication in early modern Europe?","In education, movable-type printing made books cheaper and more widely available, standardized texts, and encouraged literacy and humanist learning. In religion, it enabled the rapid spread of Martin Luther's writings and vernacular Bibles, fueling the Protestant Reformation and the Catholic response, including censorship through the Index of Prohibited Books. In science, it allowed accurate reproduction of diagrams, data, and texts, such as works by Copernicus and Vesalius, and helped scholars share, test, and build on discoveries, eventually through printed scientific journals."
+"P030","Factual","History","Hard","Why should historians compare multiple sources when studying the same event? Discuss perspective, missing evidence, and corroboration.","Historians compare multiple sources because each source reflects its author's perspective, purpose, and biases, so one account may present an incomplete or distorted view. Comparing sources helps reveal missing evidence, including the experiences of groups whose voices were not recorded or preserved. Corroboration, when independent sources agree, increases confidence in facts, while conflicts prompt historians to evaluate reliability. Together, this produces a more accurate and balanced interpretation of the event."
+"P031","Factual","Geography","Easy","What is the difference between weather and climate?","Weather is the short-term condition of the atmosphere at a particular time and place, such as today's temperature, rain, or wind. Climate is the long-term average pattern of weather in a region, usually measured over 30 years or more."
+"P032","Factual","Geography","Easy","Which ocean is the largest, and where is it located?","The Pacific Ocean is the largest ocean, covering about one-third of Earth's surface. It lies between Asia and Australia to the west and North and South America to the east, stretching from the Arctic in the north to the Southern Ocean in the south."
+"P033","Factual","Geography","Easy","What is the difference between latitude and longitude?","Latitude measures how far north or south a place is from the Equator, from 0 degrees at the Equator to 90 degrees at the poles, using east-west lines. Longitude measures how far east or west a place is from the Prime Meridian, from 0 to 180 degrees, using north-south lines that meet at the poles."
+"P034","Factual","Geography","Easy","What is a river delta?","A river delta is a landform created where a river slows as it enters an ocean, sea, or lake and deposits sediment. Over time the sediment builds up new land, often roughly triangular and crossed by many smaller channels. Examples include the Nile and Mississippi deltas."
+"P035","Factual","Geography","Medium","Why do places near the equator generally receive more direct sunlight than places near the poles?","Because Earth is a sphere, sunlight strikes the equator at a high, nearly perpendicular angle, concentrating energy on a small area. Near the poles, sunlight arrives at a low slanting angle, spreading the same energy over a larger area and passing through more atmosphere. Therefore the equator receives more direct and intense sunlight."
+"P036","Factual","Geography","Medium","How can mountain ranges create rain shadows?","When moist air is blown toward a mountain range, it is forced to rise on the windward side. As it rises, it cools, and its water vapor condenses and falls as rain or snow. After crossing the mountains, the now-dry air descends on the leeward side and warms, which lowers its relative humidity and suppresses rain. This creates a dry rain shadow area, such as the deserts east of the Sierra Nevada."
+"P037","Factual","Geography","Medium","What causes earthquakes near tectonic plate boundaries?","Tectonic plates move slowly, but at plate boundaries friction causes their edges to lock together along faults. Stress builds up in the rocks as the plates keep moving. When the stress exceeds the strength of the rocks or friction, the rocks suddenly slip, releasing stored energy as seismic waves, which cause an earthquake."
+"P038","Factual","Geography","Medium","How do ocean currents influence the climate of coastal regions?","Ocean currents transport heat and affect the temperature and moisture of coastal air. Warm currents, such as the Gulf Stream and North Atlantic Drift, make coastal regions milder and often wetter, as in Western Europe. Cold currents, such as the California or Humboldt Current, cool coastal areas and make them drier and often foggy, contributing to coastal deserts like the Atacama."
+"P039","Factual","Geography","Hard","How do divergent, convergent, and transform plate boundaries differ? Describe the landforms or hazards associated with each.","At divergent boundaries, plates move apart and magma rises to form new crust, creating mid-ocean ridges and rift valleys, with mostly small earthquakes and gentle volcanic eruptions (e.g., Iceland, East African Rift). At convergent boundaries, plates collide; subduction forms deep trenches, volcanic mountain ranges, and island arcs, while continental collisions form fold mountains like the Himalayas; hazards include the largest earthquakes, tsunamis, and explosive volcanoes. At transform boundaries, plates slide past each other horizontally, forming fault lines such as the San Andreas Fault, with frequent shallow and potentially destructive earthquakes but little volcanism."
+"P040","Factual","Geography","Hard","Why can two cities at similar latitudes have very different climates? Discuss elevation, distance from the ocean, and ocean currents.","Latitude is only one control on climate. Elevation matters because temperature falls about 6.5 C per 1,000 m, so a high city like Quito is much cooler than a lowland city at the same latitude. Distance from the ocean matters because water moderates temperature: coastal cities like San Francisco have mild, narrow temperature ranges, while inland cities have hotter summers and colder winters. Ocean currents also matter: the warm North Atlantic Drift keeps London mild, while places at similar latitudes near cold currents, such as Labrador, are much colder."
+"P041","Factual","Everyday Knowledge","Easy","Why is it useful to wash hands with soap rather than water alone?","Soap is more effective than water alone because germs and dirt often cling to oils on the skin, and water cannot remove oil well. Soap molecules have one end that attaches to oil and another that attaches to water, so they lift oil, dirt, and germs off the skin to be rinsed away. Soap can also break down the fatty outer membranes of some viruses and bacteria."
+"P042","Factual","Everyday Knowledge","Easy","What is the purpose of insulation in a house?","Insulation slows the transfer of heat between the inside and outside of a house. It keeps heat in during cold weather and keeps heat out during hot weather, improving comfort and reducing energy use and heating and cooling costs."
+"P043","Factual","Everyday Knowledge","Easy","Why does a bicycle need brakes on its wheels?","A bicycle needs brakes on its wheels so the rider can slow down and stop safely. Brakes create friction against the wheel rim or a disc, converting the bike's kinetic energy into heat and slowing the wheels, which lets the rider control speed and avoid collisions."
+"P044","Factual","Everyday Knowledge","Easy","What does the expiration date on a food package generally communicate?","An expiration date indicates the time until which the manufacturer expects the food to remain safe or at its best quality if stored properly and unopened. ""Use by"" dates generally relate to safety, while ""best before"" dates relate mainly to quality such as taste and texture."
+"P045","Factual","Everyday Knowledge","Medium","Why does metal feel colder than wood when both are at the same room temperature?","Metal feels colder because it is a much better conductor of heat than wood. When you touch it, metal draws heat away from your warmer skin quickly, and your nerves sense this rapid heat loss as coldness. Wood is an insulator, so it removes heat slowly and feels warmer, even though both are at the same temperature."
+"P046","Factual","Everyday Knowledge","Medium","How does a refrigerator transfer heat from its interior to the surrounding room?","A refrigerator circulates a refrigerant through a closed loop. Inside the fridge, the liquid refrigerant evaporates in the evaporator coils and absorbs heat from the interior. A compressor then compresses the gas, raising its pressure and temperature. In the condenser coils outside, the hot gas releases heat into the room and condenses into a liquid. Finally, it passes through an expansion valve, where its pressure and temperature drop, and the cycle repeats."
+"P047","Factual","Everyday Knowledge","Medium","Why do water droplets form on the outside of a cold drinking glass?","The cold glass cools the air right next to it. Cooler air can hold less water vapor, so when that air cools to its dew point, the water vapor condenses into liquid droplets on the glass. The water comes from the surrounding air, not from inside the glass."
+"P048","Factual","Everyday Knowledge","Medium","Why does bread usually become firmer as it goes stale?","Bread becomes firmer mainly because of starch retrogradation. After baking, starch molecules that were softened by heat and water gradually recrystallize, pushing out water and making the crumb firm and dry-feeling. Moisture also moves from the crumb to the crust and evaporates, adding to the staleness."
+"P049","Factual","Everyday Knowledge","Hard","Why can a microwave oven heat food unevenly? Discuss electromagnetic waves, food properties, and the purpose of a rotating plate.","Microwave ovens use electromagnetic waves (about 2.45 GHz) that reflect off the metal walls and form a standing-wave pattern with hot spots and cold spots. Food properties also matter: parts with more liquid water absorb energy faster, ice absorbs microwaves poorly, and microwaves only penetrate a few centimeters, so thick centers heat mainly by slower conduction. Shape and mixed ingredients cause further unevenness. The rotating plate moves the food through different parts of the wave pattern so that hot and cold spots are averaged out, making heating more even, though not perfectly even."
+"P050","Factual","Everyday Knowledge","Hard","How does a vacuum flask reduce heat transfer through conduction, convection, and radiation?","A vacuum flask has double walls with a vacuum between them. The vacuum prevents conduction and convection because there are almost no particles to transfer heat or form currents. The walls are silvered or shiny, which reflects infrared radiation and reduces heat transfer by radiation. An insulating stopper reduces conduction and convection through the opening, and the walls touch only at the narrow neck to limit conduction."
+"P051","Explanation","Computer Science","Easy","Explain what a variable is to someone who has never written a computer program.","A variable is like a labeled box that stores a piece of information a program can use later. For example, age = 25 creates a box named age and puts 25 inside it. The program can read the value by using the name, and it can change the contents later, such as updating age to 26."
+"P052","Explanation","Computer Science","Easy","Explain the difference between a list and a dictionary using a simple everyday example.","A list stores items in order and you find them by position, like a shopping list: shopping = [""milk"", ""eggs"", ""bread""], where shopping[0] is ""milk"". A dictionary stores key-value pairs and you find items by a meaningful key, like a phone contact list: contacts = {""Alice"": ""555-1234""}, where contacts[""Alice""] gives her number."
+"P053","Explanation","Computer Science","Easy","Explain what a programming loop does using an example of a repeated daily activity.","A loop repeats a set of instructions multiple times instead of writing them over and over. For example, brushing your teeth is like a loop: for each tooth, brush it. In Python:
+for tooth in teeth:
+    brush(tooth)
+The loop runs once for each tooth and stops when all have been brushed."
+"P054","Explanation","Computer Science","Easy","Explain what a function is and why programmers use functions.","A function is a named, reusable block of code that performs a specific task, often taking inputs and returning an output. For example, def area(w, h): return w * h. Programmers use functions to avoid repeating code, organize programs into manageable parts, make code easier to read, test, and maintain, and reuse logic in many places."
+"P055","Explanation","Computer Science","Medium","Explain recursion to a beginner using a small example and identify the role of the base case.","Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. For example:
+def countdown(n):
+    if n == 0:
+        print(""Liftoff!"")
+        return
+    print(n)
+    countdown(n - 1)
+Calling countdown(3) prints 3, 2, 1, Liftoff!. The base case (n == 0) is the condition where the function stops calling itself. Without it, the function would recurse forever and crash with a recursion error."
+"P056","Explanation","Computer Science","Medium","Explain how binary search works and why its input must be sorted.","Binary search finds a target in a sorted list by repeatedly checking the middle element. If the middle equals the target, it stops; if the target is smaller, it searches the left half; if larger, the right half. Each step halves the search space, so it takes O(log n) time. The input must be sorted because the algorithm relies on knowing that all values to the left of the middle are smaller and all values to the right are larger; otherwise it may discard the half containing the target."
+"P057","Explanation","Computer Science","Medium","Explain the difference between a process and a thread using an example of a desktop application.","A process is an independent running program with its own memory space, while a thread is a unit of execution inside a process that shares the process's memory with other threads. For example, a web browser may run each tab as a separate process, so one crashing tab does not close the others. Within one tab, separate threads may handle the user interface, download images, and render the page at the same time while sharing the same data."
+"P058","Explanation","Computer Science","Medium","Explain how a database index can speed up searches and why maintaining indexes has a cost.","A database index is a separate sorted data structure, often a B-tree, that stores column values with pointers to the matching rows. Like a book index, it lets the database jump directly to matching rows instead of scanning the entire table, reducing search time from O(n) to about O(log n). However, indexes take extra storage, and every insert, update, or delete must also update the indexes, which slows writes and adds maintenance overhead."
+"P059","Explanation","Computer Science","Hard","Explain a race condition using two threads updating the same counter. Describe how a lock can prevent the problem.","A race condition happens when threads access shared data concurrently and the result depends on timing. If two threads run counter = counter + 1 starting from 0, each may read 0, add 1, and write 1, so the final value is 1 instead of 2 because one update is lost. A lock prevents this by allowing only one thread at a time to execute the read-add-write sequence:
+with lock:
+    counter += 1
+The second thread must wait until the first releases the lock, so each increment is applied correctly."
+"P060","Explanation","Computer Science","Hard","Explain the difference between time complexity and actual running time. Use two algorithms to show why hardware and input size both matter.","Time complexity describes how the number of operations grows with input size, such as O(n^2) or O(n log n), ignoring constants and hardware. Actual running time is the measured time on a real machine and depends on hardware, implementation, and input size. For example, insertion sort (O(n^2)) can be faster than merge sort (O(n log n)) for small inputs because it has less overhead, and faster hardware can make it look good at moderate sizes. But for large inputs, such as one million items, merge sort wins dramatically even on slower hardware, because the growth rate dominates."
+"P061","Explanation","Data Science","Easy","Explain the difference between supervised and unsupervised learning for a first-year college student.","Supervised learning trains a model on labeled data, where each example includes the correct answer, so the model can predict labels for new data, such as classifying emails as spam or predicting house prices. Unsupervised learning uses unlabeled data and tries to find hidden patterns or structure on its own, such as grouping customers into segments by behavior."
+"P062","Explanation","Data Science","Easy","Explain what a training dataset and a test dataset are.","A training dataset is the portion of data used to teach a model by letting it learn patterns. A test dataset is a separate portion the model does not see during training and is used only at the end to evaluate how well the model performs on new, unseen data."
+"P063","Explanation","Data Science","Easy","Explain the difference between classification and regression using one example of each.","Classification predicts a category, while regression predicts a continuous number. For example, classifying an email as ""spam"" or ""not spam"" is classification, while predicting a house's price from its size and location is regression."
+"P064","Explanation","Data Science","Easy","Explain what a missing value is and why it can cause problems in data analysis.","A missing value is an entry in a dataset where no data was recorded, often shown as blank, NA, or NaN. Missing values can cause errors in calculations or models, reduce the usable sample size, and bias results if the values are missing for systematic reasons, so they must be handled carefully, for example by removal or imputation."
+"P065","Explanation","Data Science","Medium","Explain overfitting using a student memorizing practice questions as an analogy.","Overfitting is like a student who memorizes the exact answers to practice questions instead of learning how to solve them. The student scores perfectly on the practice set but performs poorly on the real exam with new questions. Similarly, an overfit model learns noise and specific details of its training data, so it performs very well on training data but poorly on new data."
+"P066","Explanation","Data Science","Medium","Explain why correlation does not necessarily imply causation using an original everyday example.","Correlation means two things change together, but that does not prove one causes the other. For example, students who buy more coffee may report more stress, but coffee may not cause stress: exam periods may increase both coffee drinking and stress, or stressed students may drink more coffee. A third factor or reverse causation can explain the relationship."
+"P067","Explanation","Data Science","Medium","Explain precision and recall using a system that identifies unwanted email.","In a spam filter, precision is the proportion of emails flagged as spam that are actually spam: TP / (TP + FP). High precision means few legitimate emails are wrongly sent to the spam folder. Recall is the proportion of all actual spam emails that the filter catches: TP / (TP + FN). High recall means little spam reaches the inbox. Making the filter stricter usually raises recall but lowers precision, and vice versa."
+"P068","Explanation","Data Science","Medium","Explain why some machine learning models benefit from feature scaling.","Feature scaling puts features on similar ranges, for example through standardization or min-max normalization. Distance-based models such as k-nearest neighbors, k-means, and SVMs benefit because features with large numeric ranges, such as income, would otherwise dominate small-range features, such as age. Gradient-based models such as logistic regression and neural networks also train faster and more stably with scaled features, and regularization penalizes coefficients more fairly. Tree-based models usually do not need scaling."
+"P069","Explanation","Data Science","Hard","Explain data leakage using an example in which preprocessing is performed before splitting the dataset. Describe a better workflow.","Data leakage occurs when information from the test set or future data influences model training, making performance look better than it really is. For example, if you standardize or impute the entire dataset before splitting, the means and standard deviations used include test data, so the training process has indirectly seen the test set. A better workflow is to split the data first, fit preprocessing steps only on the training set, apply those fitted transformations to the validation and test sets, and use a pipeline so preprocessing is refit correctly inside cross-validation."
+"P070","Explanation","Data Science","Hard","Explain the bias-variance tradeoff and how training error and validation error can help identify underfitting and overfitting.","The bias-variance tradeoff describes the balance between a model being too simple and too complex. High bias means the model is too simple and misses real patterns (underfitting); high variance means it is too sensitive to the training data and learns noise (overfitting). If both training error and validation error are high and close together, the model is underfitting. If training error is low but validation error is much higher, the model is overfitting. The best model has low validation error with a small gap between the two."
+"P071","Explanation","Science Concepts","Easy","Explain gravity to a ten-year-old using a familiar example.","Gravity is an invisible pull that makes things move toward each other, and Earth pulls everything toward its center. When you throw a ball up in the air, it slows down, stops, and falls back to you because gravity pulls it down. Gravity is also why you stay on the ground and why the Moon goes around Earth."
+"P072","Explanation","Science Concepts","Easy","Explain evaporation using a puddle that disappears after a sunny day.","Evaporation is when liquid water turns into invisible water vapor. After a sunny day, a puddle disappears because the sun warms the water, giving its molecules more energy. The fastest molecules at the surface escape into the air as vapor, and little by little the puddle shrinks until it is gone. Warmth, wind, and dry air make this happen faster."
+"P073","Explanation","Science Concepts","Easy","Explain what an ecosystem is using a small pond as an example.","An ecosystem is a community of living things interacting with each other and with their nonliving environment. In a small pond, algae and water plants use sunlight to make food; snails and tadpoles eat them; fish and frogs eat smaller animals; and bacteria break down dead matter. These organisms depend on water, sunlight, oxygen, and nutrients, and a change to one part affects the others."
+"P074","Explanation","Science Concepts","Easy","Explain the difference between mass and weight in simple language.","Mass is the amount of matter in an object, and it stays the same everywhere. Weight is the force of gravity pulling on that mass, so it changes depending on where you are. For example, an astronaut has the same mass on Earth and the Moon but weighs about one-sixth as much on the Moon."
+"P075","Explanation","Science Concepts","Medium","Explain why the sky usually appears blue during the day and can appear red near sunset.","Sunlight contains all colors. Air molecules scatter shorter wavelengths, such as blue, much more than longer wavelengths like red (Rayleigh scattering), so during the day scattered blue light reaches our eyes from all directions and the sky looks blue. Near sunset, sunlight travels through much more atmosphere, so most blue light is scattered away before reaching us, leaving mainly red and orange light."
+"P076","Explanation","Science Concepts","Medium","Explain natural selection using a hypothetical population of insects with different colors.","Imagine a population of green and brown beetles living on brown tree bark. Birds easily see and eat the green beetles, while the brown beetles are camouflaged and more likely to survive and reproduce. Because color is inherited, the next generation has more brown beetles. Over many generations, brown becomes the most common color. This is natural selection: individuals with traits better suited to their environment survive and reproduce more, so those traits become more common."
+"P077","Explanation","Science Concepts","Medium","Explain how vaccines prepare the immune system to recognize a pathogen, using language suitable for a general audience.","A vaccine contains a harmless version or piece of a pathogen, such as a weakened or inactivated germ, a protein, or instructions like mRNA that tell cells to make a harmless piece of it. The immune system recognizes this as foreign and responds by making antibodies and activating immune cells. It also creates memory cells. If the real pathogen appears later, the immune system recognizes it quickly and responds faster and more strongly, often preventing illness or making it milder."
+"P078","Explanation","Science Concepts","Medium","Explain how sound travels through air and why sound cannot travel through a vacuum.","Sound travels as a mechanical wave. A vibrating object pushes and pulls nearby air molecules, creating regions of compression and rarefaction. The molecules pass the vibration to neighboring molecules, so the wave travels through the air until it reaches the ear and vibrates the eardrum. Sound cannot travel through a vacuum because a vacuum contains almost no particles to carry the vibrations."
+"P079","Explanation","Science Concepts","Hard","Explain why scientific evidence can support a theory without proving it permanently. Discuss testing, uncertainty, and revision.","Scientific theories are tested by making predictions and comparing them with observations. Successful tests strengthen support, but no number of confirmations can guarantee that a future test will not contradict the theory. Evidence also has uncertainty due to measurement limits, sampling, and assumptions. When new evidence conflicts with a theory, scientists refine or replace it, as when general relativity improved on Newtonian gravity. So science can provide strong, reliable support without permanent proof, and it remains open to revision."
+"P080","Explanation","Science Concepts","Hard","Explain the difference between an object's temperature and its thermal energy. Use two containers of water to illustrate the distinction.","Temperature measures the average kinetic energy of particles, while thermal energy is the total energy of all the particles and depends on the amount of substance. For example, a small cup of water at 80 C has a higher temperature than a bathtub of water at 40 C. However, the bathtub has far more thermal energy because it contains much more water and therefore many more moving particles."
+"P081","Explanation","Economics and Daily Concepts","Easy","Explain opportunity cost using a student's choice between studying and working a paid shift.","Opportunity cost is the value of the next-best alternative you give up when making a choice. If a student chooses to study instead of working a four-hour paid shift at $15 per hour, the opportunity cost is the $60 they could have earned. If they choose to work, the opportunity cost is the study time and possibly a better grade."
+"P082","Explanation","Economics and Daily Concepts","Easy","Explain what a household budget is and why it can be useful.","A household budget is a plan that lists a household's expected income and expenses over a period, usually a month. It is useful because it helps prevent overspending, shows where money goes, supports saving for goals and emergencies, reduces financial stress, and helps family members plan together."
+"P083","Explanation","Economics and Daily Concepts","Easy","Explain supply and demand using the sale of umbrellas on a rainy day.","Supply is how many umbrellas sellers have available, and demand is how many buyers want. On a rainy day, demand for umbrellas rises sharply while the supply in shops is limited, so sellers can raise prices and still sell them. When the rain stops, demand falls, and prices tend to drop. If rainy days continue, sellers may bring more umbrellas, increasing supply and lowering prices."
+"P084","Explanation","Economics and Daily Concepts","Easy","Explain the difference between a need and a want using everyday purchases.","A need is something necessary for living or functioning, while a want is something that improves comfort or enjoyment but is not essential. For example, basic groceries, rent, and necessary medicine are needs, while snacks, designer clothes, and the newest smartphone are wants."
+"P085","Explanation","Economics and Daily Concepts","Medium","Explain inflation and how it can affect someone whose income stays the same.","Inflation is the general rise in prices over time, which reduces the purchasing power of money. If someone's income stays the same while prices rise by 5% a year, the same paycheck buys less food, housing, and other goods. Their real income falls, so they may need to cut spending, save less, or use savings to maintain their standard of living."
+"P086","Explanation","Economics and Daily Concepts","Medium","Explain compound interest using a small savings account as an example.","Compound interest is interest earned on both the original deposit and previously earned interest. For example, $1,000 in a savings account earning 5% per year becomes $1,050 after one year. In the second year, interest is 5% of $1,050, or $52.50, making $1,102.50. After five years, it grows to about $1,276.28, more than the $1,250 simple interest would give."
+"P087","Explanation","Economics and Daily Concepts","Medium","Explain why dividing a group project into tasks can improve efficiency but also create coordination problems.","Dividing a group project into tasks improves efficiency because members can work in parallel and specialize in tasks that match their skills. However, it also creates coordination problems: members must communicate, wait for dependent tasks, keep styles and assumptions consistent, and integrate separate parts into one final product. Clear deadlines, shared documents, and regular check-ins help reduce these problems."
+"P088","Explanation","Economics and Daily Concepts","Medium","Explain sunk cost using a movie ticket purchase and describe how it can influence a decision.","A sunk cost is money or effort already spent that cannot be recovered. If you buy a nonrefundable $15 movie ticket and find the movie boring, the $15 is gone whether you stay or leave. The sunk cost fallacy is staying just to get your money's worth. A better decision ignores the $15 and compares only the future options: watching the rest of the movie or using that time for something more enjoyable."
+"P089","Explanation","Economics and Daily Concepts","Hard","Explain how incentives can produce unintended behavior using a hypothetical school reward system. Suggest a way to improve the system.","Suppose a school gives prizes to students who read 20 books in a semester. Students may choose very short, easy books, skim without understanding, or exaggerate their reading logs to reach the target, and weaker readers may give up. The system rewards the number of books rather than the real goal of improving reading skills. A better system could reward reading time or pages at an appropriate level, include short comprehension discussions, set individual improvement goals, and use a shared school-wide reward."
+"P090","Explanation","Economics and Daily Concepts","Hard","Explain how an activity can create costs for people who are not directly involved. Use neighborhood noise as an example and discuss two possible responses.","An activity can create a negative externality when it imposes costs on people who are not part of the decision. For example, a neighbor who throws loud late-night parties enjoys the benefits, while nearby residents lose sleep, experience stress, and may have trouble working or studying. One response is regulation, such as noise rules with quiet hours and fines. Another response is private negotiation, where neighbors agree on reasonable times, advance notice, or soundproofing."
+"P091","Explanation","Analogy and Beginner Explanation","Easy","Explain an API using a restaurant analogy.","An API is like a waiter in a restaurant. The customer (an application) does not go into the kitchen (the server or system). Instead, the customer reads the menu (API documentation) and gives an order to the waiter (API). The waiter takes the request to the kitchen and brings back the food (the response). The customer gets the result without needing to know how the kitchen works."
+"P092","Explanation","Analogy and Beginner Explanation","Easy","Explain computer storage using a filing cabinet analogy.","Computer storage is like a filing cabinet. The cabinet is the storage drive, drawers are like drives or partitions, folders are directories, and papers are files. Labels are file names and paths that help you find information. Like a cabinet, storage keeps information even when you are not using it, and it has limited space."
+"P093","Explanation","Analogy and Beginner Explanation","Easy","Explain a queue in computing using a line of people waiting at a store.","A queue in computing works like a line of people at a store. New people join at the back, and the cashier serves the person at the front, so the first person in line is served first. This is called FIFO: First In, First Out. Adding an item is enqueue, and removing the front item is dequeue."
+"P094","Explanation","Analogy and Beginner Explanation","Easy","Explain an algorithm using a cooking recipe analogy.","An algorithm is like a cooking recipe: a clear, step-by-step set of instructions for completing a task. The ingredients are the inputs, the steps must be followed in the correct order, conditions such as ""if you like it sweet, add sugar"" are decisions, and the finished dish is the output."
+"P095","Explanation","Analogy and Beginner Explanation","Medium","Explain encryption using a locked-box analogy, then identify one limitation of the analogy.","Encryption is like putting a message in a locked box. Only someone with the correct key can open the box and read the message, while anyone who intercepts it sees only a locked box. With public-key encryption, anyone can use an open padlock (public key) to lock the box, but only the owner of the private key can open it. One limitation is that a real box can be physically broken open, while encryption is a mathematical transformation; strong encryption is usually defeated through stolen keys, weak passwords, or insecure devices rather than by ""breaking the box."""
+"P096","Explanation","Analogy and Beginner Explanation","Medium","Explain version control using a group of students editing a shared essay.","Version control is like a system for a group of students editing a shared essay. Each saved change is recorded as a snapshot (commit) with a note about who changed what and why. Students can view the history and restore earlier versions if something goes wrong. One student can experiment on a separate copy (branch) and later combine it into the main essay (merge). If two students change the same sentence, the system flags a conflict so they can decide which version to keep."
+"P097","Explanation","Analogy and Beginner Explanation","Medium","Explain caching using a student keeping frequently used books on a desk.","Caching is like a student keeping frequently used books on their desk instead of walking to the library shelves each time. The desk is small but fast to reach, while the shelves are large but slow. When the needed book is on the desk, it is a cache hit; when the student must fetch it from the shelves, it is a cache miss. Because the desk has limited space, rarely used books are returned, and if a book is updated in the library, the desk copy may become outdated."
+"P098","Explanation","Analogy and Beginner Explanation","Medium","Explain a neural network using an analogy suitable for a beginner, then clarify one way the analogy is incomplete.","A neural network is like a team of judges scoring a performance. The first judges receive basic information, each judge weights some information more heavily than others, and later judges combine these opinions into a final decision. During training, the judges compare their decisions to the correct answers and adjust how much they trust each input. The analogy is incomplete because real neurons are simple mathematical functions, not judges who understand concepts, and the patterns they learn are often difficult for humans to interpret."
+"P099","Explanation","Analogy and Beginner Explanation","Hard","Explain the difference between authentication and authorization using a university building analogy. Include a case where a person has one but lacks the other.","Authentication verifies who you are, like tapping your student ID card at a university building entrance. Authorization determines what you are allowed to access, like whether your card opens the library, a research lab, or faculty offices. A student may be authenticated by a valid card but not authorized to enter a restricted chemistry lab. A professor may be authorized to enter the faculty lounge but, having forgotten their ID card, cannot be authenticated at the door until identity is verified another way."
+"P100","Explanation","Analogy and Beginner Explanation","Hard","Explain distributed computing using a team preparing a large event. Discuss task division, communication overhead, and what happens when one worker fails.","Distributed computing is like a team preparing a large event. The work is divided into tasks such as catering, decorations, and invitations, so several people can work at the same time. However, team members must communicate about guest counts, schedules, and dependencies, and this communication takes time and can slow progress. If one worker becomes sick, another must take over, which works best if plans and progress are recorded where others can see them. Similarly, distributed systems use task division, network communication, and replication or rescheduling to handle failures."
+"P101","Math","Arithmetic and Algebra","Easy","Solve for x: 3x + 7 = 25. Show your calculation.","3x + 7 = 25. Subtract 7 from both sides: 3x = 18. Divide both sides by 3: x = 6. Check: 3(6) + 7 = 25. So x = 6."
+"P102","Math","Arithmetic and Algebra","Easy","Calculate 18 + 6 multiplied by 4, using the standard order of operations.","Using the order of operations, multiply first: 6 x 4 = 24. Then add: 18 + 24 = 42. The answer is 42."
+"P103","Math","Arithmetic and Algebra","Easy","Simplify the fraction 42/56 and explain the common factor you used.","The greatest common factor of 42 and 56 is 14 (42 = 2 x 3 x 7 and 56 = 2^3 x 7). Dividing numerator and denominator by 14 gives 42/56 = 3/4."
+"P104","Math","Arithmetic and Algebra","Easy","A rectangle has length 12 cm and width 7 cm. Find its area and perimeter.","Area = length x width = 12 x 7 = 84 cm^2. Perimeter = 2(length + width) = 2(12 + 7) = 38 cm."
+"P105","Math","Arithmetic and Algebra","Medium","Solve the system of equations 2x + y = 7 and x - y = 2.","Add the equations: (2x + y) + (x - y) = 7 + 2, so 3x = 9 and x = 3. Substitute into x - y = 2: 3 - y = 2, so y = 1. The solution is x = 3, y = 1. Check: 2(3) + 1 = 7 and 3 - 1 = 2."
+"P106","Math","Arithmetic and Algebra","Medium","Solve x squared minus 5x plus 6 equals zero by factoring.","x^2 - 5x + 6 = 0 factors as (x - 2)(x - 3) = 0, since -2 and -3 multiply to 6 and add to -5. Setting each factor to zero gives x = 2 or x = 3."
+"P107","Math","Arithmetic and Algebra","Medium","Simplify (2a squared b)(3ab cubed) and state the exponent rule used.","Multiply the coefficients: 2 x 3 = 6. Multiply like bases by adding exponents: a^2 x a = a^3 and b x b^3 = b^4. The result is 6a^3b^4. The rule used is the product rule for exponents: x^m x x^n = x^(m+n)."
+"P108","Math","Arithmetic and Algebra","Medium","An arithmetic sequence begins 7, 11, 15, 19. Find the twentieth term and the sum of the first twenty terms.","The first term is 7 and the common difference is 4. The 20th term is a20 = 7 + (20 - 1)(4) = 7 + 76 = 83. The sum of the first 20 terms is S20 = 20(7 + 83)/2 = 20(90)/2 = 900."
+"P109","Math","Arithmetic and Algebra","Hard","Solve the inequality (x - 2)/(x + 1) > 0. State the excluded value and express the solution using intervals.","The excluded value is x = -1, because it makes the denominator zero. The critical points are x = -1 and x = 2. Testing intervals: for x < -1, the expression is positive; for -1 < x < 2, it is negative; for x > 2, it is positive. At x = 2 the expression equals 0, which is not greater than 0. The solution is (-infinity, -1) U (2, infinity)."
+"P110","Math","Arithmetic and Algebra","Hard","A quadratic function passes through (0, 3), (1, 6), and (2, 11). Find its equation and verify all three points.","Let y = ax^2 + bx + c. From (0, 3), c = 3. From (1, 6), a + b + 3 = 6, so a + b = 3. From (2, 11), 4a + 2b + 3 = 11, so 2a + b = 4. Subtracting gives a = 1, then b = 2. The equation is y = x^2 + 2x + 3. Verification: x = 0 gives 3; x = 1 gives 1 + 2 + 3 = 6; x = 2 gives 4 + 4 + 3 = 11."
+"P111","Math","Probability","Easy","A bag contains 4 red balls and 6 blue balls. If one ball is selected uniformly at random, what is the probability it is red?","There are 4 red balls out of 10 total balls, so P(red) = 4/10 = 2/5 = 0.4."
+"P112","Math","Probability","Easy","A fair six-sided die is rolled once. What is the probability of obtaining a number greater than 4?","The numbers greater than 4 are 5 and 6, so there are 2 favorable outcomes out of 6. P = 2/6 = 1/3."
+"P113","Math","Probability","Easy","Two fair coins are flipped independently. What is the probability that both show heads?","The flips are independent, so P(both heads) = 1/2 x 1/2 = 1/4."
+"P114","Math","Probability","Easy","A card is selected uniformly at random from a standard 52-card deck. What is the probability that it is a heart?","A standard deck has 13 hearts out of 52 cards, so P(heart) = 13/52 = 1/4."
+"P115","Math","Probability","Medium","A fair coin is flipped five times independently. What is the probability of getting exactly three heads?","Use the binomial formula: P = C(5,3) x (1/2)^3 x (1/2)^2 = 10 x 1/32 = 10/32 = 5/16 = 0.3125."
+"P116","Math","Probability","Medium","Two fair six-sided dice are rolled independently. What is the probability that their sum is 7?","There are 36 equally likely outcomes. The outcomes that sum to 7 are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1), so there are 6. P(sum = 7) = 6/36 = 1/6."
+"P117","Math","Probability","Medium","A bag contains 5 green balls and 3 yellow balls. Two balls are selected without replacement. What is the probability both are green?","P(first green) = 5/8. After one green is removed, P(second green) = 4/7. So P(both green) = 5/8 x 4/7 = 20/56 = 5/14, about 0.357."
+"P118","Math","Probability","Medium","A discrete random variable X takes values 0, 1, and 2 with probabilities 0.2, 0.5, and 0.3. Find its expected value and variance.","E(X) = 0(0.2) + 1(0.5) + 2(0.3) = 1.1. E(X^2) = 0(0.2) + 1(0.5) + 4(0.3) = 1.7. Var(X) = E(X^2) - [E(X)]^2 = 1.7 - 1.21 = 0.49."
+"P119","Math","Probability","Hard","A factory uses Machine A for 60% of its products and Machine B for 40%. Their defect rates are 2% and 5%, respectively. Given that a randomly selected product is defective, what is the probability it came from Machine B?","P(defective) = 0.6(0.02) + 0.4(0.05) = 0.012 + 0.020 = 0.032. By Bayes' theorem, P(B | defective) = 0.020 / 0.032 = 0.625. So the probability is 62.5%."
+"P120","Math","Probability","Hard","A fair six-sided die is rolled independently until the first 6 appears. What is the probability that the first 6 occurs on the fourth roll, and what is the expected number of rolls?","The first 6 on the fourth roll requires three non-6 rolls followed by a 6: (5/6)^3 x (1/6) = 125/1296, about 0.0965. The number of rolls until the first 6 is geometric with p = 1/6, so the expected number of rolls is 1/p = 6."
+"P121","Math","Logic","Easy","All squares are rectangles. A shape is a square. What can you conclude about the shape?","The shape is a rectangle. Since all squares are rectangles and the shape is a square, it must also be a rectangle."
+"P122","Math","Logic","Easy","If a lamp turns on whenever its switch is up, and its switch is up, what follows under this rule?","The lamp is on. Under the rule ""if the switch is up, the lamp turns on,"" and given that the switch is up, the lamp must be on (modus ponens)."
+"P123","Math","Logic","Easy","Find the next two numbers in the sequence 3, 6, 12, 24, assuming each term is twice the previous term.","Each term is multiplied by 2, so the next two numbers are 24 x 2 = 48 and 48 x 2 = 96."
+"P124","Math","Logic","Easy","A drawer contains only black socks and white socks. How many socks must you select without looking to guarantee that at least two have the same color?","You must select 3 socks. With only two colors, the first two socks could be different, but the third must match one of them."
+"P125","Math","Logic","Medium","All roses are flowers, and some flowers fade quickly. Does it necessarily follow that some roses fade quickly? Justify your answer.","No. All roses are flowers, but the flowers that fade quickly could all be other kinds of flowers, such as tulips. The premises can be true while no roses fade quickly, so the conclusion does not necessarily follow."
+"P126","Math","Logic","Medium","Consider the statement: If a number is divisible by 4, then it is even. Write its converse and determine whether the converse is true.","The converse is: ""If a number is even, then it is divisible by 4."" It is false. For example, 2 (or 6) is even but not divisible by 4."
+"P127","Math","Logic","Medium","Exactly one of three boxes contains a prize. Box A says 'The prize is in Box B.' Box B says 'The prize is not in Box B.' Box C says 'The prize is not in Box A.' Exactly one statement is true. Which box contains the prize?","The prize is in Box A. If the prize is in A, Box A's statement is false, Box B's statement is true, and Box C's statement is false, so exactly one statement is true. If it were in B, both A and C would be true; if it were in C, both B and C would be true."
+"P128","Math","Logic","Medium","A, B, and C each give one presentation. A must present before C, and B cannot present first. List all possible presentation orders.","Since B cannot be first and C cannot be first because A must come before C, A must present first. The possible orders are A, B, C and A, C, B."
+"P129","Math","Logic","Hard","Prove that the square of any odd integer is odd.","Let n be an odd integer, so n = 2k + 1 for some integer k. Then n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1. Since 2k^2 + 2k is an integer, n^2 has the form 2m + 1 and is odd. Therefore, the square of any odd integer is odd."
+"P130","Math","Logic","Hard","A set contains five integers. Prove that at least two of them have a difference divisible by 4.","Every integer has one of four possible remainders when divided by 4: 0, 1, 2, or 3. With five integers and only four possible remainders, by the pigeonhole principle, at least two integers a and b have the same remainder r. Then a = 4q1 + r and b = 4q2 + r, so a - b = 4(q1 - q2), which is divisible by 4."
+"P131","Math","Word Problems","Easy","A store discounts a $75 item by 20%. What is its price before tax?","A 20% discount on $75 is 0.20 x 75 = $15. The price before tax is 75 - 15 = $60."
+"P132","Math","Word Problems","Easy","A car travels 180 miles in 3 hours at a constant speed. What is its average speed?","Average speed = distance / time = 180 miles / 3 hours = 60 miles per hour."
+"P133","Math","Word Problems","Easy","A recipe uses 2 cups of flour for 8 servings. How much flour is needed for 20 servings at the same ratio?","The recipe uses 2/8 = 0.25 cup of flour per serving. For 20 servings, 0.25 x 20 = 5 cups of flour are needed."
+"P134","Math","Word Problems","Easy","A student buys three notebooks costing $4 each and one pen costing $2. What is the total cost before tax?","Three notebooks cost 3 x $4 = $12, and the pen costs $2. The total cost before tax is $12 + $2 = $14."
+"P135","Math","Word Problems","Medium","One pipe fills a tank in 6 hours and another fills it in 3 hours. If both operate together at constant rates, how long does it take to fill the empty tank?","The first pipe fills 1/6 of the tank per hour and the second fills 1/3. Together they fill 1/6 + 1/3 = 1/2 of the tank per hour, so they fill the tank in 2 hours."
+"P136","Math","Word Problems","Medium","A train leaves a station at 9:00 AM traveling at 60 miles per hour. Another train leaves the same station on the same route at 10:00 AM traveling at 90 miles per hour. At what time does the second train catch the first?","By 10:00 AM, the first train is 60 miles ahead. The second train gains 90 - 60 = 30 miles per hour, so it takes 60 / 30 = 2 hours to catch up. It catches the first train at 12:00 PM (noon), 180 miles from the station."
+"P137","Math","Word Problems","Medium","An item costs $120 before a 15% discount. An 8% sales tax is then applied to the discounted price. What is the final price?","After the 15% discount, the price is 120 x 0.85 = $102. Adding 8% tax gives 102 x 1.08 = $110.16. The final price is $110.16."
+"P138","Math","Word Problems","Medium","A rectangular garden has a perimeter of 50 meters. Its length is 5 meters greater than its width. Find its dimensions.","Let the width be w, so the length is w + 5. Then 2(w + w + 5) = 50, so 4w + 10 = 50 and w = 10. The garden is 10 meters wide and 15 meters long."
+"P139","Math","Word Problems","Hard","You have 10 liters of a 20% salt solution. How many liters of a 50% salt solution must be added to obtain a 30% solution? Assume volumes add directly.","Let x be the liters of 50% solution added. Salt: 0.20(10) + 0.50x = 0.30(10 + x). So 2 + 0.5x = 3 + 0.3x, 0.2x = 1, and x = 5. Add 5 liters of the 50% solution."
+"P140","Math","Word Problems","Hard","A boat travels 24 kilometers downstream in 2 hours and the same distance upstream in 3 hours. Find the boat's speed in still water and the current's speed, assuming both are constant.","Downstream speed = 24 / 2 = 12 km/h, so b + c = 12. Upstream speed = 24 / 3 = 8 km/h, so b - c = 8. Adding gives 2b = 20, so b = 10 km/h, and c = 2 km/h. The boat's speed in still water is 10 km/h and the current's speed is 2 km/h."
+"P141","Math","Quantitative Reasoning","Easy","Find the mean and median of 2, 4, 6, 8, and 10.","Mean = (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6. The median is the middle value of the ordered list, which is 6."
+"P142","Math","Quantitative Reasoning","Easy","A population increases from 1000 to 1210. What is the percentage increase?","Percentage increase = (1210 - 1000) / 1000 x 100% = 210 / 1000 x 100% = 21%."
+"P143","Math","Quantitative Reasoning","Easy","Convert 2.5 hours into minutes and seconds.","2.5 hours = 2.5 x 60 = 150 minutes. 150 minutes = 150 x 60 = 9,000 seconds."
+"P144","Math","Quantitative Reasoning","Easy","A class has 18 students who prefer tea and 12 who prefer coffee, with each student choosing exactly one. What percentage prefers tea?","There are 18 + 12 = 30 students. The percentage who prefer tea is 18 / 30 x 100% = 60%."
+"P145","Math","Quantitative Reasoning","Medium","A course grade consists of homework worth 30%, a midterm worth 30%, and a final worth 40%. A student scores 80, 90, and 85, respectively. Calculate the weighted course grade.","Weighted grade = 0.30(80) + 0.30(90) + 0.40(85) = 24 + 27 + 34 = 85."
+"P146","Math","Quantitative Reasoning","Medium","A class contains 12 students. How many distinct pairs of students can be formed?","The number of distinct pairs is C(12, 2) = (12 x 11) / 2 = 66."
+"P147","Math","Quantitative Reasoning","Medium","A quantity increases by 20% and then decreases by 20%. What is its net percentage change relative to the original quantity?","After a 20% increase and a 20% decrease, the quantity is multiplied by 1.20 x 0.80 = 0.96. The net change is a 4% decrease."
+"P148","Math","Quantitative Reasoning","Medium","City A has 20000 residents and uses 300000 liters of water daily. City B has 50000 residents and uses 600000 liters daily. Which city uses more water per resident, and by how much?","City A uses 300,000 / 20,000 = 15 liters per resident per day. City B uses 600,000 / 50,000 = 12 liters per resident per day. City A uses more water per resident, by 3 liters per resident per day (25% more)."
+"P149","Math","Quantitative Reasoning","Hard","A classifier evaluates 200 items. There are 50 actual positives; it correctly identifies 40 of them and incorrectly labels 30 negatives as positive. Compute accuracy, precision, recall, and F1-score.","TP = 40, FN = 50 - 40 = 10, FP = 30, and TN = 150 - 30 = 120. Accuracy = (40 + 120) / 200 = 0.80. Precision = 40 / (40 + 30) = 4/7, about 0.571. Recall = 40 / (40 + 10) = 0.80. F1 = 2 x precision x recall / (precision + recall) = 2/3, about 0.667."
+"P150","Math","Quantitative Reasoning","Hard","A company sells a product for $25 each. Its fixed cost is $1200 and its variable cost is $10 per item. Find the break-even quantity and the minimum whole-number quantity needed to earn at least $500 profit.","Each item contributes 25 - 10 = $15 toward fixed costs. Break-even quantity = 1200 / 15 = 80 items. For at least $500 profit: 15q - 1200 >= 500, so 15q >= 1700 and q >= 113.33. The minimum whole-number quantity is 114 items, which gives $510 profit."
+"P151","Coding","Basic Python","Easy","Write a Python function that returns the largest number in a nonempty list without using max.","def find_largest(numbers):
+    largest = numbers[0]
+    for num in numbers[1:]:
+        if num > largest:
+            largest = num
+    return largest
+
+The function starts with the first number and updates largest whenever it finds a bigger value."
+"P152","Coding","Basic Python","Easy","Write a Python function that returns True if an integer is even and False otherwise.","def is_even(n):
+    return n % 2 == 0
+
+An integer is even when the remainder after division by 2 is 0."
+"P153","Coding","Basic Python","Easy","Write a Python function that counts vowels in a string, ignoring letter case.","def count_vowels(text):
+    count = 0
+    for char in text.lower():
+        if char in ""aeiou"":
+            count += 1
+    return count
+
+Converting the string to lowercase makes the count ignore letter case."
+"P154","Coding","Basic Python","Easy","Write Python code that prints the odd integers from 5 through 15, inclusive.","for number in range(5, 16, 2):
+    print(number)
+
+This prints 5, 7, 9, 11, 13, and 15."
+"P155","Coding","Basic Python","Medium","Write a Python function that determines whether a string is a palindrome, ignoring spaces, punctuation, and letter case.","def is_palindrome(text):
+    cleaned = [char.lower() for char in text if char.isalnum()]
+    return cleaned == cleaned[::-1]
+
+The function removes spaces and punctuation, converts letters to lowercase, and checks whether the result reads the same backward. For example, is_palindrome(""A man, a plan, a canal: Panama"") returns True."
+"P156","Coding","Basic Python","Medium","Write a Python function that removes duplicate values from a list while preserving their first-occurrence order. Assume all values are hashable.","def remove_duplicates(items):
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
+
+The set tracks values already seen, and each value is added to the result only on its first occurrence, preserving order."
+"P157","Coding","Basic Python","Medium","Write a Python function that counts word frequencies in a sentence, ignoring letter case and treating punctuation as word separators.","import re
+from collections import Counter
+
+def word_frequencies(sentence):
+    words = re.split(r""[^\w]+"", sentence.lower())
+    return dict(Counter(word for word in words if word))
+
+The sentence is converted to lowercase, split at any punctuation or whitespace, and the nonempty words are counted."
+"P158","Coding","Basic Python","Medium","Write a Python function that accepts a list of numeric strings and returns their mean. Skip invalid strings and raise ValueError if no valid numbers remain.","def mean_of_numeric_strings(strings):
+    total = 0.0
+    count = 0
+    for s in strings:
+        try:
+            value = float(s)
+        except (ValueError, TypeError):
+            continue
+        total += value
+        count += 1
+    if count == 0:
+        raise ValueError(""No valid numbers found."")
+    return total / count
+
+Invalid strings are skipped, and ValueError is raised if no valid numbers remain."
+"P159","Coding","Basic Python","Hard","Write a Python function that flattens arbitrarily nested lists into one list while preserving order. Treat values that are not lists as individual elements.","def flatten(nested):
+    result = []
+    for item in nested:
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
+
+Lists are flattened recursively, while non-list values are added as individual elements, preserving order. For example, flatten([1, [2, [3, 4]], 5]) returns [1, 2, 3, 4, 5]."
+"P160","Coding","Basic Python","Hard","Write a Python function that returns the second-largest distinct number in a list in one pass. Raise ValueError if fewer than two distinct numbers exist.","def second_largest(numbers):
+    largest = None
+    second = None
+    for num in numbers:
+        if largest is None or num > largest:
+            second = largest
+            largest = num
+        elif num != largest and (second is None or num > second):
+            second = num
+    if second is None:
+        raise ValueError(""Need at least two distinct numbers."")
+    return second
+
+The function tracks the largest and second-largest distinct values in a single pass and ignores duplicates of the largest value."
+"P161","Coding","Data Structures","Easy","Show how to create a Python dictionary mapping three student names to scores and retrieve one student's score.","scores = {""Alice"": 92, ""Bob"": 85, ""Charlie"": 78}
+print(scores[""Bob""])
+
+This creates a dictionary mapping names to scores and prints Bob's score, 85."
+"P162","Coding","Data Structures","Easy","Write a Python function that returns the common distinct elements of two lists using sets.","def common_elements(list1, list2):
+    return list(set(list1) & set(list2))
+
+Converting both lists to sets removes duplicates, and the & operator returns the elements found in both."
+"P163","Coding","Data Structures","Easy","Demonstrate how to use a Python list as a stack by pushing three values and popping one.","stack = []
+stack.append(10)
+stack.append(20)
+stack.append(30)
+top = stack.pop()
+print(top)    # 30
+print(stack)  # [10, 20]
+
+append() pushes values onto the stack, and pop() removes the most recently added value."
+"P164","Coding","Data Structures","Easy","Write a Python function that maps each string in a list to its length using a dictionary comprehension.","def string_lengths(strings):
+    return {s: len(s) for s in strings}
+
+For example, string_lengths([""apple"", ""fig""]) returns {""apple"": 5, ""fig"": 3}."
+"P165","Coding","Data Structures","Medium","Write a Python function that groups a list of words by their first letter. Ignore empty strings and treat uppercase and lowercase first letters as equivalent.","def group_by_first_letter(words):
+    groups = {}
+    for word in words:
+        if not word:
+            continue
+        key = word[0].lower()
+        groups.setdefault(key, []).append(word)
+    return groups
+
+Empty strings are skipped, and the lowercase first letter is used as the key so uppercase and lowercase are grouped together."
+"P166","Coding","Data Structures","Medium","Implement a queue using collections.deque and demonstrate enqueue and dequeue operations.","from collections import deque
+
+queue = deque()
+queue.append(""A"")
+queue.append(""B"")
+queue.append(""C"")
+first = queue.popleft()
+print(first)        # A
+print(list(queue))  # ['B', 'C']
+
+append() enqueues items at the back, and popleft() dequeues from the front in first-in, first-out order."
+"P167","Coding","Data Structures","Medium","Write a Python function that checks whether a string containing only parentheses has balanced parentheses.","def is_balanced(s):
+    depth = 0
+    for char in s:
+        if char == ""("":
+            depth += 1
+        elif char == "")"":
+            depth -= 1
+            if depth < 0:
+                return False
+    return depth == 0
+
+The counter tracks unmatched opening parentheses. The string is unbalanced if a closing parenthesis appears without a match or if any opening parentheses remain at the end."
+"P168","Coding","Data Structures","Medium","Given a list of dictionaries with keys 'name' and 'score', write Python code to sort by descending score and then ascending name.","sorted_data = sorted(data, key=lambda d: (-d[""score""], d[""name""]))
+
+The key sorts by negative score for descending order, and then by name in ascending order when scores are tied."
+"P169","Coding","Data Structures","Hard","Write a Python function that groups words that are anagrams of one another. Treat letter case as irrelevant and explain the grouping key.","from collections import defaultdict
+
+def group_anagrams(words):
+    groups = defaultdict(list)
+    for word in words:
+        key = """".join(sorted(word.lower()))
+        groups[key].append(word)
+    return list(groups.values())
+
+The grouping key is the word converted to lowercase with its letters sorted alphabetically. Anagrams contain the same letters, so they produce the same key; for example, ""Listen"" and ""silent"" both become ""eilnst""."
+"P170","Coding","Data Structures","Hard","Implement an LRU cache in Python using collections.OrderedDict. Include get and put methods and handle a positive fixed capacity.","from collections import OrderedDict
+
+class LRUCache:
+    def __init__(self, capacity):
+        if capacity <= 0:
+            raise ValueError(""Capacity must be positive."")
+        self.capacity = capacity
+        self.cache = OrderedDict()
+
+    def get(self, key):
+        if key not in self.cache:
+            return -1
+        self.cache.move_to_end(key)
+        return self.cache[key]
+
+    def put(self, key, value):
+        if key in self.cache:
+            self.cache.move_to_end(key)
+        self.cache[key] = value
+        if len(self.cache) > self.capacity:
+            self.cache.popitem(last=False)
+
+Accessed or updated keys are moved to the end as most recently used. When capacity is exceeded, the least recently used item at the front is removed."
+"P171","Coding","Algorithms","Easy","Write a Python function that performs a linear search and returns the first matching index or -1.","def linear_search(items, target):
+    for index, value in enumerate(items):
+        if value == target:
+            return index
+    return -1
+
+The function checks each item in order and returns the first matching index, or -1 if no match is found."
+"P172","Coding","Algorithms","Easy","Write an iterative Python function that computes the factorial of a nonnegative integer.","def factorial(n):
+    if n < 0:
+        raise ValueError(""n must be nonnegative."")
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+For n = 0 or 1, the loop does not run and the function returns 1."
+"P173","Coding","Algorithms","Easy","Write a Python function that returns the sum of the integers from 1 to n for a nonnegative integer n.","def sum_to_n(n):
+    return n * (n + 1) // 2
+
+This uses the formula 1 + 2 + ... + n = n(n + 1)/2. For n = 0 it returns 0, and for n = 10 it returns 55."
+"P174","Coding","Algorithms","Easy","Write a Python function that reverses a string without using slicing.","def reverse_string(s):
+    result = """"
+    for char in s:
+        result = char + result
+    return result
+
+Each character is placed in front of the previous characters, producing the reversed string."
+"P175","Coding","Algorithms","Medium","Implement iterative binary search in Python for a sorted list of integers. Return a matching index or -1.","def binary_search(nums, target):
+    low, high = 0, len(nums) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+The search range is halved each step, giving O(log n) time."
+"P176","Coding","Algorithms","Medium","Write a Python function that merges two sorted lists into one sorted list without calling sorted.","def merge_sorted(a, b):
+    result = []
+    i = j = 0
+    while i < len(a) and j < len(b):
+        if a[i] <= b[j]:
+            result.append(a[i])
+            i += 1
+        else:
+            result.append(b[j])
+            j += 1
+    result.extend(a[i:])
+    result.extend(b[j:])
+    return result
+
+Two pointers compare the current elements of each list and add the smaller one, then any remaining elements are appended."
+"P177","Coding","Algorithms","Medium","Write a Python function that determines whether a nonnegative integer is prime. Explain how you limit the number of divisibility checks.","import math
+
+def is_prime(n):
+    if n < 2:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    for d in range(3, math.isqrt(n) + 1, 2):
+        if n % d == 0:
+            return False
+    return True
+
+The function checks divisors only up to the square root of n, because any factor larger than the square root would pair with a smaller factor already checked. It also skips even divisors after checking 2."
+"P178","Coding","Algorithms","Medium","Write a Python function that returns the first n Fibonacci numbers using iteration, with the sequence starting at 0 and 1.","def fibonacci(n):
+    result = []
+    a, b = 0, 1
+    for _ in range(n):
+        result.append(a)
+        a, b = b, a + b
+    return result
+
+For example, fibonacci(8) returns [0, 1, 1, 2, 3, 5, 8, 13]."
+"P179","Coding","Algorithms","Hard","Write a Python function that finds the length of the longest substring containing no repeated characters. Explain the sliding-window approach and its time complexity.","def length_of_longest_substring(s):
+    last_seen = {}
+    start = 0
+    best = 0
+    for end, char in enumerate(s):
+        if char in last_seen and last_seen[char] >= start:
+            start = last_seen[char] + 1
+        last_seen[char] = end
+        best = max(best, end - start + 1)
+    return best
+
+The sliding window keeps a substring with no repeated characters. The right edge moves forward one character at a time. If a character repeats inside the window, the left edge moves just past its previous position. Each character is processed once, so the time complexity is O(n)."
+"P180","Coding","Algorithms","Hard","Implement breadth-first search in Python to find a shortest path between two vertices in an unweighted graph represented by an adjacency dictionary. Return None when no path exists.","from collections import deque
+
+def shortest_path(graph, start, goal):
+    queue = deque([start])
+    parent = {start: None}
+    while queue:
+        vertex = queue.popleft()
+        if vertex == goal:
+            path = []
+            while vertex is not None:
+                path.append(vertex)
+                vertex = parent[vertex]
+            return path[::-1]
+        for neighbor in graph.get(vertex, []):
+            if neighbor not in parent:
+                parent[neighbor] = vertex
+                queue.append(neighbor)
+    return None
+
+BFS explores vertices in order of distance from the start, so the first time it reaches the goal, the reconstructed path is a shortest path. It returns None if the goal is unreachable."
+"P181","Coding","Debugging","Easy","Identify and fix the syntax error in this Python code: for i in range(5) print(i). Rewrite it as valid multiline code.","The for statement is missing a colon, and the loop body must be on an indented line. Corrected code:
+for i in range(5):
+    print(i)"
+"P182","Coding","Debugging","Easy","Explain and fix this Python code: numbers = [1, 2, 3]; print(numbers[3]). The intended output is the final list element.","The list [1, 2, 3] has indexes 0, 1, and 2, so numbers[3] is out of range and causes an IndexError. To print the final element, use:
+numbers = [1, 2, 3]
+print(numbers[-1])"
+"P183","Coding","Debugging","Easy","Explain why this Python expression fails and correct it to calculate a number: '5' + 2.","The expression fails with a TypeError because '5' is a string and 2 is an integer, and Python cannot add them directly. Convert the string to a number first: int('5') + 2, which gives 7."
+"P184","Coding","Debugging","Easy","A Python function assigns result = x * 2 but has no return statement. Explain why calling it gives None and provide a corrected function.","The function calculates result but never returns it, and Python functions without a return statement return None. Corrected function:
+def double(x):
+    result = x * 2
+    return result"
+"P185","Coding","Debugging","Medium","Explain the problem with this Python function and fix it: def add_item(item, items=[]): items.append(item); return items. The list should be fresh unless a caller supplies one.","The default list is created only once when the function is defined, so every call without an items argument shares and modifies the same list. Use None as the default instead:
+def add_item(item, items=None):
+    if items is None:
+        items = []
+    items.append(item)
+    return items"
+"P186","Coding","Debugging","Medium","A programmer loops over a list and removes each negative value from that same list during iteration. Explain why some values may be skipped and show a reliable correction.","When an item is removed during iteration, the remaining items shift left, but the loop still moves to the next index, so the item that shifted into the removed position is skipped. A reliable correction is to build a new list:
+numbers = [n for n in numbers if n >= 0]"
+"P187","Coding","Debugging","Medium","Explain why grid = [[0] * 3] * 3 causes multiple rows to change when grid[0][0] is updated. Show how to create independent rows.","[[0] * 3] * 3 creates one inner list and places three references to that same list in the outer list. Changing grid[0][0] changes the shared list, so every row appears to change. Create independent rows with a list comprehension:
+grid = [[0] * 3 for _ in range(3)]"
+"P188","Coding","Debugging","Medium","This Python loop calculates a total but gives the wrong result: total = 0; for value in values: total = value. Rewrite it as valid multiline code that sums all values.","The loop replaces total with each value instead of adding to it. Corrected code:
+total = 0
+for value in values:
+    total += value"
+"P189","Coding","Debugging","Hard","A programmer creates functions using funcs = [lambda: i for i in range(3)] and then calls each function. Explain the results and modify the code so the functions return 0, 1, and 2 respectively.","All three functions return 2 because each lambda refers to the variable i and looks up its value when called, after the loop has finished with i = 2. Use a default argument to capture the current value:
+funcs = [lambda i=i: i for i in range(3)]
+print([f() for f in funcs])  # [0, 1, 2]"
+"P190","Coding","Debugging","Hard","A recursive factorial function uses only n == 1 as its base case. Explain what happens for n = 0 and negative inputs, then provide a corrected implementation with input validation.","For n = 0, the function calls factorial(-1), then factorial(-2), and so on, never reaching n == 1, so it causes infinite recursion and a RecursionError. Negative inputs have the same problem. A corrected version:
+def factorial(n):
+    if not isinstance(n, int) or isinstance(n, bool):
+        raise TypeError(""n must be an integer."")
+    if n < 0:
+        raise ValueError(""n must be nonnegative."")
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)"
+"P191","Coding","Data Science Python","Easy","Write pandas code that loads data.csv and prints the first five rows.","import pandas as pd
+
+df = pd.read_csv(""data.csv"")
+print(df.head())"
+"P192","Coding","Data Science Python","Easy","Write pandas code that removes rows containing any missing value from a DataFrame named df.","df = df.dropna()
+
+This removes every row that contains at least one missing value."
+"P193","Coding","Data Science Python","Easy","Write pandas code that calculates the mean of a numeric column named 'age' in df.","mean_age = df[""age""].mean()
+print(mean_age)
+
+Missing values are ignored by default when calculating the mean."
+"P194","Coding","Data Science Python","Easy","Write pandas code that prints the number of occurrences of each value in the 'category' column of df.","print(df[""category""].value_counts())"
+"P195","Coding","Data Science Python","Medium","Write pandas code that converts the 'date' column of df into datetime values and replaces invalid dates with missing values.","import pandas as pd
+
+df[""date""] = pd.to_datetime(df[""date""], errors=""coerce"")
+
+Invalid dates are converted to NaT, pandas' missing value for dates."
+"P196","Coding","Data Science Python","Medium","Write scikit-learn code that splits feature matrix X and label vector y into an 80% training set and a 20% test set using stratification and random_state=42.","from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, stratify=y, random_state=42
+)"
+"P197","Coding","Data Science Python","Medium","Write pandas code that groups df by 'department' and calculates the mean and median of the 'salary' column for each department.","result = df.groupby(""department"")[""salary""].agg([""mean"", ""median""])
+print(result)"
+"P198","Coding","Data Science Python","Medium","Write Python code using scikit-learn to calculate accuracy and macro-averaged F1-score from y_true and y_pred.","from sklearn.metrics import accuracy_score, f1_score
+
+accuracy = accuracy_score(y_true, y_pred)
+macro_f1 = f1_score(y_true, y_pred, average=""macro"")
+print(""Accuracy:"", accuracy)
+print(""Macro F1:"", macro_f1)"
+"P199","Coding","Data Science Python","Hard","Write scikit-learn code that builds a pipeline with median imputation, standard scaling, and logistic regression for numeric features. Fit it on X_train and y_train, then evaluate it on X_test and y_test.","from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+
+model = Pipeline([
+    (""imputer"", SimpleImputer(strategy=""median"")),
+    (""scaler"", StandardScaler()),
+    (""classifier"", LogisticRegression(max_iter=1000)),
+])
+
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
+
+print(""Accuracy:"", accuracy_score(y_test, y_pred))
+print(classification_report(y_test, y_pred))
+
+The pipeline fits imputation and scaling on the training data only, then applies the same transformations to the test data."
+"P200","Coding","Data Science Python","Hard","A DataFrame contains prompt_id, LLM_name, and LLM_output. Write Python code that randomly splits unique prompt IDs into 70% training, 15% validation, and 15% test groups, then assigns every response to its prompt's group. Include a check that no prompt ID appears in multiple groups.","import numpy as np
+
+unique_ids = df[""prompt_id""].drop_duplicates().to_numpy()
+rng = np.random.default_rng(42)
+shuffled = rng.permutation(unique_ids)
+
+n = len(shuffled)
+n_train = int(round(0.70 * n))
+n_val = int(round(0.15 * n))
+
+train_ids = set(shuffled[:n_train])
+val_ids = set(shuffled[n_train:n_train + n_val])
+test_ids = set(shuffled[n_train + n_val:])
+
+def assign_split(pid):
+    if pid in train_ids:
+        return ""train""
+    if pid in val_ids:
+        return ""validation""
+    return ""test""
+
+df[""split""] = df[""prompt_id""].map(assign_split)
+
+assert (df.groupby(""prompt_id"")[""split""].nunique() == 1).all()
+assert train_ids.isdisjoint(val_ids)
+assert train_ids.isdisjoint(test_ids)
+assert val_ids.isdisjoint(test_ids)
+print(""Check passed: no prompt ID appears in multiple groups."")
+
+The split is done on unique prompt IDs, so all responses to the same prompt stay in the same group and no prompt leaks across groups."
+"P201","Writing","Creative Writing","Easy","Write a short story of about 120 words about a robot learning to cook.","Unit K-7 had been built to weld car doors, so its first omelet was a disaster. It cracked the eggs with factory precision, shells and all, and set the stove to maximum. Smoke filled the tiny apartment. Mrs. Alvarez, who had bought the used robot for company, only laughed and handed it a spatula. ""Gentle,"" she said. ""Cooking is listening."" K-7 did not understand, but it recorded everything: the hiss of butter, the way she tilted the pan, the smell just before something burned. Each morning it tried again. Its omelets grew softer, then golden. One day Mrs. Alvarez took a bite, closed her eyes, and smiled. K-7 logged a new data point it could not classify, and decided to call it pride."
+"P202","Writing","Creative Writing","Easy","Write a short story of about 120 words that begins with an unexpected phone call.","The phone rang at 3:12 a.m., and Leah almost ignored it. The number was her own. ""Don't take the bridge tomorrow,"" said a voice that sounded exactly like hers, only tired. ""Take the long way. Please."" Then the line went dead. Leah sat in the dark, heart pounding, telling herself it was a prank, a glitch, a dream. By morning she had nearly convinced herself. Still, she drove the long way to work, feeling foolish the whole time. At noon, her coworkers gathered around a screen showing the bridge, closed after a truck crashed through its railing. Leah checked her call history. The 3:12 call was there. When she dialed it back, a recording said the number was not in service."
+"P203","Writing","Creative Writing","Easy","Write a scene of about 100 words in which a student finds a mysterious key inside a library book.","Maya opened the old atlas to finish her geography assignment, and a small brass key slid from between the pages and clinked onto the library table. It was warm, as if someone had just been holding it. A paper tag hung from its ring: ""Room 4B. Return before closing."" Maya glanced around. The library had no Room 4B; she had studied here for three years. Then she noticed the librarian watching her over his glasses, not surprised at all. He nodded toward the back stairwell, where a narrow door she had never seen stood slightly open."
+"P204","Writing","Creative Writing","Easy","Write a short dialogue between two friends who discover that they brought identical gifts to a birthday party.","Sam: Happy birthday, Priya! Here, I hope you like it.
+Priya: Thanks! Oh, Jordan brought one too. Let me open both.
+Jordan: Wait, is that the same wrapping paper?
+Priya: It is. And... it's the same blue scarf.
+Sam: You're kidding. I spent an hour choosing that!
+Jordan: So did I! The salesperson said it was ""one of a kind.""
+Priya: Well, now it's two of a kind.
+Sam: I'm so sorry. I can return mine.
+Priya: Don't you dare. One for cold days, one for backup.
+Jordan: Or we all wear matching scarves to the next party.
+Sam: Deal. At least we know we have great taste.
+Priya: And that you both listen when I say I'm always cold."
+"P205","Writing","Creative Writing","Medium","Write a story of about 180 words about a delivery arriving twenty years late. Include a clear beginning, conflict, and ending.","The package arrived on a rainy Tuesday, its cardboard soft with age and its stamps twenty years out of date. The label read ""To Daniel Reyes,"" in handwriting Daniel recognized instantly: his father's. His father had died fifteen years earlier, and they had not spoken for five years before that. Daniel set the box on the kitchen table and stared at it for an hour. Opening it felt like reopening an argument he had never finished. What if it was an accusation? What if it was an apology he no longer knew how to accept? His hands, he noticed, were shaking the way they had the night he left. Finally, he cut the tape. Inside was a battered baseball glove, the one Daniel had left behind when he stormed out at nineteen, and a folded note. ""Found this in the garage,"" it said. ""The door is open whenever you want to play catch."" Daniel read it three times. Then he put on the glove, stiff with age and still too small, and stood by the window watching the rain until it stopped."
+"P206","Writing","Creative Writing","Medium","Write a scene of about 150 words from the perspective of an umbrella forgotten on a train.","I have been left behind before, but never like this. The train sways, and I slide an inch along the seat, still damp from the morning's storm, my folds heavy with water. The woman who carried me here stepped off at Elm Street in a hurry, talking into her phone, and did not look back. Now strangers glance at me the way people glance at a stray dog: brief pity, then nothing. A boy pokes my handle. A man in a suit moves me to the floor so he can sit. Outside, the sun has returned, and I understand why she forgot. No one remembers an umbrella when the sky is clear. Still, I keep myself ready, clasp fastened, spokes straight, because somewhere tomorrow the clouds will gather again. When they do, someone will need me, and I will open without complaint, as I always have."
+"P207","Writing","Creative Writing","Medium","Write a story of about 180 words in which a character solves a problem through cooperation rather than competition.","Every spring, the town's two bakeries competed to supply bread for the harvest festival, and every spring the rivalry grew sharper. This year, a flood damaged both kitchens a week before the event. Rosa's oven was ruined, and Tom's storeroom was full of soaked flour. Each quietly assumed the festival would go without bread for the first time in fifty years. On Monday, Tom showed up at Rosa's door, hat in hand. ""My oven works,"" he said. ""Your flour is dry. Neither of us can do it alone."" Rosa hesitated. Accepting felt like losing. For years she had told herself that her bread was better and that Tom's customers were only loyal out of habit. But she thought of the children who waited all year for the braided honey loaves. For five nights they worked side by side, arguing about salt and laughing at each other's kneading. They combined Rosa's honey recipe with Tom's crusty rye. On festival morning, the tables were full, and the new bread sold out first. Neither of them mentioned the rivalry. They sign their bread together now."
+"P208","Writing","Creative Writing","Medium","Write a dialogue of about 150 words between a nervous student and a future version of that student.","Student: I can't do this. The presentation is in an hour and my hands won't stop shaking.
+Future Self: They'll shake for the first two slides. Then you'll forget about them.
+Student: How do you know?
+Future Self: Because I remember this exact moment. You're sitting on the stairs outside Room 210, rereading your note cards.
+Student: That's creepy. So... does it go well?
+Future Self: You mispronounce one word, and nobody notices. Someone asks a question you actually know the answer to.
+Student: Then why do I feel like I'm going to fail?
+Future Self: Because you care. That feeling isn't a warning; it's energy. Use it.
+Student: Any other advice?
+Future Self: Breathe before each slide. And stop apologizing before you start.
+Student: Will I still be nervous in the future?
+Future Self: Sometimes. But now I know nervous doesn't mean unprepared."
+"P209","Writing","Creative Writing","Hard","Write a story of about 220 words in which the opening sentence has a different meaning after the ending. Avoid explaining the twist directly.","Every morning, I set the table for two. The blue mug goes on the left, with one sugar already stirred in, and the newspaper sits folded at the sports page. I make eggs the way he likes them, slightly runny, and toast cut diagonally, because straight lines were never good enough for him. The neighbors wave when I walk to the mailbox. Mrs. Chen asks how we are, and I say, ""Fine, the same as always."" She smiles in a careful way, the way people smile at a house with too many flowers on the porch. In the afternoon, I read aloud from the novel we started in March. I do the voices, even the villain's, which always made him laugh. Sometimes I pause at a good line and wait, the way you wait for thunder after lightning. In the evening, I wash both plates, though only one is dirty. I pour the cold coffee from the blue mug into the sink and rinse it carefully. Then I place it back on the shelf, handle facing out, ready for tomorrow. On the calendar by the door, I cross off another day. There are forty-one crosses since the hospital called in March. I haven't changed the voicemail message yet. I still like hearing him say we'll call you back."
+"P210","Writing","Creative Writing","Hard","Write a scene of about 200 words involving two characters who disagree about leaving their hometown. Convey their feelings through actions and dialogue rather than directly naming emotions.","Nadia folded her sweaters into the suitcase, one by one, pressing each flat with her palm. Omar stood in the doorway, arms crossed, watching.
+""You've packed that blue one twice,"" he said.
+She pulled it out and put it back in. ""The job starts on the fifteenth.""
+""The bakery's hiring. Mr. Haddad asked about you yesterday.""
+""Omar."" She zipped a side pocket, then unzipped it again. ""I've worked at that bakery since I was fourteen.""
+He picked up a framed photo from the dresser: the two of them on the pier, sunburned, grinning with missing teeth. He turned it over in his hands. ""Mom still sets your place at dinner. Did you know that?""
+Nadia stopped packing. For a moment the only sound was a gull outside the window.
+""Come visit,"" she said finally. ""The city has a pier too.""
+""It's not the same pier.""
+""No."" She took the photo from him, wrapped it in the blue sweater, and laid it gently on top. ""It isn't.""
+Omar looked at the suitcase for a long time. Then he knelt, pushed down on the lid, and held it closed while she worked the zipper around the stubborn corner."
+"P211","Writing","Professional Writing","Easy","Write a polite email asking a professor to clarify which chapters are included in an upcoming exam.","Subject: Question About Chapters for the Upcoming Exam
+
+Dear Professor [Last Name],
+
+I hope you are doing well. I am a student in your [Course Name] class, and I wanted to ask for clarification about the upcoming exam on [date]. Could you please confirm which chapters will be included? I want to make sure I focus my review on the correct material.
+
+Thank you for your time and help.
+
+Sincerely,
+[Your Name]
+[Student ID, if applicable]"
+"P212","Writing","Professional Writing","Easy","Write a professional email asking a project teammate to meet on Thursday afternoon.","Subject: Meeting Request for Thursday Afternoon
+
+Hi [Teammate's Name],
+
+I hope your week is going well. Would you be available to meet on Thursday afternoon to discuss our project progress and next steps? I am free between 1:00 and 5:00 PM, so please let me know what time works best for you. We can meet in person or online, whichever is more convenient.
+
+Thank you, and I look forward to working with you.
+
+Best regards,
+[Your Name]"
+"P213","Writing","Professional Writing","Easy","Write a brief thank-you email to a classmate who helped you understand a difficult assignment.","Subject: Thank You for Your Help
+
+Hi [Classmate's Name],
+
+Thank you so much for helping me understand the assignment. Your explanation made the difficult parts much clearer, and I feel far more confident now. I really appreciate you taking the time to help. Please let me know if I can ever return the favor.
+
+Best,
+[Your Name]"
+"P214","Writing","Professional Writing","Easy","Write a short announcement reminding students that a campus club meeting begins at 6 PM in Room 204.","Reminder: Campus Club Meeting Tonight!
+
+Our club meeting begins at 6:00 PM in Room 204. Please arrive on time so we can start promptly. All members are encouraged to attend, and new members are welcome. We look forward to seeing you there!"
+"P215","Writing","Professional Writing","Medium","Write an email requesting a two-day assignment extension because of an unexpected computer failure. Acknowledge the instructor's discretion and propose a submission date.","Subject: Request for Two-Day Extension on [Assignment Name]
+
+Dear Professor [Last Name],
+
+I am writing to request a two-day extension for [Assignment Name], which is due on [original due date]. Unfortunately, my computer failed unexpectedly on [date], and I lost access to my work in progress. I have been working to recover my files and complete the assignment using a campus computer, but I need a little more time to finish it properly.
+
+I understand that granting an extension is entirely at your discretion, and I would be grateful for your consideration. If possible, I would submit the completed assignment by [proposed date, two days after the original deadline]. I am happy to provide documentation of the computer repair if needed.
+
+Thank you for your time and understanding.
+
+Sincerely,
+[Your Name]
+[Course Name and Section]"
+"P216","Writing","Professional Writing","Medium","Write a project status update explaining that data collection is complete, analysis is underway, and one visualization is delayed by missing information.","Subject: Project Status Update
+
+Hi team,
+
+Here is a quick update on our project's progress:
+
+- Data collection: Complete. All planned data has been collected and stored in the shared folder.
+- Analysis: Underway. We are currently cleaning the data and running the main analyses, and we expect initial results by [date].
+- Visualizations: Most are on track. However, one visualization is delayed because some required information is still missing. We have contacted [source/person] and will finish the chart as soon as we receive the data.
+
+Overall, the project remains on schedule, and we do not expect the delayed visualization to affect the final deadline. Please let me know if you have any questions.
+
+Best regards,
+[Your Name]"
+"P217","Writing","Professional Writing","Medium","Write a polite email to a customer explaining that a package is delayed by three days and offering two practical next steps.","Subject: Update on Your Order Delivery
+
+Dear [Customer Name],
+
+Thank you for your order. We are sorry to let you know that your package has been delayed and is now expected to arrive three days later than originally scheduled, on [new date]. We apologize for the inconvenience.
+
+Here are two options that may help:
+1. Track your package: You can follow its progress at any time using tracking number [number] on our website.
+2. Change or cancel your order: If the new date does not work for you, reply to this email and we can help you cancel the order for a full refund or arrange an alternative.
+
+Thank you for your patience and understanding. Please contact us if you have any questions.
+
+Sincerely,
+[Your Name]
+[Company Name] Customer Service"
+"P218","Writing","Professional Writing","Medium","Write a short meeting agenda for a student team that must review progress, resolve task ownership, and prepare a presentation.","Team Meeting Agenda
+Date: [Date] | Time: [Time] | Location: [Room/Link]
+
+1. Welcome and purpose of the meeting (5 minutes)
+2. Progress review (15 minutes)
+   - Each member briefly reports completed work and current challenges
+   - Check progress against the project timeline
+3. Task ownership (15 minutes)
+   - Identify unassigned or unclear tasks
+   - Assign an owner and deadline for each task
+4. Presentation preparation (20 minutes)
+   - Agree on the presentation outline and slide order
+   - Assign speaking sections and slide design responsibilities
+   - Schedule a rehearsal
+5. Summary and next steps (5 minutes)
+   - Review action items, owners, and deadlines
+   - Confirm the next meeting date"
+"P219","Writing","Professional Writing","Hard","Write an email to a project sponsor explaining that a requested feature cannot be completed by Friday. Present two alternatives with clear tradeoffs and ask for a decision.","Subject: Update on [Feature Name] and Options for Friday
+
+Dear [Sponsor's Name],
+
+I want to let you know that we will not be able to complete the full [Feature Name] by Friday. During development, we found that [brief reason, e.g., the data integration is more complex than expected], and finishing it properly will require additional work and testing.
+
+We see two options:
+
+Option 1: Deliver a limited version on Friday. We would release the core functionality, [describe], by Friday, with the remaining features delivered by [date]. Tradeoff: you get something usable on time, but it will not include [missing features], and users may need a second update.
+
+Option 2: Deliver the complete feature on [new date]. We would finish and fully test all requested functionality before release. Tradeoff: the feature arrives about [number] days later, but it will be complete and carry less risk of issues.
+
+Our team can proceed with either option. Could you please let us know which option you prefer by [decision deadline], so we can plan our work accordingly? I am happy to discuss this further if helpful.
+
+Best regards,
+[Your Name]
+[Your Title/Team]"
+"P220","Writing","Professional Writing","Hard","Write a memo of about 200 words recommending a shared file-naming convention for a student research team. Include the problem, a proposed convention, an example, and an implementation plan.","MEMO
+
+To: Research Team Members
+From: [Your Name]
+Date: [Date]
+Subject: Adopting a Shared File-Naming Convention
+
+Problem: Our shared folder contains files with inconsistent names such as ""final,"" ""final2,"" and ""data_new."" This makes it difficult to find the latest version, causes duplicated work, and increases the risk of analyzing outdated data. Last month, two members spent a full afternoon cleaning a dataset that had already been cleaned, simply because they could not tell which file was current.
+
+Proposed convention: All files should use the format YYYY-MM-DD_Project_Content_Version_Initials. Use underscores instead of spaces, avoid special characters, and number versions with two digits (v01, v02).
+
+Example: 2025-03-14_SleepStudy_SurveyData_v02_JL.csv
+
+This format sorts files chronologically, identifies the content at a glance, and shows who made each version.
+
+Implementation plan: Starting next Monday, all new files will follow this convention. Each member will rename their current active files by Friday of that week, and old files will be moved into an ""Archive"" folder. A short guide with examples will be pinned in the shared folder. At our meeting in two weeks, we will review how well the convention is working and adjust it if needed. Consistent names will save time, reduce errors, and make our work easier to share with our advisor."
+"P221","Writing","Persuasive Writing","Easy","Write a paragraph arguing that students should learn basic programming.","Students should learn basic programming because it builds skills that are valuable in almost every field. Programming teaches logical thinking, problem-solving, and persistence, since students must break large problems into smaller steps and fix errors along the way. It also helps students understand the technology that shapes daily life, from apps to online services, so they can use it more critically. In addition, basic coding can automate repetitive tasks, analyze data, and open doors to many careers, not just those in computer science. Even a small amount of programming knowledge can make students more confident, capable, and prepared for the future."
+"P222","Writing","Persuasive Writing","Easy","Write a paragraph encouraging students to use reusable water bottles.","Students should use reusable water bottles because they are better for the environment, their wallets, and their health. Single-use plastic bottles create large amounts of waste, and many are never recycled, ending up in landfills or oceans. A reusable bottle can replace hundreds of disposable bottles each year. It also saves money, since refilling from a fountain is much cheaper than buying bottled drinks. Finally, carrying a bottle makes it easier to stay hydrated during long days of classes and studying. By making this simple change, students can reduce waste and build a healthy habit at the same time."
+"P223","Writing","Persuasive Writing","Easy","Write a paragraph explaining why students should take regular breaks during long study sessions.","Students should take regular breaks during long study sessions because breaks help them learn more effectively. Attention and concentration naturally decline after extended periods of focus, so continuing without rest often leads to careless mistakes and poor retention. Short breaks, such as five to ten minutes every hour, allow the mind to recharge, reduce stress, and help consolidate new information. Moving, stretching, or getting a snack during breaks can also reduce physical fatigue. Rather than wasting time, well-timed breaks make study sessions more productive and help students stay motivated over longer periods."
+"P224","Writing","Persuasive Writing","Easy","Write a short argument encouraging a campus club to welcome beginners.","Our campus club should actively welcome beginners because they bring new energy, fresh ideas, and the future of the club. Every experienced member was once a beginner, and a welcoming environment is what helped them stay. When newcomers feel included, they are more likely to attend regularly, contribute to events, and eventually take on leadership roles. Beginners also ask questions that help experienced members explain ideas more clearly and rethink old habits. Simple steps like introductory sessions, mentoring, and friendly explanations can make a big difference. Welcoming beginners keeps the club growing, diverse, and strong for years to come."
+"P225","Writing","Persuasive Writing","Medium","Write an argument of about 150 words supporting a quiet study area in a shared student residence. Address one likely objection.","Our residence should create a designated quiet study area. Shared living spaces are often noisy, with conversations, music, and television making it difficult to focus. Not every student can study comfortably in their room, especially those with roommates or different schedules. A quiet area would give everyone a reliable place to read, write, and prepare for exams without leaving the building late at night. It could also reduce conflicts between residents who want to socialize and those who need silence.
+
+Some may object that this would take space away from social activities. However, the quiet area does not need to be large or permanent; a small room or a section of a lounge with set quiet hours would be enough. Social spaces would remain available, and both groups would benefit from clearer expectations. A quiet study area is a simple change that supports residents' academic success and well-being."
+"P226","Writing","Persuasive Writing","Medium","Write an argument of about 150 words recommending that a student team test its software with users before the final submission.","Our team should test its software with real users before the final submission. As developers, we know exactly how the program is supposed to work, so we can easily overlook confusing instructions, unclear buttons, or steps that seem obvious only to us. Even a short test session with three to five users can reveal problems we would never notice ourselves, such as errors in common tasks or features that users cannot find.
+
+Testing early also gives us time to fix these issues before the deadline, instead of discovering them during grading or a live demonstration. It provides evidence that our design decisions actually work, which strengthens our final report and presentation. Some team members may worry that testing will take time away from development, but a single afternoon of testing can prevent hours of rework later. User testing is a small investment that makes our software more usable, reliable, and convincing."
+"P227","Writing","Persuasive Writing","Medium","Write a paragraph persuading students to back up important coursework regularly. Include one concrete example.","Every student should back up important coursework regularly, because losing work can happen suddenly and without warning. Laptops can be stolen, hard drives can fail, files can become corrupted, and a spilled drink can ruin a computer in seconds. For example, imagine spending three weeks on a research paper and losing the only copy the night before it is due because your laptop will not turn on. A simple backup to a cloud storage service or an external drive would have prevented that disaster. Setting up automatic syncing takes only a few minutes, costs little or nothing, and protects hours of effort. Backing up regularly is a small habit that can save your grades and your stress levels."
+"P228","Writing","Persuasive Writing","Medium","Write an argument of about 150 words for including practical projects in an introductory data science course. Address a concern about workload.","Introductory data science courses should include practical projects. Working with real datasets teaches skills that lectures alone cannot, such as cleaning messy data, choosing appropriate methods, and interpreting results in context. Projects help students connect abstract concepts like statistics and programming to meaningful questions, which improves understanding and motivation. They also give students something concrete to show future employers or graduate programs. Projects also build confidence, because students see that they can answer real questions independently.
+
+Some worry that projects will make the course's workload too heavy for beginners. This concern can be addressed through careful design. Projects can be small, structured, and divided into milestones, with starter code, clear rubrics, and datasets that are already partly cleaned. Some homework assignments could be replaced by project steps rather than added on top of them. With these supports, practical projects become a manageable and valuable part of learning, not an extra burden."
+"P229","Writing","Persuasive Writing","Hard","Write an argument of about 200 words recommending open-source software for a small student organization. Address maintenance, training, and situations where paid software may be preferable.","Our student organization should adopt open-source software for its everyday work. Tools such as LibreOffice for documents, GIMP for images, and Nextcloud or similar platforms for file sharing are free, which lets us spend our limited budget on events instead of licenses. Open-source software also avoids lock-in: our files and processes will not depend on a single company's pricing decisions, and members can install the same tools on their own devices at no cost.
+
+Maintenance is a reasonable concern. However, most popular open-source programs are updated regularly by large communities, and we can choose widely used, well-supported options rather than obscure projects. Assigning one officer to handle updates each semester would keep the workload small.
+
+Training is another concern, since members may be more familiar with commercial programs. Many open-source tools have similar interfaces, and we could provide a short guide and a single workshop at the start of each semester.
+
+Paid software may still be preferable in some situations, such as when a university partner requires a specific format, when advanced professional features are essential, or when the university already provides a license at no cost. In those cases, we should use it. Otherwise, open-source software offers a practical, affordable, and sustainable choice."
+"P230","Writing","Persuasive Writing","Hard","Write an argument of about 200 words proposing flexible participation options for a campus club. Balance accessibility with the need to maintain dependable attendance.","Our campus club should offer flexible participation options so that more students can take part. Many students balance classes, jobs, family responsibilities, and long commutes, and a strict rule requiring attendance at every in-person meeting excludes them even when they are enthusiastic. Offering some meetings online, recording key discussions, and allowing members to contribute through smaller tasks would make the club more accessible and diverse.
+
+However, flexibility must not undermine reliability. Events, projects, and competitions depend on members who show up when they say they will. To balance these needs, the club could create two levels of membership. General members could participate flexibly, attending when possible and joining online or asynchronous activities. Core members, who take on specific responsibilities, would commit to attending a set number of meetings and key events each semester.
+
+The club could also use a simple sign-up system for events, so organizers know in advance who will attend, and review participation at the end of each semester. This approach welcomes students with different schedules while ensuring that essential work is completed by people who have agreed to be dependable. Flexibility and commitment can work together, making the club both more inclusive and more effective."
+"P231","Writing","Descriptive Writing","Easy","Describe a rainy city street at night in about 100 words.","Rain slicks the city street into a black mirror, doubling every neon sign in trembling reds and blues. Streetlights hum above the pavement, each one wrapped in a halo of drifting mist. Water gurgles along the gutters and spills into storm drains with a hollow rush. A taxi hisses past, its tires spraying a silver fan across the curb. Under a shop awning, a couple shares a single umbrella, laughing as drops tap steadily on the fabric. The air smells of wet concrete and fried food from the corner diner, whose windows glow warm and fogged against the cold night."
+"P232","Writing","Descriptive Writing","Easy","Describe a quiet library on a winter afternoon in about 100 words.","On a winter afternoon, the library settles into a deep, comfortable hush. Pale sunlight slants through tall windows, catching slow drifts of dust above the long wooden tables. Outside, snow falls silently onto bare branches, while inside the radiators tick and sigh. The air smells of old paper, wool coats, and faint coffee. A student turns a page with careful fingers; another rests their chin on one hand, lost in a thick novel. Somewhere between the shelves, a cart squeaks softly as a librarian returns books. Time seems to slow, as if the whole building is holding its breath."
+"P233","Writing","Descriptive Writing","Easy","Describe a small neighborhood bakery just after it opens in about 100 words.","Just after opening, the small neighborhood bakery glows with warm golden light against the gray morning outside. The smell hits first: butter, yeast, and caramelized sugar drifting out the door each time the bell jingles. Behind the glass counter, rows of croissants shine with glaze, and loaves of crusty bread cool on wire racks, crackling softly as they settle. Flour dusts the baker's apron and forearms as she slides another tray from the oven. A few early customers stand in line, rubbing cold hands together, while the espresso machine hisses and a radio plays quietly in the back."
+"P234","Writing","Descriptive Writing","Easy","Describe a university campus on the first morning of a new semester in about 100 words.","On the first morning of the new semester, the campus hums with nervous energy. Sunlight spills across freshly mowed lawns, and the air smells of cut grass and coffee from the crowded cart near the library. Students stream along the paths, clutching maps, schedules, and brand-new notebooks, some laughing with old friends, others walking alone with uncertain steps. Bicycle bells ring, backpacks bounce, and tables line the quad with bright banners inviting everyone to join clubs. Near the lecture hall, a first-year student studies a building sign twice, takes a deep breath, and pushes open the heavy glass doors."
+"P235","Writing","Descriptive Writing","Medium","Describe an abandoned train station in about 150 words using sound, texture, and light.","The abandoned train station breathes in long, hollow echoes. Wind moans through broken windows high in the vaulted ceiling, and somewhere a loose sheet of metal clanks in slow, uneven rhythm.
+
+Light enters in dusty shafts, pale gold columns that land on the cracked marble floor and reveal drifting motes like slow snow. Where the light does not reach, the corners sink into blue shadow. The departure board hangs frozen, its flaps faded and peeling, announcing trains that left decades ago.
+
+Everything is rough to the touch. The wooden benches are splintered and gritty with grime, their iron armrests flaking rust onto the fingertips. Moss softens the edges of the platform, damp and spongy underfoot, while weeds push stubbornly between the rails. The ticket counter's brass bars, once polished by thousands of hands, are dull and cold. Yet the station still feels as though it is waiting for one final whistle."
+"P236","Writing","Descriptive Writing","Medium","Describe the same kitchen first from the perspective of a child and then from the perspective of a professional chef. Use about 75 words for each.","Child's perspective: The kitchen is enormous and full of treasure. The counters rise above my head, so I climb onto a stool to see the cookie jar shaped like a fat cat. The fridge hums like a sleeping giant and is covered in my drawings. Pots clang like drums when I bang them with a wooden spoon. The floor tiles make a perfect hopscotch board, and everything smells like pancakes and Sunday morning.
+
+Chef's perspective: The kitchen is compact but workable. The gas range has four burners, though the back left runs hot and uneven. Counter space is limited, and the knife block holds dull, mismatched blades. The refrigerator seals poorly, which will shorten produce life. The cast-iron skillet is well seasoned, a promising sign. With better lighting and a clear prep station near the sink, it could handle a serious dinner service."
+"P237","Writing","Descriptive Writing","Medium","Describe a busy market in about 150 words without using the words 'busy', 'crowded', or 'loud'.","The market begins before the sun has fully risen. Vendors unfold striped awnings and stack pyramids of oranges, tomatoes, and polished green apples. Every narrow aisle is packed shoulder to shoulder, and shoppers turn sideways to slip between baskets and strollers.
+
+Voices rise and overlap in a dozen languages. A fishmonger shouts prices over the steady chop of his cleaver, while a woman selling spices calls out samples of cinnamon and cumin. Scooters honk at the edge of the square, and a street musician's accordion competes with the clatter of crates.
+
+The air is thick with smells: fresh bread, grilled corn, ripe fruit, and the sharp brine of seafood on ice. Coins clink, paper bags rustle, and hands reach constantly, pointing, weighing, bargaining. A child tugs at a parent's sleeve for a sugared pastry. No one stands still for long; the whole square moves like a river finding its way around stones."
+"P238","Writing","Descriptive Writing","Medium","Describe a classroom immediately before and immediately after an exam. Use details to show the change in atmosphere.","Before the exam, the classroom is tense and restless. Students sit rigidly at their desks, flipping through note cards one last time, lips moving silently over formulas. Pencils tap against desks, knees bounce, and someone clears their throat again and again. Backpacks are zipped and pushed against the wall. The clock's ticking seems unusually loud, and every glance drifts toward the stack of papers on the teacher's desk. When the instructor stands, the room goes completely still.
+
+After the exam, the room loosens all at once. Chairs scrape back, and conversation bursts out as students compare answers, groaning or laughing about the final question. Someone stretches with both arms overhead; another slumps forward, forehead on the desk, grinning in relief. Crumpled scrap paper and eraser dust litter the floor. Backpacks are slung over shoulders, and the doorway fills as students spill into the hallway, voices growing louder, already talking about lunch and the weekend."
+"P239","Writing","Descriptive Writing","Hard","Describe an approaching storm in about 180 words without directly naming fear, danger, or tension. Build the mood through sensory details.","The afternoon light turns a strange yellow, thick as old honey, and the birds stop singing all at once. Along the fence, the tall grass flattens, then lifts, then flattens again, as if something enormous is breathing across the field. The air feels heavy and damp against the skin, carrying the metallic smell of rain that has not yet fallen.
+
+To the west, the clouds pile higher, their tops bright white while their undersides darken to bruised purple and slate. A low rumble rolls across the hills, felt in the chest before it is fully heard. Dust spins in small circles on the dirt road. Laundry snaps and twists on the line, and a screen door bangs, bangs, bangs against its frame.
+
+The first cold gust arrives, sharp and sudden, scattering dry leaves across the porch and raising goosebumps on bare arms. Horses in the pasture crowd together near the barn, ears pinned back. Then the light fades to green-gray, the wind drops to an eerie stillness, and the first fat drops strike the dust like coins."
+"P240","Writing","Descriptive Writing","Hard","Describe an ordinary desk in about 180 words so that its objects suggest the owner's personality and recent activities. Do not explicitly describe the owner.","The desk sits beneath a window, its surface crowded but not careless. A laptop stands open, surrounded by three coffee mugs, each with a different ring of dried coffee at a different height. Sticky notes in neon colors form a neat grid along the monitor's edge: ""Call landlord,"" ""Chapter 4 edits!!,"" ""Mom's birthday - Sat.""
+
+Stacks of library books lean against the wall, bristling with torn paper bookmarks, their due dates marked on a slip tucked into the top volume. A printed draft lies beside the keyboard, covered in red ink, with entire paragraphs crossed out and arrows pulling sentences into new places.
+
+In one corner, a small succulent thrives in a chipped mug, clearly watered on schedule. Next to it rest a race bib from last month's 10K, a receipt for new running shoes, and a half-eaten granola bar folded carefully back into its wrapper. The pencil cup holds only sharpened pencils, points up. A calendar pinned above the desk has every day crossed off through yesterday, and a deadline circled twice, three days from now."
+"P241","Writing","Tone Rewriting","Easy","Rewrite this sentence in a professional tone: 'I can't come today because something came up.'","I apologize, but I am unable to attend today due to an unexpected matter."
+"P242","Writing","Tone Rewriting","Easy","Rewrite this sentence in a friendly tone: 'Your request cannot be processed at this time.'","We're sorry, but we can't process your request right now. Please try again a little later, and we'll be happy to help!"
+"P243","Writing","Tone Rewriting","Easy","Rewrite this message to sound more polite: 'Send me the file now.'","Could you please send me the file when you have a moment? Thank you!"
+"P244","Writing","Tone Rewriting","Easy","Rewrite this sentence in plain language: 'Please utilize the designated entrance to access the facility.'","Please use the marked entrance to enter the building."
+"P245","Writing","Tone Rewriting","Medium","Rewrite this message so it is firm but respectful: 'You keep missing deadlines and it is messing up our whole project.'","I need to talk with you about the missed deadlines. When deadlines are missed, it delays the rest of the project and affects the whole team. Going forward, I need you to meet the agreed deadlines or let me know in advance if you expect a problem, so we can plan together."
+"P246","Writing","Tone Rewriting","Medium","Rewrite this message as a constructive comment to a teammate: 'Your slides are confusing and there is way too much text.'","Thanks for putting the slides together. I think they could be even stronger if we made them a bit easier to follow. Could we reduce the amount of text on each slide, maybe keeping just the key points and moving details into the speaker notes? I'm happy to help revise them if that would be useful."
+"P247","Writing","Tone Rewriting","Medium","Rewrite this message as a calm customer-service response: 'We already told you the order would be late. Stop asking.'","Thank you for reaching out, and I understand your concern about the delay. As we mentioned earlier, your order is running late. We are keeping track of its progress and will notify you as soon as there is any update. We appreciate your patience."
+"P248","Writing","Tone Rewriting","Medium","Rewrite this message in a confident professional tone without exaggerating: 'I sort of know Python and I think I might be able to help with the data.'","I have working experience with Python and would be glad to help with the data analysis. I'm comfortable cleaning and organizing data and can contribute to the analysis tasks."
+"P249","Writing","Tone Rewriting","Hard","Rewrite this message so it accepts responsibility, explains the next step, and avoids making an unsupported promise: 'The report is wrong because someone gave me bad numbers. I will definitely fix everything immediately.'","I'm sorry for the errors in the report. I should have checked the numbers more carefully before submitting it. I am now reviewing the data sources and correcting the mistakes, and I will send you an updated version along with an expected completion time once I have confirmed the extent of the corrections."
+"P250","Writing","Tone Rewriting","Hard","Rewrite this message in two versions, one for a close teammate and one for a project sponsor. Preserve the same facts: 'The export failed twice. We have a backup from Tuesday. Restoring it will take about three hours, and Wednesday's changes may need to be entered again.'","Version for a close teammate: Hey, bad news: the export failed twice. The good news is we have a backup from Tuesday. Restoring it will take about three hours, and we might have to re-enter Wednesday's changes. Let's sort it out together.
+
+Version for a project sponsor: I would like to inform you that the data export failed on two attempts. We have a backup from Tuesday and can restore it, which will take approximately three hours. Please note that changes made on Wednesday may need to be re-entered after the restoration. We will keep you updated on our progress."
+"P251","Summarization","Summarize","Easy","Summarize this passage in one sentence: 'A campus library added twenty adjustable desks to its second floor. Students can use them while sitting or standing. The desks are available during normal library hours and do not require reservations.'","The campus library added twenty adjustable sit-stand desks to its second floor, available without reservations during normal library hours."
+"P252","Summarization","Summarize","Easy","Summarize this passage in one sentence: 'A neighborhood garden opened a shared tool cabinet. Members may borrow shovels, watering cans, and hand tools. They must return each item clean before the garden closes that evening.'","A neighborhood garden opened a shared tool cabinet where members can borrow tools, provided they return them clean before the garden closes that evening."
+"P253","Summarization","Summarize","Easy","Summarize this passage in two sentences: 'A student club organized a weekend clothing exchange. Participants brought clean clothes they no longer needed and selected items donated by others. Unclaimed clothes were delivered to a local donation center after the event.'","A student club held a weekend clothing exchange where participants brought clean clothes they no longer needed and took items donated by others. Clothes that were not claimed were given to a local donation center after the event."
+"P254","Summarization","Summarize","Easy","Summarize this passage in one sentence: 'A small cafe replaced disposable cups with reusable cups for customers eating inside. Takeaway customers can still request disposable cups. Staff members explain the new option when taking orders.'","A small cafe replaced disposable cups with reusable cups for dine-in customers, while takeaway customers can still request disposable cups and staff explain the new option when taking orders."
+"P255","Summarization","Summarize","Medium","Summarize this passage in two sentences while preserving the main limitation: 'A university tested a bicycle-sharing program at two residence halls for four weeks. Students completed 420 trips, and most trips lasted less than fifteen minutes. Participants reported that the bicycles made short journeys easier. However, the trial involved only volunteers and took place during dry weather, so the results may not represent demand across the entire campus.'","During a four-week trial at two residence halls, students made 420 bicycle-sharing trips, mostly under fifteen minutes, and reported that the bikes made short journeys easier. However, because the trial used only volunteers and took place in dry weather, the results may not reflect demand across the whole campus."
+"P256","Summarization","Summarize","Medium","Summarize this passage in no more than 50 words: 'A research team compared two methods for organizing digital notes. One group used folders, while another used searchable tags. Both groups completed the same retrieval tasks. The tag group found cross-topic notes faster, but the folder group needed less initial training. The team concluded that the better choice depends on whether users prioritize quick setup or flexible searching.'","A study comparing folders and searchable tags for digital notes found that tag users located cross-topic notes faster, while folder users required less initial training. The researchers concluded that the better method depends on whether users value quick setup or flexible searching."
+"P257","Summarization","Summarize","Medium","Summarize this passage in two sentences, distinguishing the problem from the response: 'A community center noticed that many visitors arrived without knowing which room hosted their activity. Staff members added a large schedule near the entrance and placed matching labels on room doors. Volunteers also helped visitors during the busiest hour. The center plans to ask visitors whether the changes make navigation easier.'","Many community center visitors did not know which room hosted their activity. In response, staff added a large entrance schedule and matching door labels, volunteers helped during the busiest hour, and the center plans to ask visitors whether these changes improve navigation."
+"P258","Summarization","Summarize","Medium","Summarize this passage in about 45 words: 'An online course offered recorded lectures alongside weekly live discussions. Students appreciated being able to review difficult sections of the recordings. Some students nevertheless postponed watching until shortly before assignments were due. The instructor introduced short preparation quizzes before each discussion to encourage a more regular study schedule.'","Students valued the online course's recorded lectures because they could review difficult sections, but some postponed watching them until just before assignments were due. To encourage a more regular study schedule, the instructor introduced short preparation quizzes before each weekly live discussion."
+"P259","Summarization","Summarize","Hard","Summarize this passage in three sentences without treating association as causation: 'A survey of 180 students found that students who reported using weekly study plans also reported higher average grades. The survey did not randomly assign students to planning methods. Students who used plans also tended to attend more classes and study for more hours. The researchers suggested that planning may be useful but noted that motivation and study time could partly explain the observed relationship.'","A survey of 180 students found that those who reported using weekly study plans also reported higher average grades. Because students were not randomly assigned and plan users also attended more classes and studied longer, the survey cannot show that planning caused the higher grades. The researchers suggested that planning may help but noted that motivation and study time could partly explain the relationship."
+"P260","Summarization","Summarize","Hard","Summarize this passage in no more than 60 words while retaining the tradeoff and recommendation: 'A student team considered moving its project files to a shared cloud folder. The move would simplify collaboration and reduce duplicate versions. It would also require careful permissions and a reliable internet connection. Some files contained information that should remain restricted. The team recommended using the shared folder for general materials while keeping restricted files in a separate location with limited access.'","A student team weighed moving project files to a shared cloud folder, which would ease collaboration and reduce duplicate versions but requires careful permissions and reliable internet. Because some files are restricted, the team recommended using the shared folder for general materials and storing restricted files separately with limited access."
+"P261","Summarization","Simplification","Easy","Rewrite this passage for a middle-school student: 'The application requires authentication before permitting access to the user's account. Authentication confirms that the person attempting to sign in is the account holder.'","Before you can use your account in the app, you have to prove who you are, usually by signing in. This check makes sure the person logging in is really the owner of the account."
+"P262","Summarization","Simplification","Easy","Rewrite this passage in plain language: 'The device enters a low-power state after a period of inactivity. This reduces energy consumption while preserving the ability to resume operation quickly.'","If you don't use the device for a while, it goes into a power-saving mode. This saves energy, but the device can still start working again quickly."
+"P263","Summarization","Simplification","Easy","Rewrite this passage for a beginner: 'A dataset consists of observations and variables. An observation represents one recorded case, while a variable describes a characteristic measured for each case.'","A dataset is a collection of information organized into cases and features. Each case, or observation, is one thing that was recorded, such as one person. Each variable is a type of information recorded about every case, such as age or height."
+"P264","Summarization","Simplification","Easy","Rewrite this passage in plain language: 'The reservation will be canceled if payment is not received within the specified interval. A confirmation message will be issued after successful payment.'","If you don't pay within the given time, your reservation will be canceled. After you pay, you will get a message confirming it."
+"P265","Summarization","Simplification","Medium","Explain this passage to someone with no statistics background: 'The sample mean varies from one sample to another. A confidence interval uses this sampling variability to describe the uncertainty associated with estimating the population mean.'","When we take a small group from a larger population and calculate its average, the result changes a little depending on which people happen to be chosen. Because of this, one sample's average is only an estimate of the true average for the whole population. A confidence interval gives a range of values that is likely to contain the true average, showing how uncertain our estimate is."
+"P266","Summarization","Simplification","Medium","Rewrite this passage for a first-year student while preserving its meaning: 'A model may fit its training observations closely yet perform poorly on unseen observations. This can occur when it learns accidental patterns rather than relationships that generalize.'","A model can match the data it was trained on very well but still make poor predictions on new data. This happens when it learns random quirks or coincidences in the training data instead of real patterns that apply more generally."
+"P267","Summarization","Simplification","Medium","Rewrite this passage in plain language and include a brief example: 'A database transaction groups operations into a unit that either completes successfully or is rolled back. This helps prevent partially completed changes from leaving data inconsistent.'","A database transaction bundles several changes together so they all happen or none of them do. If something goes wrong partway through, all the changes are undone, so the data is not left half-updated. For example, when you transfer $100 from savings to checking, the bank must subtract the money from one account and add it to the other. If the system fails after the first step, the transaction is canceled so the money does not disappear."
+"P268","Summarization","Simplification","Medium","Rewrite this passage for a nontechnical audience: 'The system stores a temporary copy of frequently requested information. This cache can reduce retrieval time, but outdated entries must be refreshed when the original information changes.'","The system keeps a temporary copy of information that people often ask for, so it can provide it faster. This saved copy, called a cache, speeds things up, but it must be updated whenever the original information changes so people do not get old, outdated information."
+"P269","Summarization","Simplification","Hard","Rewrite this passage for a general audience without implying that the result proves an effect: 'The estimated difference between the groups was positive, but the confidence interval included zero. The available data therefore remain compatible with both a small improvement and no difference.'","The results suggested that one group might have done slightly better than the other, but the difference was not clear enough to be sure. Based on the data, there could be a small improvement, or there might be no real difference at all. More evidence would be needed to know."
+"P270","Summarization","Simplification","Hard","Explain this passage to a beginner using an original example: 'When evaluating a classifier, information used to construct features must be available at prediction time. Including variables recorded only after the outcome creates leakage and can make measured performance misleading.'","When building a model to make predictions, you should only use information that would actually be available at the moment you make the prediction. For example, suppose you want to predict whether a student will pass a course at the start of the semester. If you include ""final exam score"" as a feature, the model will look extremely accurate, but that score is only known after the course ends. This is called leakage, and it makes the model seem much better than it will be in real use."
+"P271","Summarization","Information Extraction","Easy","Extract the event name, date, time, and location from this passage: 'The Campus Coding Workshop will take place on October 8 at 3 PM in Room 112 of the Science Building.'","Event name: Campus Coding Workshop. Date: October 8. Time: 3 PM. Location: Room 112, Science Building."
+"P272","Summarization","Information Extraction","Easy","Extract the three required materials from this passage: 'Participants in the drawing session should bring a pencil, an eraser, and a sketchbook. The instructor will provide sample images.'","The three required materials are a pencil, an eraser, and a sketchbook."
+"P273","Summarization","Information Extraction","Easy","Extract the opening hours and closure day from this passage: 'The community reading room is open from 10 AM to 6 PM, Tuesday through Sunday. It is closed every Monday.'","Opening hours: 10 AM to 6 PM, Tuesday through Sunday. Closure day: Monday."
+"P274","Summarization","Information Extraction","Easy","Extract each person's assigned task from this passage: 'Maya will clean the dataset. Daniel will create the charts. Noor will prepare the presentation slides.'","Maya: clean the dataset. Daniel: create the charts. Noor: prepare the presentation slides."
+"P275","Summarization","Information Extraction","Medium","Extract all deadlines and their associated tasks from this passage: 'Teams must submit a topic proposal by October 3. A working prototype is due October 7. The final report must be uploaded by October 11. Presentations will occur the following week, but an exact date has not been announced.'","Topic proposal: due October 3. Working prototype: due October 7. Final report: due October 11 (upload). Presentations: the following week, exact date not yet announced."
+"P276","Summarization","Information Extraction","Medium","Extract the problem, its stated cause, and the proposed solution from this passage: 'Several students could not open the shared spreadsheet because the access settings allowed only the original owner. The team leader will update the permissions and ask each member to confirm access before tomorrow's meeting.'","Problem: Several students could not open the shared spreadsheet. Stated cause: The access settings allowed only the original owner to open it. Proposed solution: The team leader will update the permissions and ask each member to confirm access before tomorrow's meeting."
+"P277","Summarization","Information Extraction","Medium","Extract the numerical findings and their units from this passage: 'During a five-day trial, the library recorded 240 desk reservations. The average reservation lasted 90 minutes. Staff received 12 complaints, including 7 about noise and 5 about unavailable power outlets.'","Trial length: 5 days. Desk reservations: 240 reservations. Average reservation length: 90 minutes. Total complaints: 12 complaints, including 7 about noise and 5 about unavailable power outlets."
+"P278","Summarization","Information Extraction","Medium","Extract confirmed facts separately from unresolved points: 'The software update will be released on Friday and will include an improved search tool. The team is still deciding whether the export feature will be included. A training session has been proposed, but its date is not confirmed.'","Confirmed facts: The software update will be released on Friday, and it will include an improved search tool. Unresolved points: Whether the export feature will be included is still being decided, and a training session has been proposed but its date is not confirmed."
+"P279","Summarization","Information Extraction","Hard","Extract each action item with its owner, deadline, and dependency. Mark missing information as unspecified: 'Leah will check the survey questions by Tuesday. Once Leah finishes, Omar will upload the revised survey. Priya will recruit participants by Friday, but recruitment must wait until the survey is available. Someone also needs to prepare a consent statement.'","1. Check the survey questions. Owner: Leah. Deadline: Tuesday. Dependency: none.
+2. Upload the revised survey. Owner: Omar. Deadline: unspecified. Dependency: Leah finishing the survey check.
+3. Recruit participants. Owner: Priya. Deadline: Friday. Dependency: the revised survey must be available (uploaded by Omar).
+4. Prepare a consent statement. Owner: unspecified. Deadline: unspecified. Dependency: unspecified."
+"P280","Summarization","Information Extraction","Hard","Extract the observed result, the proposed explanation, and the evidence still needed: 'After the help page was redesigned, support messages fell from 80 to 55 per week. The manager suggested that clearer instructions caused the reduction. However, the same period included fewer new users and a holiday closure. The team plans to compare support rates per active user before drawing a conclusion.'","Observed result: After the help page was redesigned, support messages fell from 80 to 55 per week. Proposed explanation: The manager suggested that clearer instructions caused the reduction. Evidence still needed: A comparison of support rates per active user, because the same period had fewer new users and a holiday closure that could also explain the drop."
+"P281","Summarization","Concise Rewriting","Easy","Rewrite this passage more concisely without changing its meaning: 'At this point in time, we are currently waiting for the arrival of the final file before we can begin starting the analysis.'","We are waiting for the final file before starting the analysis."
+"P282","Summarization","Concise Rewriting","Easy","Rewrite this passage more concisely: 'The meeting that was originally planned to take place on Friday has now been moved and rescheduled to happen on Monday instead.'","The meeting has been moved from Friday to Monday."
+"P283","Summarization","Concise Rewriting","Easy","Rewrite this passage more concisely: 'Please make sure that you remember to save a copy of your work before you proceed to close the program.'","Please save a copy of your work before closing the program."
+"P284","Summarization","Concise Rewriting","Easy","Rewrite this passage more concisely: 'Due to the fact that the room is small in size, the number of participants who can attend is limited to twelve people.'","Because the room is small, attendance is limited to twelve people."
+"P285","Summarization","Concise Rewriting","Medium","Rewrite this passage in no more than 30 words while preserving every task: 'Before submitting the assignment, students should check that their code runs successfully, include the required dataset description, attach the results chart, and make sure their name appears on the report.'","Before submitting, students should confirm their code runs, include the dataset description, attach the results chart, and put their name on the report."
+"P286","Summarization","Concise Rewriting","Medium","Rewrite this passage in no more than 35 words while preserving the condition and consequence: 'If a borrowed laptop is returned after the agreed deadline and the borrower has not arranged an extension in advance, the borrower will temporarily lose the ability to reserve another laptop.'","Borrowers who return a laptop late without arranging an extension in advance will temporarily lose the ability to reserve another laptop."
+"P287","Summarization","Concise Rewriting","Medium","Rewrite this passage more concisely while retaining both the benefit and limitation: 'The new scheduling tool makes it easier for team members to identify times when everyone is available. However, it only works well when each member keeps their calendar information accurate and up to date.'","The new scheduling tool makes it easier to find times when everyone is available, but only if members keep their calendars accurate and current."
+"P288","Summarization","Concise Rewriting","Medium","Rewrite this passage in one clear sentence: 'The team tested the program on a small sample. This was done before running it on the full dataset. The purpose was to discover errors early and avoid spending time on a failed full run.'","The team tested the program on a small sample before running it on the full dataset to catch errors early and avoid wasting time on a failed full run."
+"P289","Summarization","Concise Rewriting","Hard","Rewrite this passage in no more than 45 words without losing its qualifications: 'The pilot study suggests that the reminder messages may improve attendance among students who volunteer to receive them. However, because participation was optional and the study lasted only two weeks, the findings should not be assumed to apply to all students or to longer periods.'","The pilot study suggests reminder messages may improve attendance among students who volunteer to receive them. Because participation was optional and the study lasted only two weeks, the findings should not be generalized to all students or longer periods."
+"P290","Summarization","Concise Rewriting","Hard","Rewrite this passage in no more than 50 words while preserving the sequence, exception, and responsibility: 'Members should upload their draft before the review meeting. The editor will then combine the drafts and identify inconsistent sections. If a member cannot upload on time, that member must notify the editor in advance and provide a revised delivery time. The combined document will be shared after the meeting.'","Members should upload drafts before the review meeting; the editor will then combine them and identify inconsistent sections. Members who cannot upload on time must notify the editor in advance and give a revised delivery time. The combined document will be shared after the meeting."
+"P291","Summarization","Format Transformation","Easy","Turn this passage into three bullet points: 'The workshop introduces spreadsheet formulas. Participants will practice sorting a small dataset. The final activity involves creating a simple chart.'","- The workshop introduces spreadsheet formulas.
+- Participants will practice sorting a small dataset.
+- The final activity involves creating a simple chart."
+"P292","Summarization","Format Transformation","Easy","Turn this passage into a numbered checklist: 'First, open the project folder. Next, locate the data file. Finally, confirm that the file name matches the one listed in the instructions.'","1. Open the project folder.
+2. Locate the data file.
+3. Confirm that the file name matches the one listed in the instructions."
+"P293","Summarization","Format Transformation","Easy","Convert this passage into a two-column table with columns Item and Quantity: 'The supply box contains six notebooks, four markers, and two rolls of tape.'","| Item | Quantity |
+|---|---|
+| Notebooks | 6 |
+| Markers | 4 |
+| Rolls of tape | 2 |"
+"P294","Summarization","Format Transformation","Easy","Turn this passage into a short announcement: 'The campus photography club will meet Saturday at 2 PM near the main library. Members should bring a camera or a phone. Beginners are welcome.'","Photography Club Meetup! Join the campus photography club this Saturday at 2 PM near the main library. Bring a camera or a phone. Beginners are welcome. See you there!"
+"P295","Summarization","Format Transformation","Medium","Convert this passage into a table with columns Option, Benefit, and Limitation: 'Option A is a free desktop program that works offline but requires manual updates. Option B is a paid web application that supports live collaboration but needs an internet connection.'","| Option | Benefit | Limitation |
+|---|---|---|
+| Option A (free desktop program) | Free and works offline | Requires manual updates |
+| Option B (paid web application) | Supports live collaboration | Needs an internet connection |"
+"P296","Summarization","Format Transformation","Medium","Turn this passage into step-by-step instructions, preserving the order: 'To submit the form, users sign in, select the relevant course, attach a PDF, and review the information. They then press Submit and save the confirmation number.'","1. Sign in.
+2. Select the relevant course.
+3. Attach a PDF.
+4. Review the information.
+5. Press Submit.
+6. Save the confirmation number."
+"P297","Summarization","Format Transformation","Medium","Convert this passage into a short FAQ with three questions and answers: 'Students may borrow one microphone for up to three days. Reservations are made through the equipment desk. A student ID is required when collecting the microphone.'","Q: How many microphones can I borrow, and for how long?
+A: Students may borrow one microphone for up to three days.
+
+Q: How do I reserve a microphone?
+A: Reservations are made through the equipment desk.
+
+Q: What do I need to bring when collecting it?
+A: A student ID is required when collecting the microphone."
+"P298","Summarization","Format Transformation","Medium","Convert this passage into structured JSON with keys event, location, start_time, materials, and contact: 'The Data Visualization Lab meets in Room 305 at 4 PM. Bring a laptop and a charger. Questions can be sent to lab@example.com.'","{
+  ""event"": ""Data Visualization Lab"",
+  ""location"": ""Room 305"",
+  ""start_time"": ""4 PM"",
+  ""materials"": [""laptop"", ""charger""],
+  ""contact"": ""lab@example.com""
+}"
+"P299","Summarization","Format Transformation","Hard","Convert this passage into a decision guide with clear conditional steps: 'If the dataset contains missing numeric values, first determine whether the missingness has a known explanation. If values can be recovered from an authorized source, recover them. Otherwise, choose an appropriate treatment and document it. Rows should not be deleted automatically, especially when deletion would remove a large or systematically different group.'","Decision guide: handling missing numeric values
+1. Does the dataset contain missing numeric values?
+   - No: no action is needed.
+   - Yes: go to step 2.
+2. Is there a known explanation for why the values are missing?
+   - Determine and record the explanation (or note that it is unknown), then go to step 3.
+3. Can the values be recovered from an authorized source?
+   - Yes: recover them from that source.
+   - No: go to step 4.
+4. Choose an appropriate treatment for the missing values and document it.
+   - Do not delete rows automatically.
+   - Be especially careful not to delete rows if doing so would remove a large group or a systematically different group."
+"P300","Summarization","Format Transformation","Hard","Convert this passage into a table with columns Claim, Evidence, and Limitation. Do not invent information: 'The team believes its new interface is easier to use because eight of ten test participants completed the main task without assistance. It also believes the interface is faster because the median completion time was lower than in an earlier trial. However, the two trials involved different participants. The team has not yet tested the interface with screen-reader users.'","| Claim | Evidence | Limitation |
+|---|---|---|
+| The new interface is easier to use | Eight of ten test participants completed the main task without assistance | The interface has not yet been tested with screen-reader users |
+| The new interface is faster | The median completion time was lower than in an earlier trial | The two trials involved different participants |"
