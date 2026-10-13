@@ -1,7 +1,7 @@
 # Who Wrote It? Identifying LLMs from Their Responses
 
 CMPSC 448 Midterm Project  
-Author: Qihaohan Zheng
+Author: Qihaohan Zheng(Solo)
 
 This project uses a convolutional neural network (CNN) and a bidirectional LSTM to classify responses by their recorded source family: **Claude, DeepSeek, or GPT**. It investigates attribution accuracy, the value of prompts, cross-domain generalization, and descriptive text features.
 
